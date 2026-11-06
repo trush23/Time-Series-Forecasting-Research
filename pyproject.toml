@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stock-dynamics-tslab"
+version = "0.8.0"
+description = "Causal smoothing and auditable five-session forecast research"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scipy>=1.10", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+classical = ["statsmodels>=0.14.4"]
+ml = ["scikit-learn>=1.6", "statsmodels>=0.14.4"]
+neural = ["scikit-learn>=1.6", "statsmodels>=0.14.4", "torch>=2.5"]
+foundation = ["chronos-forecasting==2.3.2", "transformers==4.51.2", "accelerate==1.15.0", "huggingface-hub==0.30.2", "torch==2.5.1", "scikit-learn>=1.6"]
+notebooks = ["jupyterlab>=4", "nbformat>=5.9", "nbconvert>=7", "ipykernel>=6"]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,26 @@
+{
+  "group": "stocks",
+  "transform": "log adjusted Close",
+  "units": "log units",
+  "frequency": "observed trading sessions",
+  "source": "Yahoo via yfinance; frozen existing local cache",
+  "source_cache_name": "16413e5be6ba98e8ac78.csv",
+  "source_csv_sha256": "de9e8d39bf7aa600dc5dc98961c6ad80fb1890076110ae57697a5d88cbdff22b",
+  "source_metadata": {
+    "ticker": "MCHP",
+    "source": "Yahoo via yfinance",
+    "mode": "download",
+    "sha256": "de9e8d39bf7aa600dc5dc98961c6ad80fb1890076110ae57697a5d88cbdff22b",
+    "start": "2018-01-01",
+    "cutoff": "2026-10-30",
+    "retrieved_utc": "2026-10-31T15:27:20.971072+00:00"
+  },
+  "adjustment": "OHLC multiplied by provider Adj Close / Close before caching",
+  "producer_evidence_sha256": "c4c1838703bae5f4ce154af46ffadb121de4090b265c02151ba0d8e1f7405cc2",
+  "exposure": "Previously used in other project notebooks; not a pristine asset holdout.",
+  "dataset_id": "MCHP",
+  "sha256": "085677c747a94eb7d780706208f7aca4b22384d8db0ef8d873317ed4c12131aa",
+  "rows": 1443,
+  "first": "2021-01-04",
+  "last": "2026-10-01"
+}

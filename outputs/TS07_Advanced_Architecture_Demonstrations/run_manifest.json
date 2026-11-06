@@ -1,0 +1,214 @@
+{
+  "created_utc": "2026-10-31T22:59:15.882173+00:00",
+  "scope": "milestone_4_adapted_architecture_demonstrations",
+  "seed": 1731,
+  "config": {
+    "features": {
+      "lookback": 20,
+      "fast_alpha": 0.2,
+      "slow_alpha": 0.05,
+      "warmup": 120
+    },
+    "models": [
+      {
+        "name": "DecompositionLinear_demo",
+        "family": "decomposition_linear",
+        "hidden": 12,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.005,
+        "weight_decay": 0.001,
+        "validation_fraction": 0.2
+      },
+      {
+        "name": "LastCenteredLinear_demo",
+        "family": "centered_linear",
+        "hidden": 12,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.005,
+        "weight_decay": 0.001,
+        "validation_fraction": 0.2
+      },
+      {
+        "name": "NBEATS_demo",
+        "family": "nbeats_demo",
+        "hidden": 12,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.005,
+        "weight_decay": 0.001,
+        "validation_fraction": 0.2
+      },
+      {
+        "name": "NHITS_demo",
+        "family": "nhits_demo",
+        "hidden": 12,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.005,
+        "weight_decay": 0.001,
+        "validation_fraction": 0.2
+      },
+      {
+        "name": "PatchTransformer_demo",
+        "family": "patch_demo",
+        "hidden": 12,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.005,
+        "weight_decay": 0.001,
+        "validation_fraction": 0.2
+      }
+    ],
+    "outer_starts": [
+      1000,
+      1400,
+      1800
+    ],
+    "outer_step": 40,
+    "inner_count": 3,
+    "inner_step": 40,
+    "max_samples": 252,
+    "min_success": 0.8,
+    "seeds": [
+      1731,
+      1732,
+      1733
+    ],
+    "seed_policy": "equal-weight complete ensemble; never best-seed selection",
+    "training": "same deterministic CPU full-batch budget as TS06; purged chronological stopping and reset/refit"
+  },
+  "config_sha256": "01cfdf8fac0d90235a7131688c7c214e40f057f0b30219111355d883f19586a0",
+  "source": {
+    "market": {
+      "ticker": "SPY",
+      "source": "Yahoo via yfinance",
+      "synthetic": false,
+      "adjustment": "auto_adjust=True",
+      "calendar": "observed Yahoo SPY session index",
+      "first": "2018-01-02",
+      "last": "2026-10-01",
+      "rows": 2199,
+      "retrieved_utc": "2026-10-03T14:13:49.139624+00:00",
+      "sha256": "2e057517815120e4b487437d59a2709039f441e2f7bb94cbb03ddd5335b32f9b",
+      "upstream_manifest_sha256": "040b730f918729c3f65b549abae03f3a21745c01ca05bbbeeb0f3d916c867c38",
+      "note": "Frozen local project snapshot; previously examined data, not an untouched holdout. Byte digest is computed from the exported CSV, not the upstream internal dataframe hash. Adjusted history is not executable historical quotes or point-in-time revision history."
+    },
+    "references": {
+      "TS04_selected": {
+        "sha256": "840f33adccd7763d23647be14d4876ef9c732dd14a8702a2e21a2fe8f305ce0a",
+        "source_forecasts_sha256": "615178df0e283d3d912b01367e7d66b6a7cbfe27082f88b7a93b46b1d11e8806",
+        "source_manifest_sha256": "79aedb4ba0d4d7206c7b30c7c5742f43cd9d32bf9eb5f557ac099416a6ee96f8",
+        "note": "Frozen delivered selected pipeline; reruns do not refresh this reference automatically."
+      },
+      "TS05_selected": {
+        "sha256": "840aa4492e8af1043888847621f9121fce6e3e97f525273f12f50f619e94cff6",
+        "source_forecasts_sha256": "860b1b32ed222907e54f48f3f372012ce4461b755fcb50ef3a252cd026b51495",
+        "source_manifest_sha256": "0825f573b9499367828156f8907a5f06ebdaad1b0c7574114658c31f11577791",
+        "note": "Frozen delivered selected pipeline; reruns do not refresh this reference automatically."
+      },
+      "TS06_selected": {
+        "sha256": "1ac5f5b0c887d04b3a78f01314c9a6552280e01947b2090da2181a109baa318b",
+        "source_forecasts_sha256": "ff53d4badeda23675edd0944cf983b765e5255fc1c1ac791ccc8fd0d0de15107",
+        "source_manifest_sha256": "be2c8ed185361ae89b776c64311a3e17128e679a4c51a29a6c0f3192038548f7",
+        "note": "Frozen delivered selected pipeline; reruns do not refresh this reference automatically."
+      }
+    }
+  },
+  "python": "3.12.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "matplotlib": "3.10.0",
+    "nbformat": "5.10.4",
+    "nbconvert": "7.16.6",
+    "scikit-learn": "1.6.1",
+    "torch": "2.5.1"
+  },
+  "source_code_sha256": {
+    "src/tslab/__init__.py": "815ec3957de1adac12f201cdbf54b9214beecf2e5ea5180a57fcc986e8841543",
+    "src/tslab/advanced.py": "e441bd14ce3ee0552eaff23330c4d7484538b94b3f0d92ffbf953969487171ac",
+    "src/tslab/classical.py": "7fc2d0a8c57f0a1e6a83d995774b37deabd6d3a585b2a41d2fd9208e74f14e1d",
+    "src/tslab/data.py": "e4822d4d24b7528804cec7205652053b9c549f9413e6e9f312893c9696b5ffd8",
+    "src/tslab/diagnostics.py": "358abef5f3892ea126eb0be04cce3487055e7f17e2be88957f2f08c757e360ea",
+    "src/tslab/evaluation.py": "cc839e5fc1e4067a27037fe6efb52ad810b072236328e47928c4409818ced508",
+    "src/tslab/learned_evaluation.py": "1b738fd31eeac28760f2f81e48b8fe0f193eab72e31402037bc06dab0f23535e",
+    "src/tslab/learning_reports.py": "1976804e1d78e8769474d5fbd6268cefc63631068b382134e2e1b9911b3b2659",
+    "src/tslab/neural.py": "0b138791610c6e117d9b47843084344ec7a46df315e2088ede0d966da49ea458",
+    "src/tslab/prequential.py": "86cd5d4ad27b0ad01f50e0dd912e231a62bc453031efb2b4d6fef318f8f554e1",
+    "src/tslab/provenance2.py": "bb2acdd12006ba2fdd4f9301072ae4e2f7f8bbfea10d85bcd9833cb09eda77de",
+    "src/tslab/provenance3.py": "0898ecba9421d430ae537799a32dba448690d736d66bd90f3c7d2f2d0142d5c9",
+    "src/tslab/provenance4.py": "bb3ed9b2fdccd31803cb09e8cfd5766c86ce00b7d51f958ce0786bac873899d0",
+    "src/tslab/reporting.py": "60582f9871b68da78827ff2cbe2a0dcbf08b3f2fd35576afe2ad20e4c16c4d17",
+    "src/tslab/smoothing.py": "43c062b002d780a6afbbcb560bf5ab87cac61a5a067cfc185f03feb65ad05aab",
+    "src/tslab/spectral.py": "121cbdfd10d70afe012730aca9c09a9236f64078acdccf5cd647c755dbe575dc",
+    "src/tslab/spectral_evaluation.py": "0aa95cf3103db6810c3af5404180c59a526affc89e05193a6b8446f141295b3b",
+    "src/tslab/supervised.py": "28ae840d3e5d2b340bfe9d59a703411f6cbad09145018a47bcc1a288be6478bb",
+    "src/tslab/tabular.py": "9e8e35c5ffa42d8e7766eb5be524bb2d005f9d77e9e8e1db5e1ac67324e169ac",
+    "src/tslab/targets.py": "2df2751539ac9de6c30099c4b95d635764bffbb7e68be11b44edc9d124e65444"
+  },
+  "outputs_sha256": {
+    "01_architecture_sizes.png": "62903e48719b4b38d7b59ea8d6be56bfa36ee9e2a944b5cb1cfcd45f383f2f44",
+    "02_outer_architecture_skill.png": "6a99b7b8a824375f3e67768bd3354780cccd78d7cea2fba1b45ca79e14120049",
+    "03_matched_procedures.png": "8430eb6594e8d10ababd3937dfb4be4f1196d11dfc063474ec50dec5b5b5b081",
+    "04_seed_sensitivity.png": "9b6aabfa6ce701a0da96b5b519dcb2501f4da6a50afdb0dad6961c4f52c7660a",
+    "05_training_diagnostics.png": "3023353f82b48d2c3c91edd8fdddd598b8619a5b1c657de7ee8fdc16386fdd38",
+    "06_paired_uncertainty.png": "5944761f243e9b637cbb739c99ceed9da1b0b45e7b98b0e2434a143d973e33df",
+    "architecture_catalogue.csv": "d35bca8bb6d777b16a73d6ecc342577a944f25025307ccfef1f945c8d2062dd8",
+    "causal_feature_channels.csv": "627020866612feabdf01b0d22ce415c6be9012cb6f138059651cdd82f39b8fa6",
+    "causal_smoothed_target.csv": "7b42da8479a83eb781e53847677b85a3063ca94c9196b33a758ba17c9a5538d4",
+    "checkpoint_checks.csv": "97cb46420963b8106935f789bec5afcac124e3a0ffcf46f96e5e7792374cb5b8",
+    "fit_audit.csv": "be3dcd413d768c58d2600f6d2f8011d4049f035a48f2e129cae9c59813a8b5dd",
+    "historical_forecasts.csv": "414a6a3af637b3ad7f0492a41777df35f5616a1a11c2c19f8c44747b2119a358",
+    "inner_forecasts.csv": "36f8913dd3f70cd226d14133442cfcced4c0f73c3a48b20d3667f7a80ed62ccf",
+    "learning_curves.csv": "0a94090b8ac233f2db320bacc225dd0179bc34815d9720aa987796c085fcccdb",
+    "matched_prior_pipeline_comparison.csv": "81f1da4e9138f9dc76b6b7204fa32a123a68d8179aff528f7172253f242ceca0",
+    "performance_interpretation.csv": "c0a666cc29954efc89ccd1b1f4804bc77ff5e78954f369987db12289584bae2f",
+    "returns_scorecard.csv": "57ea1f19cb5828053fabc6d8d59c8be783be55b98f712753f21bda522d6d9b20",
+    "seed_forecasts.csv": "bc0100aa47ca2da77279602d6601447a9c85025901256137dd30a8ce23747c47",
+    "seed_scorecards.csv": "6842437ece7e9c540c37c91b0482f73b089e806b2566ecc435d9574b922312fc",
+    "selected_paired_uncertainty.csv": "0b639bf3d2b6a176dabba8315aa49d79ddcbcd54095d5c49b018b28d5f2e5bb4",
+    "selections.csv": "bfc4cf4e14ac14d3247f401044740b6983974d2fe351501719f8c1c99e746979",
+    "smoothed_scorecard.csv": "8e06a9e4cc6b2032b8a301f208da22ff1979d1b0da31bff72bae86276f1abfa6",
+    "toy_optimization_checks.csv": "d23cb8ead9cb8f4786552686e686adee35d9bf1e0a7987d7efc6baf64883922b",
+    "tuning.csv": "f542f0599f6b557fdb475253c77f6d579ff350f5ff1d790ce2fd89edb213efad"
+  },
+  "tables": [],
+  "claims": "Previously examined historical snapshot; no independent test or trading advantage established",
+  "checkpoint_sha256": {
+    "checkpoints/DecompositionLinear_demo_returns_seed1731.pt": "aae2223723f1f55157b9968e359321a935bff56ee150984159a20646a6628408",
+    "checkpoints/DecompositionLinear_demo_returns_seed1732.pt": "c6efeb8752d2a9a9bcf97f5d7562bfea49163600534ddc4dec23e1bbf2493d28",
+    "checkpoints/DecompositionLinear_demo_returns_seed1733.pt": "0cd40e02242e8b222484e99e2ffb360f6f896cd16051ab32d6e8cf0889db64cd",
+    "checkpoints/DecompositionLinear_demo_smoothed_seed1731.pt": "414037a70f4b2ee293ab2809d45fd19b733af203b9e563cec4d9b5ced0fcca65",
+    "checkpoints/DecompositionLinear_demo_smoothed_seed1732.pt": "60c304e2d33d11e497bbd50f1dba4fb8fdd71a4fc7a9c83525373af37c577793",
+    "checkpoints/DecompositionLinear_demo_smoothed_seed1733.pt": "9acdd1023f1a90f37c67fb4323c7192b2f3f92dfa070bcaac46bfca0f37f942f",
+    "checkpoints/LastCenteredLinear_demo_returns_seed1731.pt": "d7952ce13333bfbb379cf72159efaf1e03f6a8a699bb265774439263f1a95f20",
+    "checkpoints/LastCenteredLinear_demo_returns_seed1732.pt": "11bb11347f8271a443a2c279c743644362fd6b9a73e3912f79516dd79a48d525",
+    "checkpoints/LastCenteredLinear_demo_returns_seed1733.pt": "4491b0ecc8e1a9f33e6eb67745e7da395a42675ff6b50414935ba68a4d87abf3",
+    "checkpoints/LastCenteredLinear_demo_smoothed_seed1731.pt": "e16a6501bbf75a592eff359aee2d78b5d7e094e90592fa28a4c291e81cf6e1f1",
+    "checkpoints/LastCenteredLinear_demo_smoothed_seed1732.pt": "a7439b4e56546544f35e4754ee92ec95eaac8cdc7499d14408868740dd2b121e",
+    "checkpoints/LastCenteredLinear_demo_smoothed_seed1733.pt": "531940af72e0f85ade1f5456fce976a2828e0adaa047223bd51ab5a4fc230c56",
+    "checkpoints/NBEATS_demo_returns_seed1731.pt": "61ea1f3b31ad1c4af7bb6bf5d72ceaaf1faa6c5ebfe04b0dcdcc4bc1caee409b",
+    "checkpoints/NBEATS_demo_returns_seed1732.pt": "82d7a613d8f3ba59eebad672a440c5053121f9da641ab0204ec994d576c038d7",
+    "checkpoints/NBEATS_demo_returns_seed1733.pt": "34d181102e3da81a252a1dd1a52079371b2f66204b6c9d98ff3bf6e16158dd79",
+    "checkpoints/NBEATS_demo_smoothed_seed1731.pt": "2831f3e0174f1cbe9af2bbdffe0da6592f099a07a55a0fcb5c5b77f649c78658",
+    "checkpoints/NBEATS_demo_smoothed_seed1732.pt": "62cdd91dcc45a816204f4532b2851fce271160e010bd38e2eef527ff062e2d85",
+    "checkpoints/NBEATS_demo_smoothed_seed1733.pt": "b6f0751e75f11002f92f1730d57dc9ca4f9367c3a96471ac770f34e2d2095b0c",
+    "checkpoints/NHITS_demo_returns_seed1731.pt": "222a52e6a89d92add6771eaab164fd11cb7492beac0213849b4d8016ea710f8b",
+    "checkpoints/NHITS_demo_returns_seed1732.pt": "659732f2644c638695fc0ec981cf645b053c065d516c05ef9e0f86a315abc107",
+    "checkpoints/NHITS_demo_returns_seed1733.pt": "03cc86392da79657b6efc16d3d6af263e530b9fdde547ff8fc98e313adcc4299",
+    "checkpoints/NHITS_demo_smoothed_seed1731.pt": "56b64e096ce07ce2279af24d83244d780da45d3f73b8de15ffbecd7575619bf3",
+    "checkpoints/NHITS_demo_smoothed_seed1732.pt": "463bd14c971fdfddba789358f37f491b9597a1e4ea163a137285c5a5e306f090",
+    "checkpoints/NHITS_demo_smoothed_seed1733.pt": "c38e431281646772ec9f0163e3f5c2c9dc814d5bf89fa5df5754a20218afe8de",
+    "checkpoints/PatchTransformer_demo_returns_seed1731.pt": "a80f7a1873c315752b498de0dad165ca2b3db37a0165fad2a2392069fd834268",
+    "checkpoints/PatchTransformer_demo_returns_seed1732.pt": "33852c3666b70f5733c5e001a41e886105a457a48b6214a67a8708bb2e135723",
+    "checkpoints/PatchTransformer_demo_returns_seed1733.pt": "54db456c9f3fb43784147dfc3b4696f247e9dd1263b78a2053c2e09448c1f39c",
+    "checkpoints/PatchTransformer_demo_smoothed_seed1731.pt": "28f5cbae01afe8876347e88ff24c5a3c8a75c8fddc2a1277e5f7d4c512619640",
+    "checkpoints/PatchTransformer_demo_smoothed_seed1732.pt": "588419e14df10b856564049d531cda05533601f0af735d82d058a0a2a36a8324",
+    "checkpoints/PatchTransformer_demo_smoothed_seed1733.pt": "18f21523b4a825388d1abf02e1551d13784334e311cd597fee7d9e69bf67074e"
+  },
+  "architecture_claim": "Educational feature-to-target adapters; not original published model reproductions"
+}

@@ -1,0 +1,8 @@
+name,family,alpha,strategy,seed
+Ridge_0.1,ridge,0.1,direct,1731
+Ridge_10,ridge,10.0,direct,1731
+ElasticNet,elastic,0.03,direct,1731
+SVR_RBF,svr,1.0,direct,1731
+RandomForest,forest,1.0,direct,1731
+HistBoost,boost,1.0,direct,1731
+Ridge_recursive,ridge,10.0,recursive,1731

@@ -1,0 +1,8 @@
+field,rows,max_absolute_difference,passed
+mean,9810,0.0,True
+q10,9810,0.0,True
+median,9810,0.0,True
+q90,9810,0.0,True
+p_up,9810,0.0,True
+CRPS,9810,8.326672684688674e-17,True
+actual,9810,0.0,True

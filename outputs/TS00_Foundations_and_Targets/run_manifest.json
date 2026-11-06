@@ -1,0 +1,86 @@
+{
+  "created_utc": "2026-10-31T20:44:15.333574+00:00",
+  "scope": "milestone_1_fixed_configuration_demonstration",
+  "seed": 1731,
+  "config": {
+    "filter": {
+      "EMA": {
+        "kind": "ema",
+        "alpha": 0.2,
+        "window": 21,
+        "degree": 2,
+        "cutoff": 0.05,
+        "order": 2,
+        "lam": 20.0,
+        "fast_span": 2,
+        "slow_span": 30,
+        "q_level": 1e-05,
+        "q_slope": 1e-07,
+        "r": 0.0001,
+        "warmup": 60
+      }
+    },
+    "start": 250,
+    "step": 5,
+    "horizons": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "null_MC_draws": 30000,
+    "null_assumption": "Gaussian martingale increments; fixed conditional state"
+  },
+  "config_sha256": "4ca9bbe125c517fc5f35fb2cccdde11297662e2dbdb1df3861e8da44cae746a3",
+  "source": {
+    "synthetic": true,
+    "generator": "known latent signal and separate Gaussian random walk",
+    "market_timing_example": {
+      "ticker": "SPY",
+      "source": "Yahoo via yfinance",
+      "synthetic": false,
+      "adjustment": "auto_adjust=True",
+      "calendar": "observed Yahoo SPY session index",
+      "first": "2018-01-02",
+      "last": "2026-10-01",
+      "rows": 2199,
+      "retrieved_utc": "2026-10-03T14:13:49.139624+00:00",
+      "sha256": "2e057517815120e4b487437d59a2709039f441e2f7bb94cbb03ddd5335b32f9b",
+      "upstream_manifest_sha256": "040b730f918729c3f65b549abae03f3a21745c01ca05bbbeeb0f3d916c867c38",
+      "note": "Frozen local project snapshot; previously examined data, not an untouched holdout. Byte digest is computed from the exported CSV, not the upstream internal dataframe hash. Adjusted history is not executable historical quotes or point-in-time revision history."
+    }
+  },
+  "python": "3.12.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "matplotlib": "3.10.0",
+    "nbformat": "5.10.4",
+    "nbconvert": "7.16.6"
+  },
+  "source_code_sha256": {
+    "src/tslab/__init__.py": "7b63cfe08dc282b3838eb9c089ff634f37c3e365dce4c99831a8af6f1f8b07c1",
+    "src/tslab/data.py": "e4822d4d24b7528804cec7205652053b9c549f9413e6e9f312893c9696b5ffd8",
+    "src/tslab/diagnostics.py": "358abef5f3892ea126eb0be04cce3487055e7f17e2be88957f2f08c757e360ea",
+    "src/tslab/evaluation.py": "cc839e5fc1e4067a27037fe6efb52ad810b072236328e47928c4409818ced508",
+    "src/tslab/reporting.py": "60582f9871b68da78827ff2cbe2a0dcbf08b3f2fd35576afe2ad20e4c16c4d17",
+    "src/tslab/smoothing.py": "43c062b002d780a6afbbcb560bf5ab87cac61a5a067cfc185f03feb65ad05aab",
+    "src/tslab/targets.py": "2df2751539ac9de6c30099c4b95d635764bffbb7e68be11b44edc9d124e65444"
+  },
+  "outputs_sha256": {
+    "01_target_definition.png": "4ec0a8fc12dde0c1bb7654a1ace8d0655847fb1efaa953660d87fdba264c1f09",
+    "02_filter_mechanics_null.png": "0b394433b60c4b1bb57ae31aaea077e659409824dc5dc5a7a9f9f2e29c3d96c3",
+    "03_separate_scorecards.png": "ad381392fbdcb0ffe37a756299ad9273ebf6ee120215f52bd12b8933e69b221a",
+    "martingale_control.csv": "ecc374fbde55a106e16ffc880674d8c7b4986bddc53aa415823c7c5676335822",
+    "mature_label_example.csv": "73b8491ba20c7edba712aa25ad8bb33cec0c7e4971d78752e4dc7e1acfb23940",
+    "random_walk_forecasts.csv": "71572e610d08c6437982ec9fc9a596b12988d6c4a94f24d3ceac1517ef2e186c",
+    "random_walk_scores.csv": "3929b2baaf65a988c6d19a69fcee32994c79e8b50f7a6b73a0a4ab965660e648",
+    "target_timing_comparison.csv": "4f5472232e1e33d2c9c0ae3ce9016a5ab5f731aa141e10c5126fd23bede919fa",
+    "targets.csv": "4b2461e5ab85a639c0afb07fa27bac1a3885d2ee31ed291ecb395dc799ef8357"
+  },
+  "tables": [],
+  "claims": "No selected model, untouched holdout or established trading skill"
+}

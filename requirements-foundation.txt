@@ -1,0 +1,7 @@
+# Only needed for RECOMPUTE=True; default audited replay needs requirements.txt.
+# Exact CPU environment used for the pinned TS11 inference.
+chronos-forecasting==2.3.2
+transformers==4.51.2
+accelerate==1.15.0
+huggingface-hub==0.30.2
+torch==2.5.1

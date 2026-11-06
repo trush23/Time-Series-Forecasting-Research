@@ -1,0 +1,13 @@
+reason,scheduled_origins,strategy
+insufficient edge,112,analog
+long,100,analog
+unsupported,6,analog
+long,194,recent
+insufficient edge,18,recent
+unsupported,6,recent
+long,134,TS_Ridge_empirical
+insufficient edge,78,TS_Ridge_empirical
+unsupported,6,TS_Ridge_empirical
+long,166,TS_null_empirical
+insufficient edge,46,TS_null_empirical
+unsupported,6,TS_null_empirical

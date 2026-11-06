@@ -1,0 +1,11 @@
+model,horizon,smoothed_conditional_MSE_ratio,return_conditional_MSE_ratio,histories,null_ratio,method
+chronos-bolt-tiny,1,5.073249591547722,5.0732495915477145,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance
+chronos-bolt-tiny,2,2.1859035383852032,1.499325936002143,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance
+chronos-bolt-tiny,3,1.765601119199731,1.3886170422951323,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance
+chronos-bolt-tiny,4,1.5558028975239804,1.2768264839457337,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance
+chronos-bolt-tiny,5,1.4416265323198276,1.2596022208427224,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance
+chronos-bolt-mini,1,5.183499300095361,5.183499300095354,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance
+chronos-bolt-mini,2,2.2673907160993787,1.4515495413908766,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance
+chronos-bolt-mini,3,1.720905096201633,1.338977505851905,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance
+chronos-bolt-mini,4,1.512479747712813,1.2593236217119201,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance
+chronos-bolt-mini,5,1.437148685893334,1.283991851025565,128,1.0,exact IID Gaussian conditional risk; includes future innovation variance

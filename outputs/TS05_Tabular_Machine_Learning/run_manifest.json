@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-10-31T22:32:12.711026+00:00",
+  "scope": "milestone_3_smoothed_input_supervised_forecasting",
+  "seed": 1731,
+  "config": {
+    "features": {
+      "lookback": 20,
+      "fast_alpha": 0.2,
+      "slow_alpha": 0.05,
+      "warmup": 120
+    },
+    "models": [
+      {
+        "name": "Ridge_0.1",
+        "family": "ridge",
+        "alpha": 0.1,
+        "strategy": "direct",
+        "seed": 1731
+      },
+      {
+        "name": "Ridge_10",
+        "family": "ridge",
+        "alpha": 10.0,
+        "strategy": "direct",
+        "seed": 1731
+      },
+      {
+        "name": "ElasticNet",
+        "family": "elastic",
+        "alpha": 0.03,
+        "strategy": "direct",
+        "seed": 1731
+      },
+      {
+        "name": "SVR_RBF",
+        "family": "svr",
+        "alpha": 1.0,
+        "strategy": "direct",
+        "seed": 1731
+      },
+      {
+        "name": "RandomForest",
+        "family": "forest",
+        "alpha": 1.0,
+        "strategy": "direct",
+        "seed": 1731
+      },
+      {
+        "name": "HistBoost",
+        "family": "boost",
+        "alpha": 1.0,
+        "strategy": "direct",
+        "seed": 1731
+      },
+      {
+        "name": "Ridge_recursive",
+        "family": "ridge",
+        "alpha": 10.0,
+        "strategy": "recursive",
+        "seed": 1731
+      }
+    ],
+    "outer_starts": [
+      1000,
+      1400,
+      1800
+    ],
+    "outer_step": 40,
+    "inner_count": 3,
+    "inner_step": 40,
+    "max_samples": 252,
+    "min_success": 0.8,
+    "targets": {
+      "smoothed": "residual above EMA no-change anchor",
+      "returns": "actual cumulative log returns"
+    },
+    "fit_policy": "independent prefix fits; all five labels mature; train-only feature/target scaling"
+  },
+  "config_sha256": "9763d1dcf33ffb3c76494be261aa22aff80d75fdb53940ed2e04d21a87521582",
+  "source": {
+    "market": {
+      "ticker": "SPY",
+      "source": "Yahoo via yfinance",
+      "synthetic": false,
+      "adjustment": "auto_adjust=True",
+      "calendar": "observed Yahoo SPY session index",
+      "first": "2018-01-02",
+      "last": "2026-10-01",
+      "rows": 2199,
+      "retrieved_utc": "2026-10-03T14:13:49.139624+00:00",
+      "sha256": "2e057517815120e4b487437d59a2709039f441e2f7bb94cbb03ddd5335b32f9b",
+      "upstream_manifest_sha256": "040b730f918729c3f65b549abae03f3a21745c01ca05bbbeeb0f3d916c867c38",
+      "note": "Frozen local project snapshot; previously examined data, not an untouched holdout. Byte digest is computed from the exported CSV, not the upstream internal dataframe hash. Adjusted history is not executable historical quotes or point-in-time revision history."
+    },
+    "references": {
+      "TS04_selected": {
+        "sha256": "840f33adccd7763d23647be14d4876ef9c732dd14a8702a2e21a2fe8f305ce0a",
+        "source_forecasts_sha256": "615178df0e283d3d912b01367e7d66b6a7cbfe27082f88b7a93b46b1d11e8806",
+        "source_manifest_sha256": "79aedb4ba0d4d7206c7b30c7c5742f43cd9d32bf9eb5f557ac099416a6ee96f8",
+        "note": "Frozen delivered selected pipeline; reruns do not refresh this reference automatically."
+      }
+    }
+  },
+  "python": "3.12.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "matplotlib": "3.10.0",
+    "nbformat": "5.10.4",
+    "nbconvert": "7.16.6",
+    "scikit-learn": "1.6.1"
+  },
+  "source_code_sha256": {
+    "src/tslab/__init__.py": "0e3c8561f3141b9792dd40dd203070fae17ed418b1b54792d13b769e191935f1",
+    "src/tslab/classical.py": "7fc2d0a8c57f0a1e6a83d995774b37deabd6d3a585b2a41d2fd9208e74f14e1d",
+    "src/tslab/data.py": "e4822d4d24b7528804cec7205652053b9c549f9413e6e9f312893c9696b5ffd8",
+    "src/tslab/diagnostics.py": "358abef5f3892ea126eb0be04cce3487055e7f17e2be88957f2f08c757e360ea",
+    "src/tslab/evaluation.py": "cc839e5fc1e4067a27037fe6efb52ad810b072236328e47928c4409818ced508",
+    "src/tslab/learned_evaluation.py": "1b738fd31eeac28760f2f81e48b8fe0f193eab72e31402037bc06dab0f23535e",
+    "src/tslab/learning_reports.py": "1976804e1d78e8769474d5fbd6268cefc63631068b382134e2e1b9911b3b2659",
+    "src/tslab/neural.py": "158bb2729403923b7b29ad8629888f314b7441d8c05d2a57b500e82ef7af78dd",
+    "src/tslab/prequential.py": "86cd5d4ad27b0ad01f50e0dd912e231a62bc453031efb2b4d6fef318f8f554e1",
+    "src/tslab/provenance2.py": "bb2acdd12006ba2fdd4f9301072ae4e2f7f8bbfea10d85bcd9833cb09eda77de",
+    "src/tslab/provenance3.py": "0898ecba9421d430ae537799a32dba448690d736d66bd90f3c7d2f2d0142d5c9",
+    "src/tslab/reporting.py": "60582f9871b68da78827ff2cbe2a0dcbf08b3f2fd35576afe2ad20e4c16c4d17",
+    "src/tslab/smoothing.py": "43c062b002d780a6afbbcb560bf5ab87cac61a5a067cfc185f03feb65ad05aab",
+    "src/tslab/spectral.py": "121cbdfd10d70afe012730aca9c09a9236f64078acdccf5cd647c755dbe575dc",
+    "src/tslab/spectral_evaluation.py": "0aa95cf3103db6810c3af5404180c59a526affc89e05193a6b8446f141295b3b",
+    "src/tslab/supervised.py": "28ae840d3e5d2b340bfe9d59a703411f6cbad09145018a47bcc1a288be6478bb",
+    "src/tslab/tabular.py": "9e8e35c5ffa42d8e7766eb5be524bb2d005f9d77e9e8e1db5e1ac67324e169ac",
+    "src/tslab/targets.py": "2df2751539ac9de6c30099c4b95d635764bffbb7e68be11b44edc9d124e65444"
+  },
+  "outputs_sha256": {
+    "01_causal_feature_window.png": "582c472d59ca3b912c1a3f16a371fa665c73ea1fb4fe3eb71d5f792cfb9b7920",
+    "02_synthetic_controls.png": "6655cf2930995b8e135961b985a8c6e3407fedfe52a723df3f0238cdc6bda40c",
+    "03_separate_outer_scorecards.png": "bc4fd18aff5910060dec8b3fcb6a0a6400e8bce39af1def3c41de80ea7244833",
+    "04_direct_vs_recursive.png": "d673e15113978d690dc5995037c8fb6d97f2386c6264b8230451347e9bab803b",
+    "05_calibration_coefficients.png": "9c6e91a26cf48a5be92ef9f9feef766dc558452da097483cbc300a92106c35dc",
+    "06_matched_pipeline_comparison.png": "04c39115694bf1f678265d5e718fe0508ce5711a7f0b11bfa82f53abb9425fea",
+    "calibration_ridge_coefficients.csv": "b66727310dec0622b1aa0317681fdce25db7ee0e5bb3e947e54d8c3295bdc1a2",
+    "causal_feature_channels.csv": "627020866612feabdf01b0d22ce415c6be9012cb6f138059651cdd82f39b8fa6",
+    "causal_smoothed_target.csv": "7b42da8479a83eb781e53847677b85a3063ca94c9196b33a758ba17c9a5538d4",
+    "fit_audit.csv": "33c44786a7958c53113a265197f8389d54373be1bd5ca7c72add6001bdf29ab9",
+    "historical_forecasts.csv": "860b1b32ed222907e54f48f3f372012ce4461b755fcb50ef3a252cd026b51495",
+    "inner_forecasts.csv": "bbc653d61893fd49b3cf0e94148e54e3f0d8875b41372c9ec2baf90b797204b7",
+    "matched_prior_pipeline_comparison.csv": "ccc0f10bc3317234139120e7dd079cbcceb5aa0ff021e27390cc6445c53d3d82",
+    "model_catalogue.csv": "66afc638ec02089a6e0637f030ac7a972056b682af91dc16cdda63dd6f0e4646",
+    "returns_scorecard.csv": "3df6fc21e65fdceb93180b38f4968cb2c62d23fecda1f357d335739a588bf56b",
+    "selected_paired_uncertainty.csv": "b46d18fda11409931525544ea104a2432383f3633b0ab82d86ad1031027fd245",
+    "selections.csv": "01ad32579e04783379deef807d7d7aec7ffbe73bf4a305eb1dc456e63444df1d",
+    "smoothed_scorecard.csv": "d5452126bdbd67f5618640834bd981ad2ee6e6ee5b837cfe7ad793450301362e",
+    "synthetic_control_scores.csv": "1a1a28be37fb17cc8a5ec037176ec11df6dc9fa2061416295adb01d86ed654cc",
+    "training_label_timeline.csv": "d88503ad7c078e3691880beca908e73d70d15f8191257fb795a792447f46fede",
+    "tuning.csv": "8d371b81355546745b46ef7e385508a6aba2e5c783b8157ae9cc42c50b21e43e"
+  },
+  "tables": [],
+  "claims": "Previously examined historical snapshot; no independent test or trading advantage established",
+  "checkpoint_sha256": {}
+}

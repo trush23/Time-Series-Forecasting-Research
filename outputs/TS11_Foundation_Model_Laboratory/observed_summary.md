@@ -1,0 +1,3 @@
+## Observed results
+
+smoothed: Tiny 256 **-26.07%**, Mini 256 **-25.87%** MAE skill versus the matched null. returns: Tiny 256 **-12.60%**, Mini 256 **-10.31%** MAE skill versus the matched null. Each result averages six stocks, with 40 matched scored origins per stock at h=5. Positive skill is better. Both contexts, both target tracks and both climate datasets are retained in the detailed results. Pretraining overlap is unknown; these historical scores do not establish prospective trading skill.

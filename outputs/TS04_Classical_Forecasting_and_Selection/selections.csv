@@ -1,0 +1,7 @@
+block,track,chosen_model,selection_cutoff,outer_first_origin,outer_last_origin,inner_first_origin,inner_last_label,minimum_success_fraction,objective
+0,smoothed,Holt_damped,2021-12-20,2021-12-21,2023-06-28,2021-06-16,2021-12-20,0.8,equal-horizon relative MAE
+0,returns,ARMA11_changes,2021-12-20,2021-12-21,2023-06-28,2021-06-16,2021-12-20,0.8,equal-horizon relative MAE
+1,smoothed,Local_linear_trend,2023-07-26,2023-07-27,2025-01-31,2023-01-18,2023-07-26,0.8,equal-horizon relative MAE
+1,returns,zero,2023-07-26,2023-07-27,2025-01-31,2023-01-18,2023-07-26,0.8,equal-horizon relative MAE
+2,smoothed,AR5_changes,2025-02-28,2025-03-03,2026-10-01,2024-08-21,2025-02-28,0.8,equal-horizon relative MAE
+2,returns,zero,2025-02-28,2025-03-03,2026-10-01,2024-08-21,2025-02-28,0.8,equal-horizon relative MAE

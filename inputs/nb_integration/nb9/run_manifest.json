@@ -1,0 +1,51 @@
+{
+  "notebook": "9 \u2014 Short-horizon analog forecasting",
+  "source": {
+    "source": "Yahoo via yfinance",
+    "synthetic": false,
+    "ticker": "SPY",
+    "start": "2018-01-01",
+    "end_exclusive": "2026-10-02",
+    "adjustment": "auto_adjust=True",
+    "retrieved_utc": "2026-10-03T00:56:31.274940+00:00",
+    "sha256": "de42a970400fc97b8161ef3dd74f8e62407b03d061f3469cc32acccc00027f44",
+    "cache_path": "/Users/trush/Documents/Trading/Codex/data/ohlcv_a5e2593b00e90617.csv",
+    "rows": 2199,
+    "first": "2018-01-02",
+    "last": "2026-10-01",
+    "data_sha256": "5e5db18cbf3223e1b2db903236ce1357dd427519b571a8290f19f24f5ccbaad0"
+  },
+  "input_hashes": {
+    "run_manifest.json": "556d2038d00d4e02f5b160cd93055d0f6d9af1f6542b67b1c00a19b06a6b313b",
+    "market_ohlcv_snapshot.csv": "4512e193419930f199f6deecb9ae769d1a485128aa87529afee83fb379e69eb3",
+    "delay_states.csv": "d506ff480355eca1d71db852ecc40a691080e0a9ae704a29d99499242d3d4f54",
+    "interpretable_states.csv": "87eb7ac87a56d414ebe0ff9cc62a59a4e99ff1a816a20853dadb907315709883"
+  },
+  "calibration_end": "2024-02-13",
+  "inner_scale_end": "2021-12-28",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "matplotlib": "3.10.0"
+  },
+  "config": {
+    "seed": 1731,
+    "k_grid": [
+      20,
+      40,
+      80
+    ],
+    "k_selected": 80,
+    "inner_fraction": 0.6,
+    "inner_step": 5,
+    "recent_count": 250,
+    "block_length": 20,
+    "bootstrap_replicates": 399,
+    "placebo_replicates": 39,
+    "support_quantile": 0.95
+  },
+  "executed_utc": "2026-10-04T18:19:35.993371+00:00",
+  "checks": "passed",
+  "claims": "Chronological exploratory forecast evaluation; previously examined later period, no trading-skill claim"
+}

@@ -1,0 +1,20 @@
+{
+  "TS04_selected": {
+    "sha256": "840f33adccd7763d23647be14d4876ef9c732dd14a8702a2e21a2fe8f305ce0a",
+    "source_forecasts_sha256": "615178df0e283d3d912b01367e7d66b6a7cbfe27082f88b7a93b46b1d11e8806",
+    "source_manifest_sha256": "79aedb4ba0d4d7206c7b30c7c5742f43cd9d32bf9eb5f557ac099416a6ee96f8",
+    "note": "Frozen delivered selected pipeline; reruns do not refresh this reference automatically."
+  },
+  "TS05_selected": {
+    "sha256": "840aa4492e8af1043888847621f9121fce6e3e97f525273f12f50f619e94cff6",
+    "source_forecasts_sha256": "860b1b32ed222907e54f48f3f372012ce4461b755fcb50ef3a252cd026b51495",
+    "source_manifest_sha256": "0825f573b9499367828156f8907a5f06ebdaad1b0c7574114658c31f11577791",
+    "note": "Frozen delivered selected pipeline; reruns do not refresh this reference automatically."
+  },
+  "TS06_selected": {
+    "sha256": "1ac5f5b0c887d04b3a78f01314c9a6552280e01947b2090da2181a109baa318b",
+    "source_forecasts_sha256": "ff53d4badeda23675edd0944cf983b765e5255fc1c1ac791ccc8fd0d0de15107",
+    "source_manifest_sha256": "be2c8ed185361ae89b776c64311a3e17128e679a4c51a29a6c0f3192038548f7",
+    "note": "Frozen delivered selected pipeline; reruns do not refresh this reference automatically."
+  }
+}

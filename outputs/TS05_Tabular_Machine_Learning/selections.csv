@@ -1,0 +1,7 @@
+block,track,chosen_model,selection_cutoff,outer_first_origin,outer_last_origin,inner_first_origin,inner_last_label,objective,minimum_success_fraction
+0,smoothed,SVR_RBF,2021-12-20,2021-12-21,2023-05-30,2021-08-19,2021-12-20,equal-horizon relative MAE,0.8
+0,returns,SVR_RBF,2021-12-20,2021-12-21,2023-05-30,2021-08-19,2021-12-20,equal-horizon relative MAE,0.8
+1,smoothed,SVR_RBF,2023-07-26,2023-07-27,2024-12-31,2023-03-23,2023-07-26,equal-horizon relative MAE,0.8
+1,returns,SVR_RBF,2023-07-26,2023-07-27,2024-12-31,2023-03-23,2023-07-26,equal-horizon relative MAE,0.8
+2,smoothed,RandomForest,2025-02-28,2025-03-03,2026-10-01,2024-10-24,2025-02-28,equal-horizon relative MAE,0.8
+2,returns,zero,2025-02-28,2025-03-03,2026-10-01,2024-10-24,2025-02-28,equal-horizon relative MAE,0.8

@@ -1,0 +1,59 @@
+{
+  "id": "TS11_v1",
+  "freeze_stage": "Before any empirical TS11 forecasts or scores",
+  "seed": 1731,
+  "models": [
+    {
+      "id": "amazon/chronos-bolt-tiny",
+      "revision": "a0e552de83495b5c28c14c71c374f3e33280b340"
+    },
+    {
+      "id": "amazon/chronos-bolt-mini",
+      "revision": "251268337516a88e253628c43e1d26ec577b376b"
+    }
+  ],
+  "checkpoint_manifest_sha256": "1270ada51d5b9841bd651757d22f557e2348e4ac3518cfbbcf357730f61754c5",
+  "input_sha256": {
+    "SPY": "b0d679557f147a24669d93131cfe41ba689450eee7ff52af381fe68478d7c6db",
+    "MCHP": "085677c747a94eb7d780706208f7aca4b22384d8db0ef8d873317ed4c12131aa",
+    "MRVL": "5f42ebe4d5d05d67275c7c75128bc7d244539f43f0e0db227616c91c402d3292",
+    "TXG": "90f18f255913e99aef1d24829955264ce33ae2c214efad07d6da74ca5972f00a",
+    "GOOGL": "d8d86b58ae3c8c7f409d1408993924eb1cb657a6fec43300feb7ce8fb39c1bb7",
+    "NVDA": "e88c07844cb6d5ccc65d1c8bc71a42e07c9c522b7f716d52e243dbb07b08a7a8",
+    "ELNINO": "76de0545139f1b9a0b0e8911571e0bdd661f5553d1d4b8badb4c76e743d68d72",
+    "CO2": "6dcd4e2a01a3af3a27bbfa3ad6d086643b92fbcfaa81c345696b3b6127ed6afb"
+  },
+  "contexts": [
+    64,
+    256
+  ],
+  "primary_context": 256,
+  "batch_size": 32,
+  "stock_step": 5,
+  "monthly_step": 1,
+  "calibration_origins": 40,
+  "evaluation_origins": 40,
+  "ridge_samples": 252,
+  "residual_window": 32,
+  "forecast_horizons": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "primary_horizon": 5,
+  "alpha": 0.2,
+  "point_adapter": "centered causal EMA levels -> native q50 path -> EMA inverse point path for returns; not a return median",
+  "intervals": "common last 32 forecast-error vectors with origin+5 <= current origin, empirical inverted-CDF 10/50/90 percentiles; no coverage guarantee",
+  "baselines": [
+    "filter_null",
+    "Ridge_10"
+  ],
+  "selection": "none; fixed two checkpoints and contexts reported, no score-based promotion",
+  "nonfinancial_clock": "1-5 months, separate from stock 1-5 observed trading sessions",
+  "independence": "pretraining end and exact dataset exposure unknown; all existing data previously examined; not a pristine zero-shot or prospective test",
+  "uncertainty": "h5 paired normalized-MAE moving-block ranges at 1/4/8 origins; synchronized stock assets; 2000 draws, fixed normalizers, no multiplicity correction",
+  "deployment": "demonstration only; no trading integration or orders",
+  "serialization_note": "After initial execution, baseline identifier changed from null to filter_null because pandas treats the literal null as a missing CSV value. No model, cohort, parameter, target, metric or selection changed. Initial protocol retained in provenance/TS11_protocol_initial.json."
+}

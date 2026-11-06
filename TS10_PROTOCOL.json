@@ -1,0 +1,79 @@
+{
+  "id": "TS10_v1",
+  "created_for_user_date": "2026-11-01",
+  "freeze_stage": "Before TS10 new model/strategy evaluation",
+  "reference_manifest_sha256": "3dbd8a559d6b556f8d93cd241680841e7dd839d63876f0b494df3e810bd7631d",
+  "market_sha256": "4512e193419930f199f6deecb9ae769d1a485128aa87529afee83fb379e69eb3",
+  "native_max_steps": 5,
+  "entry_delay_sessions": 1,
+  "library_holding_horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "legacy_reference_horizons": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "primary_horizon": 3,
+  "features": {
+    "lookback": 20,
+    "fast_alpha": 0.2,
+    "slow_alpha": 0.05,
+    "warmup": 120
+  },
+  "point_model": "Fixed direct Ridge_10; no retrospective family selection",
+  "training": {
+    "max_samples": 252,
+    "forecast_start": 650,
+    "five_label_maturity": true
+  },
+  "calibration_window": 126,
+  "distribution": "Equal-weight joint five-error vectors from issued forecasts; subtract sample endpoints before quantiling",
+  "comparison_models": [
+    "analog",
+    "recent",
+    "TS_Ridge_empirical",
+    "TS_null_empirical"
+  ],
+  "common_support": "NB9 frozen metric support overlay for all four; Ridge additionally requires current fit availability",
+  "decision_parameters": {
+    "primary_horizon": 3,
+    "initial_capital": 100000.0,
+    "cost_bps": 5.0,
+    "edge_buffer_bps": 5.0,
+    "annual_vol_target": 0.1,
+    "tail_budget": 0.01,
+    "max_weight": 1.0,
+    "vol_window": 20,
+    "cost_grid": [
+      0.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0
+    ],
+    "bootstrap_replicates": 499,
+    "seed": 1731,
+    "cash_return": 0,
+    "shorting": false,
+    "leverage": false
+  },
+  "primary_schedule": "offset 0; every three origins anchored to first frozen NB9 evaluation date",
+  "sensitivity": "All holding horizons 1..4 and every offset; legacy h5 retained as six-step reference only; cost grid with decisions and allocation fractions fixed",
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 1731,
+    "daily_block_lengths": [
+      10,
+      20,
+      40
+    ],
+    "comparison": "paired net daily returns versus legacy recent"
+  },
+  "claims": "Historical adjusted-price research simulation; no actual fills, orders, current-market forecast or independently validated trading advantage"
+}

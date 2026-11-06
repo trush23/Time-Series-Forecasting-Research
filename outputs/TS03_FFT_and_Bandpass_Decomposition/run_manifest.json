@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-10-31T21:44:21.429812+00:00",
+  "scope": "milestone_2_spectral_and_classical_research",
+  "seed": 1731,
+  "config": {
+    "spectral_filters": {
+      "Low-pass": {
+        "window": 128,
+        "low": 0.0,
+        "high": 0.04,
+        "detrend": true
+      },
+      "Trend plus band": {
+        "window": 128,
+        "low": 0.01,
+        "high": 0.04,
+        "detrend": true
+      }
+    },
+    "start": 500,
+    "step": 10,
+    "harmonic_window": 128,
+    "harmonics": 2,
+    "return_bridge": "OLS next raw return on current smoothed slope",
+    "selection": "none; fixed band settings, past-only per-origin amplitude ranking"
+  },
+  "config_sha256": "0c05494224055cc341e237247c1e346424471b64822e67fae67aa7f14b0f84e1",
+  "source": {
+    "ticker": "SPY",
+    "source": "Yahoo via yfinance",
+    "synthetic": false,
+    "adjustment": "auto_adjust=True",
+    "calendar": "observed Yahoo SPY session index",
+    "first": "2018-01-02",
+    "last": "2026-10-01",
+    "rows": 2199,
+    "retrieved_utc": "2026-10-03T14:13:49.139624+00:00",
+    "sha256": "2e057517815120e4b487437d59a2709039f441e2f7bb94cbb03ddd5335b32f9b",
+    "upstream_manifest_sha256": "040b730f918729c3f65b549abae03f3a21745c01ca05bbbeeb0f3d916c867c38",
+    "note": "Frozen local project snapshot; previously examined data, not an untouched holdout. Byte digest is computed from the exported CSV, not the upstream internal dataframe hash. Adjusted history is not executable historical quotes or point-in-time revision history."
+  },
+  "python": "3.12.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "matplotlib": "3.10.0",
+    "nbformat": "5.10.4",
+    "nbconvert": "7.16.6",
+    "statsmodels": "0.14.4"
+  },
+  "source_code_sha256": {
+    "src/tslab/__init__.py": "9a38132f93513c8c1b769ac57d46091e930a409b97b7a97dde9a757f15c79c34",
+    "src/tslab/classical.py": "7fc2d0a8c57f0a1e6a83d995774b37deabd6d3a585b2a41d2fd9208e74f14e1d",
+    "src/tslab/data.py": "e4822d4d24b7528804cec7205652053b9c549f9413e6e9f312893c9696b5ffd8",
+    "src/tslab/diagnostics.py": "358abef5f3892ea126eb0be04cce3487055e7f17e2be88957f2f08c757e360ea",
+    "src/tslab/evaluation.py": "cc839e5fc1e4067a27037fe6efb52ad810b072236328e47928c4409818ced508",
+    "src/tslab/prequential.py": "86cd5d4ad27b0ad01f50e0dd912e231a62bc453031efb2b4d6fef318f8f554e1",
+    "src/tslab/provenance2.py": "bb2acdd12006ba2fdd4f9301072ae4e2f7f8bbfea10d85bcd9833cb09eda77de",
+    "src/tslab/reporting.py": "60582f9871b68da78827ff2cbe2a0dcbf08b3f2fd35576afe2ad20e4c16c4d17",
+    "src/tslab/smoothing.py": "43c062b002d780a6afbbcb560bf5ab87cac61a5a067cfc185f03feb65ad05aab",
+    "src/tslab/spectral.py": "121cbdfd10d70afe012730aca9c09a9236f64078acdccf5cd647c755dbe575dc",
+    "src/tslab/spectral_evaluation.py": "0aa95cf3103db6810c3af5404180c59a526affc89e05193a6b8446f141295b3b",
+    "src/tslab/targets.py": "2df2751539ac9de6c30099c4b95d635764bffbb7e68be11b44edc9d124e65444"
+  },
+  "outputs_sha256": {
+    "01_known_components.png": "659537d4287e913d1225add48fcfe9d041d7d24af6d5dc709ce14d367c4bf4a8",
+    "02_spectrum.png": "7c82fbfae23d06c9b907b3480abbb409b6e70fb165430ce183b8462b122166ee",
+    "03_causality_and_revision.png": "81d7ba41be21221a0b3f233133ec58bee72fea3827dff0575a5b87dde141ba36",
+    "04_fourier_stress_controls.png": "3959c4c2d0e9d940a2e2eb8d07abb42a6c090e9987455eea67251dab31cd89b0",
+    "05_separate_stock_scorecards.png": "8a1b6c0458093bb2388da0a444e484532eb3714a03263339c30ddebbee36ec33",
+    "fit_audit.csv": "939ad965de9ebbf15e8526d3721f402c7eccf0e4129cdc3c8ee4ad21c5e5b6b6",
+    "historical_forecasts.csv": "ad95bafde18e5d7f0841ce14652e85ab9d5aa63db72dccb84416fa086451f19c",
+    "historical_revision.csv": "5b80e17f59739658bb7b7d1866d42fc265be580ee1e00f454202221fdd5ab9e7",
+    "returns_scorecard.csv": "240b7eae635fb3d44ce3418ddf60255746bb0f57fa9627129dc574db2c903c82",
+    "smoothed_scorecard.csv": "5ac0d5499199b7690cb15fb1d7d6c1bbe855d4bb4cef20098ad986ede2762f41",
+    "synthetic_causal_endpoints.csv": "08d41e2c0e272bcc350c21005e4c4c891b4cf1fb13b44bf2e0fdf59f4769973c",
+    "synthetic_components.csv": "5be346a5a45e726ad7155be9143911161cc58a6db98b70bbfea10365e5e68299",
+    "synthetic_periodogram.csv": "1910af847473f9f7cdd49e9dd0ba373e124938bcf95740215b6814490b53e4e3",
+    "toy_forecast_scores.csv": "9ba06e493eeae26b433defa0417c17b729f396c39be5a9f11e5806361099baaa"
+  },
+  "tables": [],
+  "claims": "Exploratory previously examined data; no untouched holdout or trading advantage established"
+}

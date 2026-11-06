@@ -1,0 +1,781 @@
+filter_id,track,horizon,model,n,MAE,RMSE,baseline,MAE_skill,MSE_skill,dataset_id,dataset_group,signal_units,frequency
+ema_alpha_0.2,returns,1,AR5_changes,64,0.007461473583038174,0.015621168600967184,zero,-0.031780173110383725,-0.0803120710892502,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,GRU,64,0.007342268226694922,0.01510634210043411,zero,-0.01529633492014737,-0.010277824374958167,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,HistBoost,64,0.007766253135230295,0.014990072676383205,zero,-0.0739254002725025,0.005213996752357786,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,NBEATS_demo,64,0.00738830858574585,0.014771771332084554,zero,-0.021662842702151464,0.03397727849844889,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,Ridge_10,64,0.008026439703871001,0.0148609965867916,zero,-0.10990426421210997,0.022271987760382528,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,raw_drift,64,0.00755193055149876,0.015445079242452399,zero,-0.04428865491878575,-0.056093746074975526,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,selected_pipeline,64,0.007788744386054296,0.014761870838526474,zero,-0.07703551336348902,0.03527176058042769,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,smooth_slope,64,0.008231017458716267,0.01690069887959428,zero,-0.13819348469378778,-0.26453692993579714,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,zero,64,0.007231650478943558,0.01502930525725611,zero,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,AR5_changes,64,0.009186388619408646,0.013285160918447654,zero,-0.04853150336521472,-0.1866189829842113,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,GRU,64,0.009045662777805937,0.01239060679824988,zero,-0.032469100132427986,-0.03219750257093623,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,HistBoost,64,0.009975032224788866,0.013846766516281783,zero,-0.13854703606558472,-0.28906373796859164,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,NBEATS_demo,64,0.008728296025907058,0.011849926646390058,zero,0.0037550409607982616,0.05591960907454452,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,Ridge_10,64,0.010253132173305562,0.01292395392118399,zero,-0.17028927658956228,-0.12297077775030929,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,raw_drift,64,0.008860808660215585,0.012939562829507431,zero,-0.011369909378538656,-0.1256849522142367,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,selected_pipeline,64,0.009434280259219899,0.012314934844557436,zero,-0.07682577704897842,-0.019628321586803832,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,smooth_slope,64,0.010012799767995614,0.015449486260979738,zero,-0.14285781155066646,-0.6047439173467277,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,zero,64,0.008761194670761294,0.012195824702661845,zero,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,AR5_changes,64,0.013153461621700169,0.018607152018881516,zero,-0.019829563820154883,-0.1660609180096282,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,GRU,64,0.012636526054150558,0.01734096851131982,zero,0.020250088938895905,-0.012763701354173929,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,HistBoost,64,0.013014812062639642,0.019433991042664387,zero,-0.009079624115516438,-0.2719950596111891,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,NBEATS_demo,64,0.01217532291532621,0.017158464371368046,zero,0.056008629878701144,0.008441680851772992,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,Ridge_10,64,0.013089357049957322,0.017864069866023485,zero,-0.014859333220817339,-0.07478660510465818,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,raw_drift,64,0.013202451838147493,0.018505432935120657,zero,-0.02362793055492407,-0.1533468341266877,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,selected_pipeline,64,0.012641145094338562,0.01745025436988242,zero,0.01989196011504102,-0.02556915860525555,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,smooth_slope,64,0.014416857963464494,0.022155977533379747,zero,-0.1177846859933056,-0.6532680017956669,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,zero,64,0.012897705742544799,0.017231349290852398,zero,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,AR5_changes,64,0.014808470439155761,0.0218680565755151,zero,-0.02974925081540225,-0.1903353189109711,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,GRU,64,0.014421642821359017,0.020708033144035073,zero,-0.0028500885246334207,-0.0673986400683988,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,HistBoost,64,0.014940735678940928,0.023165292901718454,zero,-0.038946691708255265,-0.33574800401069305,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,NBEATS_demo,64,0.014062665782464618,0.0203314484884812,zero,0.02211240428515837,-0.028929415783471413,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,Ridge_10,64,0.014793784794316058,0.02136943470793578,zero,-0.028728042593151315,-0.13667160189073368,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,raw_drift,64,0.014821579302596557,0.02185544922657274,zero,-0.030660813043430046,-0.1889632128191412,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,selected_pipeline,64,0.014385405269339674,0.021232626567225136,zero,-0.00033020693411911495,-0.12216413808697757,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,smooth_slope,64,0.01733017398576847,0.027294872381918436,zero,-0.2051031030969226,-0.8544327072956552,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,zero,64,0.014380656676787812,0.020043590847105948,zero,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,AR5_changes,64,0.016237995685128577,0.022232477687083144,zero,-0.06397664641072742,-0.20624921120057027,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,GRU,64,0.01574652251803669,0.02135606476025309,zero,-0.031773412571824755,-0.11302205564783852,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,HistBoost,64,0.01660655646221504,0.024322826503977338,zero,-0.08812618230216263,-0.4437413527698979,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,NBEATS_demo,64,0.015298219851853671,0.020965073247989557,zero,-0.002398877894540963,-0.07264022723084129,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,Ridge_10,64,0.016743079633719866,0.023369937182575726,zero,-0.09707171160219175,-0.3328350413143937,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,raw_drift,64,0.016533148526248,0.02270961067335986,zero,-0.0833162087657322,-0.2585796050855842,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,selected_pipeline,64,0.016785753116156432,0.023593598669106142,zero,-0.09986784418000161,-0.35846885989562494,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,smooth_slope,64,0.019146930204719373,0.029630919817257042,zero,-0.2545813524839762,-1.1426516943741118,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,zero,64,0.015261609115112304,0.020242742187253276,zero,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,AR5_changes,64,0.0015300155505195007,0.0029766278362068467,filter_nochange,-0.05786054993567591,0.01935622593445452,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,GRU,64,0.0014710912876908094,0.0030220908884399877,filter_nochange,-0.01712001428598997,-0.010827947384334013,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,HistBoost,64,0.0015532506270462682,0.002998014535276688,filter_nochange,-0.07392540027269257,0.005213996752362893,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,NBEATS_demo,64,0.0014732521299602314,0.0029591247945501956,filter_nochange,-0.018614031644623275,0.030854999394174465,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,Ridge_10,64,0.0016052879407740944,0.002972199317358291,filter_nochange,-0.10990426421208355,0.022271987760436818,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_drift,64,0.0015103861102996885,0.003089015848490487,filter_nochange,-0.04428865491878575,-0.05609374607494222,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_nochange,64,0.0014463300957886505,0.0030058610514512767,filter_nochange,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,persistence,64,0.0022346821676433593,0.0029760701694003903,filter_nochange,-0.5450706406166834,0.01972363582508907,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,selected_pipeline,64,0.0014536963728641883,0.0029508353774889227,filter_nochange,-0.00509308151506116,0.03627713959024159,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,smooth_slope,64,0.0016462034917431867,0.0033801397759188356,filter_nochange,-0.13819348469378978,-0.26453692993573563,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,AR5_changes,64,0.002929004345386857,0.0045991682332888065,filter_nochange,-0.0805148518428831,-0.0021482233021483665,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,GRU,64,0.0027939624782643835,0.004580087709691367,filter_nochange,-0.030697669674396577,0.00614973286719156,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,HistBoost,64,0.0031220426581740485,0.004900238625986359,filter_nochange,-0.15172702476770783,-0.13764779014201367,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,NBEATS_demo,64,0.0027717848637127396,0.00442814882520925,filter_nochange,-0.022516308680774255,0.07099556738724455,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,Ridge_10,64,0.0032199348019621016,0.0046313303770163464,filter_nochange,-0.18783960869347882,-0.016213345789076072,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_drift,64,0.002783511942526698,0.004825883436023046,filter_nochange,-0.026842448670006736,-0.10338487015384668,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_nochange,64,0.0027107488068222885,0.004594236158082319,filter_nochange,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,persistence,64,0.003974644487902093,0.005306950630956692,filter_nochange,-0.4662533385236174,-0.3343306561129713,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,selected_pipeline,64,0.002723687200119951,0.0043805488182808655,filter_nochange,-0.004772996031612964,0.09086072833517178,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,smooth_slope,64,0.0031538242847579806,0.005612311838615253,filter_nochange,-0.16345132268271412,-0.4923028097192834,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,AR5_changes,64,0.004606658507764663,0.0068800274128997495,filter_nochange,-0.03221134201186282,-0.03192093535880791,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,GRU,64,0.004395963287960436,0.006813836809532405,filter_nochange,0.014999015609183708,-0.012160866962372952,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,HistBoost,64,0.004889559871209426,0.007562473243095331,filter_nochange,-0.09560088901781194,-0.24679137210323465,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,NBEATS_demo,64,0.0044307407017116635,0.006813254707306325,filter_nochange,0.00720646036347794,-0.011987937688140438,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,Ridge_10,64,0.004860650689555351,0.006955457744726291,filter_nochange,-0.08912322518809246,-0.0546722500279504,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_drift,64,0.004586446154116922,0.0072331648634114945,filter_nochange,-0.027682371468726652,-0.1405722840850412,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_nochange,64,0.00446290243118809,0.006772779817329074,filter_nochange,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,persistence,64,0.0060643657557246655,0.007767344929587084,filter_nochange,-0.35883897289465105,-0.315258960685322,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,selected_pipeline,64,0.004349657223639655,0.0067251448715755936,filter_nochange,0.02537478900659884,0.01401711904577052,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,smooth_slope,64,0.005126441489287148,0.00865905934687349,filter_nochange,-0.14867881795085847,-0.634585034818264,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,AR5_changes,64,0.006376601378202049,0.009335697414791257,filter_nochange,-0.004478764253238676,-0.03719108362317636,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,GRU,64,0.006368393105959019,0.009453405209163157,filter_nochange,-0.0031857502054237763,-0.06351051491733029,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,HistBoost,64,0.006663425129475112,0.01041739165666616,filter_nochange,-0.04966088402978963,-0.2914667378738298,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,NBEATS_demo,64,0.0062009965432271025,0.009313745138261548,filter_nochange,0.023183514940738892,-0.03231904569884336,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,Ridge_10,64,0.006607026065508281,0.009576154852512874,filter_nochange,-0.04077658050846544,-0.09130855824643547,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_drift,64,0.006501161043066042,0.009915323150363357,filter_nochange,-0.024100115944766243,-0.1699814773152657,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_nochange,64,0.006348169423912725,0.009166792056892926,filter_nochange,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,persistence,64,0.008054262619428348,0.010090027773030906,filter_nochange,-0.26875356998018884,-0.21157405256002138,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,selected_pipeline,64,0.006109678391768028,0.00923470595532677,filter_nochange,0.03756847308553746,-0.014872263805832953,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,smooth_slope,64,0.0073158199858456285,0.012188365670980524,filter_nochange,-0.15242985769848705,-0.7678938746109469,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,AR5_changes,64,0.008057535409722136,0.011411250289367968,filter_nochange,-0.005017185791972967,-0.04491526350677488,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,GRU,64,0.0080544130471501,0.011698183557589888,filter_nochange,-0.004627733200628148,-0.09812422981020252,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,HistBoost,64,0.008516654478707697,0.013036792240568494,filter_nochange,-0.06228315251655636,-0.36381700095302816,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,NBEATS_demo,64,0.00784973229194022,0.011539616672450341,filter_nochange,0.020902117569696066,-0.06855621821352198,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,Ridge_10,64,0.008486406000855956,0.01212290441806725,filter_nochange,-0.05851025689286882,-0.17930997777523539,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_drift,64,0.008357021936387612,0.01226901566135416,filter_nochange,-0.042372169779853586,-0.20790854235759726,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_nochange,64,0.008017311070529248,0.01116330253183517,filter_nochange,0.0,0.0,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,persistence,64,0.009726545684013432,0.012133423590901445,filter_nochange,-0.21319300179921186,-0.18135746527277963,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,selected_pipeline,64,0.007771690251478294,0.011510980966690437,filter_nochange,0.03063630896820624,-0.06325952654898637,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,smooth_slope,64,0.00945715123282831,0.015514518202364696,filter_nochange,-0.17959140535182105,-0.9314843673604332,SPY,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,AR5_changes,64,0.028026785343802353,0.045343066817638285,zero,-0.013976230071883977,-0.027224002017899318,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,GRU,64,0.027927973319708123,0.0448287667664982,zero,-0.010401326905224773,-0.004053745304733125,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,HistBoost,64,0.02931662363422555,0.04516242366663709,zero,-0.06064106697994176,-0.01905554922214381,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,NBEATS_demo,64,0.028231859349005614,0.044952111471306413,zero,-0.021395567114322445,-0.0095865805290829,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,Ridge_10,64,0.02943161656800598,0.04283332121639878,zero,-0.06480137648562567,0.08334296175145373,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,raw_drift,64,0.027459269173599005,0.04545677036645367,zero,0.006555839507578987,-0.032382252966114855,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,selected_pipeline,64,0.028419198135056188,0.04569782686597782,zero,-0.028173264723792002,-0.04336069717971691,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,smooth_slope,64,0.028869209312698027,0.048732460809735256,zero,-0.0444541414564632,-0.18653365633560837,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,zero,64,0.027640475696176274,0.04473817988436152,zero,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,AR5_changes,64,0.032740158258468766,0.04418108254372598,zero,-0.03235941639555784,-0.08861231330604946,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,GRU,64,0.03220036886827593,0.04327080467460011,zero,-0.01533883098980926,-0.044216327214084084,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,HistBoost,64,0.033913560303933075,0.0437248122930398,zero,-0.06935901307709025,-0.06624361619616126,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,NBEATS_demo,64,0.03330604669025147,0.04376455722583948,zero,-0.05020295418692067,-0.0681828831206015,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,Ridge_10,64,0.0338807904362772,0.045241466358368045,zero,-0.06832571686692823,-0.1414946542072275,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,raw_drift,64,0.03226513774924095,0.04389617748268781,zero,-0.017381116907481786,-0.07461758419844067,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,selected_pipeline,64,0.03260481227415795,0.04429094994198421,zero,-0.028091700269339714,-0.09403326305136717,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,smooth_slope,64,0.0373397280341101,0.049161825289649,zero,-0.1773925934426932,-0.34789646587875,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,zero,64,0.03171391449382981,0.042344765464334536,zero,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,AR5_changes,64,0.04054439784860288,0.055840436369024624,zero,-0.03372291430846963,-0.11817651456784661,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,GRU,64,0.04015123609912545,0.05478351774215443,zero,-0.02369883376885884,-0.07624857805804619,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,HistBoost,64,0.042111914055962485,0.05729136493813105,zero,-0.0736884214581428,-0.17703966382612846,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,NBEATS_demo,64,0.03938811425754461,0.05496419625672234,zero,-0.004242223832337633,-0.08335931731290414,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,Ridge_10,64,0.04192806978131118,0.05810124870713265,zero,-0.06900111446986013,-0.21055267605596084,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,raw_drift,64,0.040028957140699026,0.05508689733120617,zero,-0.020581200557603152,-0.0882016596334183,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,selected_pipeline,64,0.03952718180038654,0.055715538964483606,zero,-0.007787900012042881,-0.1131800937340286,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,smooth_slope,64,0.04560678976067224,0.06140099388598883,zero,-0.16279402643244212,-0.3519591255328889,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,zero,64,0.03922172691288931,0.0528072583389731,zero,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,AR5_changes,64,0.04683729051723923,0.06422704943182503,zero,-0.021726014630202517,-0.1225986025775998,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,GRU,64,0.04643443293604192,0.06408981024478322,zero,-0.01293793004301258,-0.117806231767275,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,HistBoost,64,0.04594540582905492,0.0622715058696706,zero,-0.0022701114832677227,-0.05527898883933746,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,NBEATS_demo,64,0.046712065925457326,0.06280030305457932,zero,-0.01899431897312942,-0.07327752233465001,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,Ridge_10,64,0.048235042053689156,0.06571791308481166,zero,-0.05221708469444075,-0.17531988066407989,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,raw_drift,64,0.04802068876753597,0.06535031675233526,zero,-0.04754110266461842,-0.16220823636842163,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,selected_pipeline,64,0.04678529447510191,0.06427513770696602,zero,-0.020591753695745618,-0.12428026288806593,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,smooth_slope,64,0.057118833217117776,0.07639728287399043,zero,-0.24601139772960812,-0.5883433193046597,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,zero,64,0.04584134087472681,0.06061857494281679,zero,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,AR5_changes,64,0.05068340995725192,0.06868052628940415,zero,-0.02410096139132878,-0.10323981177228703,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,GRU,64,0.050788494445042666,0.0687467679914387,zero,-0.02622428192293036,-0.1053689662660875,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,HistBoost,64,0.05176298662651971,0.07101831813561156,zero,-0.04591471673701841,-0.1796236275453169,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,NBEATS_demo,64,0.050720341268180515,0.06804472072711301,zero,-0.024847189615895937,-0.08290801611220577,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,Ridge_10,64,0.05433294719709021,0.0746303454952342,zero,-0.09784293335225591,-0.30266756834516273,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,raw_drift,64,0.053414449167149484,0.07188460484994821,zero,-0.07928390750352743,-0.20857742037956495,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,selected_pipeline,64,0.05216146496158233,0.06972345237820073,zero,-0.05396630691959392,-0.13699999561705445,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,smooth_slope,64,0.06318694849826118,0.08692096851041224,zero,-0.2767454825757001,-0.7670620916271851,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,zero,64,0.04949063800154447,0.06538808999616436,zero,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,AR5_changes,64,0.005672516811004162,0.009014324705387058,filter_nochange,-0.02612503369270036,-0.014961997041196273,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,GRU,64,0.005603967247229523,0.008944171418042372,filter_nochange,-0.013724819505336994,0.0007742577131237827,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,HistBoost,64,0.005863324726844005,0.00903248473332726,filter_nochange,-0.060641066979754354,-0.019055549222122714,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,NBEATS_demo,64,0.005632942331813523,0.008910629825735084,filter_nochange,-0.018966242428461344,0.008254610523034223,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,Ridge_10,64,0.005886323313601068,0.008566664243279641,filter_nochange,-0.06480137648561501,0.08334296175146516,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_drift,64,0.005491853834719798,0.009091354073290672,filter_nochange,0.006555839507567773,-0.03238225296611574,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_nochange,64,0.00552809513923519,0.008947635976872238,filter_nochange,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,persistence,64,0.007822961056302445,0.010531918943364079,filter_nochange,-0.4151277898203376,-0.38547406918402616,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,selected_pipeline,64,0.005677635243404644,0.008915836776160372,filter_nochange,-0.027050928105073035,0.0070952137198625476,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,smooth_slope,64,0.0057738418625395,0.009746492161946929,filter_nochange,-0.04445414145645654,-0.1865336563355957,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,AR5_changes,64,0.010346423108580853,0.014708698417177014,filter_nochange,-0.03350013238768024,-0.06628360197474459,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,GRU,64,0.010145423461895495,0.014265877671221377,filter_nochange,-0.01342235678551007,-0.0030468881042533535,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,HistBoost,64,0.010596013298289388,0.014708031463050397,filter_nochange,-0.05843159820918764,-0.06618690461855836,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,NBEATS_demo,64,0.010338922273862357,0.01433455606037371,filter_nochange,-0.03275087695967116,-0.012727815502644013,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,Ridge_10,64,0.010709663014846535,0.014487608140310143,filter_nochange,-0.06978402366820657,-0.034469343721533985,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_drift,64,0.010176856829039682,0.014703634242120936,filter_nochange,-0.016562223458656877,-0.06554948980675523,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_nochange,64,0.010011051556111233,0.014244193943092546,filter_nochange,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,persistence,64,0.013608808425556215,0.018793566351425935,filter_nochange,-0.3593785177590796,-0.7407750231113737,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,selected_pipeline,64,0.01012128417378827,0.014231858563634844,filter_nochange,-0.011011092796714639,0.0017312370679180011,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,smooth_slope,64,0.011405114602791186,0.016470645774792056,filter_nochange,-0.13925240908673064,-0.3370433794525731,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,AR5_changes,64,0.015681536538585582,0.02162019864826865,filter_nochange,-0.0428584718514462,-0.105094639684163,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,GRU,64,0.015150766929096823,0.020968916107199097,filter_nochange,-0.007561064451689026,-0.039518150524185724,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,HistBoost,64,0.015484291465756805,0.02159939033740251,filter_nochange,-0.02974121802084695,-0.10296847170977941,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,NBEATS_demo,64,0.015155253224414467,0.02099910764919503,filter_nochange,-0.00785941347301855,-0.04251375124307155,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,Ridge_10,64,0.01604823460838388,0.02190294076591475,filter_nochange,-0.06724474214835063,-0.13418779551665505,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_drift,64,0.015442778496321509,0.021449385496982484,filter_nochange,-0.02698050947925834,-0.08770173584600305,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_nochange,64,0.015037070668606885,0.020566478874515178,filter_nochange,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,persistence,64,0.01992563910889586,0.027707927204563988,filter_nochange,-0.325101114972806,-0.8150483078131872,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,selected_pipeline,64,0.015020695172849811,0.020967631354208052,filter_nochange,0.0010890083659219618,-0.03939077311155037,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,smooth_slope,64,0.01765657829174088,0.024370776696090328,filter_nochange,-0.1742033193075816,-0.4041672938067262,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,AR5_changes,64,0.02138738721359719,0.029073630563747708,filter_nochange,-0.03879367249674748,-0.12688791008048006,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,GRU,64,0.02076624977182292,0.028734711195110396,filter_nochange,-0.008624786609849,-0.10076815593339794,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,HistBoost,64,0.021431885188286495,0.029099336169423024,filter_nochange,-0.04095495634523871,-0.12888147892670765,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,NBEATS_demo,64,0.021176683225397827,0.028463609119059336,filter_nochange,-0.028559698261120925,-0.08009540352749789,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,Ridge_10,64,0.021593961054764535,0.029593143279698312,filter_nochange,-0.04882704389293013,-0.16752013210989336,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_drift,64,0.021344899909304577,0.029074419387159017,filter_nochange,-0.03673004768742305,-0.12694906017471652,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_nochange,64,0.02058867682760568,0.02738791099424604,filter_nochange,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,persistence,64,0.026417949805668695,0.03544566860808349,filter_nochange,-0.2831300440952582,-0.6749757739827371,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,selected_pipeline,64,0.020798005202110517,0.028414344995041176,filter_nochange,-0.01016716014621033,-0.07635983321103668,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,smooth_slope,64,0.024831029175358066,0.03377889971138291,filter_nochange,-0.20605269504566515,-0.5211539955824118,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,AR5_changes,64,0.02694705139095254,0.03607041946846931,filter_nochange,-0.03391799479177271,-0.134977374394752,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,GRU,64,0.026648655134224514,0.035504595960756315,filter_nochange,-0.022468977423096836,-0.09964870705488016,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,HistBoost,64,0.02664718633872789,0.036375265461596015,filter_nochange,-0.022412621940168576,-0.15424276559677108,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,NBEATS_demo,64,0.0265163066779925,0.03528338675589104,filter_nochange,-0.017390965417407367,-0.08598880613578319,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,Ridge_10,64,0.027650718045650093,0.03755547452897722,filter_nochange,-0.06091663022952587,-0.23035751440760444,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_drift,64,0.027215726441834925,0.036554229721191885,filter_nochange,-0.04422665401495429,-0.16562832395777027,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_nochange,64,0.0260630451609265,0.03385771077881262,filter_nochange,0.0,0.0,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,persistence,64,0.03212020584278541,0.04246148208354334,filter_nochange,-0.23240418164719112,-0.5728058504172118,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,selected_pipeline,64,0.02675209215444388,0.03565329981633701,filter_nochange,-0.02643770093873732,-0.10887931157748909,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,smooth_slope,64,0.03211621271345854,0.043480369835324544,filter_nochange,-0.2322509712566856,-0.6491922196431501,MCHP,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,AR5_changes,64,0.03566279553681789,0.052403684029122,zero,0.00526979293189922,-0.034066267361941405,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,GRU,64,0.03669965705184179,0.052325168010176996,zero,-0.02365103209080166,-0.030969922347088064,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,HistBoost,64,0.03672745810616645,0.05316000416327151,zero,-0.024426477428409088,-0.06413014184348298,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,NBEATS_demo,64,0.037443832180908784,0.054904467306823745,zero,-0.044408055456160334,-0.13511561219261825,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,Ridge_10,64,0.036879393067631924,0.05228539001916915,zero,-0.02866434755060432,-0.02940301579577942,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,raw_drift,64,0.03695222794076003,0.05431896518610855,zero,-0.030695905854935868,-0.11103491672594479,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,selected_pipeline,64,0.03566279553681789,0.052403684029122,zero,0.00526979293189922,-0.034066267361941405,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,smooth_slope,64,0.03912988443041489,0.05949886294273154,zero,-0.09143653648332362,-0.33303657270249265,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,zero,64,0.03585172671284563,0.05153326201508827,zero,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,AR5_changes,64,0.04270216386027455,0.05426620571569501,zero,-0.01980776438237264,-0.0727178957689012,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,GRU,64,0.042625545035639964,0.05398759287132191,zero,-0.017977963145229925,-0.06173110406922944,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,HistBoost,64,0.04661344869486066,0.05961243486368876,zero,-0.11321658216672503,-0.29449487088182735,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,NBEATS_demo,64,0.044970270839770114,0.05756792944771658,zero,-0.07397441307277375,-0.20722391729378176,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,Ridge_10,64,0.047385498512157294,0.06003929073335929,zero,-0.13165457984631246,-0.31309974929899753,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,raw_drift,64,0.04477084061388212,0.05731886469364245,zero,-0.0692116452308773,-0.19680052707839302,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,selected_pipeline,64,0.04270216386027455,0.05426620571569501,zero,-0.01980776438237264,-0.0727178957689012,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,smooth_slope,64,0.049165646394146376,0.06515905074041975,zero,-0.17416785008108282,-0.5465932473036728,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,zero,64,0.04187275813313336,0.05239461987845666,zero,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,AR5_changes,64,0.0538784593707919,0.06819371757084278,zero,-0.016909909118443478,-0.050212075863887096,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,GRU,64,0.054753715112789675,0.06860139735325416,zero,-0.03342961379160392,-0.06280649196542831,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,HistBoost,64,0.05974606269037498,0.07534355492415824,zero,-0.12765591091846873,-0.28197775621565646,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,NBEATS_demo,64,0.058074378552835745,0.07337287528849182,zero,-0.09610430041897966,-0.21579219506095604,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,Ridge_10,64,0.0574578135668805,0.07285317861410802,zero,-0.08446716284757283,-0.19863038968992774,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,raw_drift,64,0.057477247018249494,0.07378225446485685,zero,-0.08483395264624738,-0.22939690943685043,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,selected_pipeline,64,0.0538784593707919,0.06819371757084278,zero,-0.016909909118443478,-0.050212075863887096,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,smooth_slope,64,0.06460639484197156,0.08976988504495674,zero,-0.2193905296192573,-0.8199087481790373,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,zero,64,0.05298252961021788,0.06654353415917144,zero,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,AR5_changes,64,0.059491948818645536,0.07892828020550377,zero,0.010106810278813994,-0.06570990491918938,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,GRU,64,0.061895934646837264,0.07911211183759166,zero,-0.029893378768067747,-0.07067996986272651,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,HistBoost,64,0.07222196266994496,0.09146118116697627,zero,-0.20170931386382374,-0.43102537200131064,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,NBEATS_demo,64,0.06312275511598156,0.08133958540500709,zero,-0.050306581756568214,-0.1318206966432358,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,Ridge_10,64,0.0652284387377595,0.08678776903490736,zero,-0.08534328703007499,-0.28851883559491265,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,raw_drift,64,0.06734734344128798,0.08820499372965478,zero,-0.12059997936141853,-0.33094487796526084,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,selected_pipeline,64,0.059491948818645536,0.07892828020550377,zero,0.010106810278813994,-0.06570990491918938,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,smooth_slope,64,0.08076664978874623,0.11264962057334084,zero,-0.343885318435198,-1.1708668603493493,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,zero,64,0.060099361664870204,0.07645627565639293,zero,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,AR5_changes,64,0.060552257116081296,0.0781684744978692,zero,-0.001376463759896751,-0.06744586757161763,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,GRU,64,0.06317384223719678,0.07993087646794292,zero,-0.04473064679217553,-0.11612217707564376,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,HistBoost,64,0.0716123910068015,0.09340918165702879,zero,-0.1842822428618789,-0.5242693671648202,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,NBEATS_demo,64,0.06370762228032183,0.08125690400232846,zero,-0.053557977059740525,-0.15346156928500543,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,Ridge_10,64,0.062101966799592644,0.08717633851897712,zero,-0.02700462159642658,-0.32763849351573704,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,raw_drift,64,0.0694621736990034,0.09020231448466003,zero,-0.14872325453431823,-0.42140536239504534,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,selected_pipeline,64,0.060552257116081296,0.0781684744978692,zero,-0.001376463759896751,-0.06744586757161763,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,smooth_slope,64,0.08564255516425388,0.11851076139477128,zero,-0.4163045792551707,-1.4535683673900768,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,zero,64,0.060469023696366905,0.07565867066550565,zero,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,AR5_changes,64,0.007248620842239775,0.010257862725264728,filter_nochange,-0.010916559235427448,0.009445200138925025,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,GRU,64,0.007346263520108129,0.010473761555471276,filter_nochange,-0.02453412899021523,-0.03269032003356731,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,HistBoost,64,0.007345491621233345,0.010632000832654408,filter_nochange,-0.02442647742841375,-0.06413014184348742,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,NBEATS_demo,64,0.0074945574288223585,0.011013076662517812,filter_nochange,-0.04521568638101958,-0.1417790386900557,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,Ridge_10,64,0.00737587861352644,0.010457078003833884,filter_nochange,-0.028664347550608982,-0.029403015795773868,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_drift,64,0.007390445588152064,0.010863793037221812,filter_nochange,-0.030695905854940753,-0.11103491672594812,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_nochange,64,0.007170345342569148,0.010306652403017735,filter_nochange,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,persistence,64,0.010095344760842631,0.01311495452620403,filter_nochange,-0.4079300617375077,-0.6191918872446907,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,selected_pipeline,64,0.007121542373493141,0.010375322678696224,filter_nochange,0.006806222956413643,-0.013369819449159825,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,smooth_slope,64,0.007825976886082983,0.011899772588546355,filter_nochange,-0.09143653648332095,-0.3330365727024822,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,AR5_changes,64,0.014213474129508949,0.01812794988458632,filter_nochange,-0.042931387953181854,-0.10229504871516149,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,GRU,64,0.013992274501450665,0.01761264255133386,filter_nochange,-0.026700589416277953,-0.04051780284686801,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,HistBoost,64,0.014617288329409894,0.01896562721580082,filter_nochange,-0.0725617584129652,-0.20652102026638341,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,NBEATS_demo,64,0.014575579308103825,0.01872996023033921,filter_nochange,-0.06950130696495527,-0.1767228405471699,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,Ridge_10,64,0.014699397400696888,0.018885883896462227,filter_nochange,-0.0785866139057616,-0.19639641723347045,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_drift,64,0.014450275689709656,0.018836154754454746,filter_nochange,-0.06030699771609438,-0.19010415817191473,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_nochange,64,0.013628388495818294,0.017266319127617696,filter_nochange,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,persistence,64,0.019118391990345665,0.02499008610324538,filter_nochange,-0.40283585225149054,-1.0947682262589886,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,selected_pipeline,64,0.01407931738785928,0.017854871736357497,filter_nochange,-0.0330874697459167,-0.06933539517231657,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,smooth_slope,64,0.015612292132364633,0.021480216577694243,filter_nochange,-0.14557140318938488,-0.5476679342520654,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,AR5_changes,64,0.02199911782866642,0.028163620043091333,filter_nochange,-0.06274956450403235,-0.16948868086095326,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,GRU,64,0.02123055581900271,0.02691667589915289,filter_nochange,-0.025621305660847637,-0.06822298891933332,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,HistBoost,64,0.02303228911406121,0.02969704728929515,filter_nochange,-0.11266076286038706,-0.30030613211571855,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,NBEATS_demo,64,0.022419160306124987,0.028872519391533957,filter_nochange,-0.08304128544797851,-0.22910343659371213,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,Ridge_10,64,0.02237044283743895,0.028834913216502122,filter_nochange,-0.08068780613880544,-0.22590373125667473,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_drift,64,0.022100983350754597,0.02888002324975202,filter_nochange,-0.06767055906755615,-0.22974239825217513,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_nochange,64,0.020700189925679284,0.026042967275059455,filter_nochange,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,persistence,64,0.028048559775216253,0.03560618275269934,filter_nochange,-0.35499045544606656,-0.8692608179593377,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,selected_pipeline,64,0.02186466586769268,0.027470189593301917,filter_nochange,-0.05625436028337227,-0.11260852495495666,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,smooth_slope,64,0.0248467299910394,0.03429778102787814,filter_nochange,-0.20031410727377885,-0.7344073933440123,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,AR5_changes,64,0.028897531974074776,0.03824725005439449,filter_nochange,-0.07410059768867883,-0.20346196321024346,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,GRU,64,0.028215979773423563,0.03628271234531314,filter_nochange,-0.04876778979587115,-0.08300741316982974,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,HistBoost,64,0.0315053595071305,0.04106520767041138,filter_nochange,-0.17103168212997666,-0.38733066204284294,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,NBEATS_demo,64,0.02840240761837809,0.03756797110664331,filter_nochange,-0.05569717947077879,-0.16109410603670615,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,Ridge_10,64,0.0299017876997058,0.03930541608352321,filter_nochange,-0.11142806482671275,-0.27097419825045477,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_drift,64,0.029492173894708602,0.03960930787587241,filter_nochange,-0.09620301262627784,-0.29070337440031313,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_nochange,64,0.026903934357972066,0.034864547340641136,filter_nochange,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,persistence,64,0.03547561254989175,0.044238240771484263,filter_nochange,-0.31860314844173554,-0.6100065172157256,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,selected_pipeline,64,0.028960574310069293,0.037580108908245195,filter_nochange,-0.07644383623348427,-0.16184450091581426,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,smooth_slope,64,0.03467412026238266,0.048981599721643926,filter_nochange,-0.28881225329440197,-0.9737760182313067,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,AR5_changes,64,0.03484815163268038,0.046030610571195854,filter_nochange,-0.08157317177264822,-0.2171594384175073,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,GRU,64,0.03446118355742132,0.04436366966773848,filter_nochange,-0.06956294256610951,-0.13059985564057364,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,HistBoost,64,0.038312092551688916,0.05051531187057095,filter_nochange,-0.1890826203682423,-0.46588559481991476,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,NBEATS_demo,64,0.034493558418201786,0.04539871322884976,filter_nochange,-0.07056775284210692,-0.18397105975574224,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,Ridge_10,64,0.035558557115672754,0.0479115995831965,filter_nochange,-0.10362184510211625,-0.3186676162873696,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_drift,64,0.03640685089637203,0.048604912300258006,filter_nochange,-0.1299501222703523,-0.35710774067309137,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_nochange,64,0.03221987429252325,0.04172275715069241,filter_nochange,0.0,0.0,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,persistence,64,0.042695951982548115,0.05268288839730821,filter_nochange,-0.3251433445988299,-0.5943848358795307,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,selected_pipeline,64,0.03508932065075771,0.045402763106147395,filter_nochange,-0.0890582729213294,-0.18418230589227846,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,smooth_slope,64,0.04425951217949863,0.06201088854491232,filter_nochange,-0.37367116263917977,-1.2089704619991117,MRVL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,AR5_changes,64,0.03201417497946146,0.04488555177912023,zero,-0.021468249733638922,-0.014911077313883858,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,GRU,64,0.03208121407842229,0.04577451450875554,zero,-0.023607249446209178,-0.05550999364426312,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,HistBoost,64,0.03304546947255893,0.04596472785072827,zero,-0.05437350440598454,-0.06430044107614674,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,NBEATS_demo,64,0.03302087437221095,0.046019843318444206,zero,-0.05358875470930813,-0.06685433786020445,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,Ridge_10,64,0.032499042708155984,0.045574523804994174,zero,-0.03693880271523731,-0.0463070101251668,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,raw_drift,64,0.033063775367213964,0.046818874036518035,zero,-0.05495758599437717,-0.10422299257648127,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,selected_pipeline,64,0.03165019719395959,0.044838937514494984,zero,-0.009854901842055064,-0.012804173601794755,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,smooth_slope,64,0.03622482052687166,0.0515340032937214,zero,-0.1558162608981044,-0.3378351974899907,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,zero,64,0.03134133144893106,0.04455460235701867,zero,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,AR5_changes,64,0.04552868481341194,0.060320140705546,zero,-0.010742871380986951,-0.017971677510479234,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,GRU,64,0.0459057529957465,0.061055340511149005,zero,-0.019113835288272485,-0.04293758468850606,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,HistBoost,64,0.046481746415046786,0.06076482989571636,zero,-0.031900965970962814,-0.033036284851837294,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,NBEATS_demo,64,0.045068700400783694,0.06044691809519655,zero,-0.0005311561092686823,-0.022255202432957866,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,Ridge_10,64,0.04539592495329511,0.06010291582259736,zero,-0.007795584790817545,-0.01065304027103986,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,raw_drift,64,0.04606626497866058,0.06230019694024207,zero,-0.022677222703624267,-0.08590002280435982,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,selected_pipeline,64,0.044663042188941016,0.06007840511485037,zero,0.008474510263865032,-0.009828894891797058,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,smooth_slope,64,0.052999411739201086,0.07126899907528057,zero,-0.17659400490749277,-0.4210596957763604,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,zero,64,0.04504477459356769,0.059785311776950296,zero,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,AR5_changes,64,0.06179329616928875,0.07795080535649983,zero,-0.007621788629106119,-0.019029583804857086,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,GRU,64,0.06172049872377059,0.0784295984422638,zero,-0.006434729565940378,-0.031586291360357066,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,HistBoost,64,0.0628802461836386,0.07821598243953515,zero,-0.02534595266478279,-0.02597455175256358,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,NBEATS_demo,64,0.06141098800643026,0.07763683786674874,zero,-0.001387746123724387,-0.010837292959249734,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,Ridge_10,64,0.06337156585307188,0.07806698476227607,zero,-0.033357572610524855,-0.022069410694312896,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,raw_drift,64,0.06288546992329444,0.078680373490171,zero,-0.02543113267979491,-0.0381937378155035,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,selected_pipeline,64,0.06121247424233649,0.07611127616561818,zero,0.0018492845324112883,0.028498250414594528,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,smooth_slope,64,0.06973768525566641,0.08989800369833949,zero,-0.13716560708557912,-0.35533194549673985,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,zero,64,0.061325883249666556,0.07721954002610554,zero,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,AR5_changes,64,0.07547964128039919,0.09316393296074273,zero,-0.013843335039947169,-0.04311826696494725,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,GRU,64,0.07793394188312011,0.09578497815127686,zero,-0.04680952653268955,-0.10263743126571079,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,HistBoost,64,0.07485834778358964,0.09245422132256269,zero,-0.0054981142604257904,-0.027286102257905176,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,NBEATS_demo,64,0.07511972574480921,0.09367240079555902,zero,-0.009008945782853717,-0.05453554938827576,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,Ridge_10,64,0.07338701582660315,0.09210498985657667,zero,0.014264832050891907,-0.019539932422385276,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,raw_drift,64,0.074426012497734,0.09392234930920904,zero,0.0003090178434353996,-0.06017074714290849,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,selected_pipeline,64,0.07348144582756518,0.09101597024603791,zero,0.012996447285422374,0.004426957402705489,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,smooth_slope,64,0.08549730225094658,0.11080603098118823,zero,-0.1484006624913261,-0.47558665967487457,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,zero,64,0.07444901857289929,0.09121810353238366,zero,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,AR5_changes,64,0.0775150504237462,0.09751047915864097,zero,0.010104002687939873,-0.01784848853194032,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,GRU,64,0.07969871210350044,0.10014882793250604,zero,-0.017782168377624696,-0.07367365537516068,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,HistBoost,64,0.07759671400186657,0.09690114401534816,zero,0.009061128450412848,-0.005167327777414021,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,NBEATS_demo,64,0.0778692576777068,0.09770670656186611,zero,0.005580644436893878,-0.02194919099688164,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,Ridge_10,64,0.07821854171541687,0.09802356532312298,zero,0.001120157486758755,-0.028588215543800644,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,raw_drift,64,0.07730198702869981,0.0989812088666039,zero,0.01282490141376369,-0.04878402157438577,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,selected_pipeline,64,0.07587161240327087,0.09460731569120406,zero,0.031091316885707876,0.04185773991362296,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,smooth_slope,64,0.09277283602494588,0.12254784274012809,zero,-0.18474358899789678,-0.6076514486164828,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,zero,64,0.07830625705551766,0.09665175013858741,zero,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,AR5_changes,64,0.0063991455960902485,0.009074164910167966,filter_nochange,-0.02087966596398627,-0.03697479405283621,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,GRU,64,0.00640914631857023,0.009119413356122081,filter_nochange,-0.02247511868051788,-0.04734235640857931,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,HistBoost,64,0.006609093894511843,0.009192945570145716,filter_nochange,-0.05437350440599609,-0.0643004410761514,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,NBEATS_demo,64,0.006499189454217777,0.009073496535073465,filter_nochange,-0.03684003738128627,-0.03682203892716629,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,Ridge_10,64,0.006499808541631222,0.009114904760998866,filter_nochange,-0.036938802715243746,-0.04630701012516458,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_drift,64,0.006612755073442812,0.00936377480730364,filter_nochange,-0.05495758599438272,-0.10422299257647905,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_nochange,64,0.0062682662897861965,0.008910920471403775,filter_nochange,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,persistence,64,0.009296012802046477,0.011806309410329134,filter_nochange,-0.4830277420079985,-0.7554286657453821,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,selected_pipeline,64,0.006542875080462959,0.009132023093599352,filter_nochange,-0.04380936896765597,-0.05024075400117933,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,smooth_slope,64,0.007244964105374334,0.010306800658744316,filter_nochange,-0.1558162608981073,-0.3378351974899876,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,AR5_changes,64,0.013112502214128456,0.01807308594935337,filter_nochange,-0.022051188494796037,-0.05563169237150967,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,GRU,64,0.012951744401946352,0.017920597121629894,filter_nochange,-0.009520955110086993,-0.03789338784939966,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,HistBoost,64,0.013438410073292967,0.01810453733076572,filter_nochange,-0.04745400706896419,-0.05930897956914616,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,NBEATS_demo,64,0.012815265393982589,0.017897988558066184,filter_nochange,0.0011168720579159963,-0.035276234345522184,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,Ridge_10,64,0.013253982198742784,0.017784654339001036,filter_nochange,-0.03307881572123761,-0.022206527018789224,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_drift,64,0.013312088450006518,0.01857832607520704,filter_nochange,-0.03760789508330542,-0.11547785904836894,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_nochange,64,0.012829594409492946,0.01759041573801593,filter_nochange,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,persistence,64,0.0191038425393594,0.0232469806996321,filter_nochange,-0.48904493233425805,-0.7465495147085113,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,selected_pipeline,64,0.01341059088407507,0.018041867497351222,filter_nochange,-0.04528564629854781,-0.051987962139062205,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,smooth_slope,64,0.01561274153643065,0.021302380323710467,filter_nochange,-0.2169318092299457,-0.4665742673864719,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,AR5_changes,64,0.021222472748097458,0.028198868313688067,filter_nochange,-0.0034692834963501173,-0.030508787768939172,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,GRU,64,0.02099171164709996,0.028185837204769908,filter_nochange,0.007441870892930358,-0.029556581509283975,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,HistBoost,64,0.022082883924023466,0.02838697762153749,filter_nochange,-0.04415239316348929,-0.04430330287217221,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,NBEATS_demo,64,0.02093610540090865,0.028098887677968445,filter_nochange,0.010071119646637317,-0.023214291289613165,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,Ridge_10,64,0.022024748956359884,0.02814371075255704,filter_nochange,-0.04140357802588057,-0.026481338129273002,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_drift,64,0.02214483353202837,0.029000713122738015,filter_nochange,-0.047081577217366055,-0.08994779041993861,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_nochange,64,0.021149100522691436,0.027778310599528577,filter_nochange,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,persistence,64,0.03009620171849569,0.03630244050085088,filter_nochange,-0.42304878102048216,-0.707890352758292,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,selected_pipeline,64,0.02180524343510476,0.02823867407951979,filter_nochange,-0.031024624981536686,-0.03342019139442898,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,smooth_slope,64,0.02560851203422297,0.03370175268314204,filter_nochange,-0.21085584735610463,-0.4719508723173875,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,AR5_changes,64,0.030669767289963866,0.0396555796946987,filter_nochange,0.0018203520686813635,-0.02520721311234575,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,GRU,64,0.031409273872649204,0.04079098489025414,filter_nochange,-0.022247662969349102,-0.08475442435985303,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,HistBoost,64,0.031445192528760366,0.039821938959553264,filter_nochange,-0.023416673192746984,-0.033826956551903375,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,NBEATS_demo,64,0.030451349184961535,0.0400863072300633,filter_nochange,0.00892899769653377,-0.04759917733291674,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,Ridge_10,64,0.03106525960974678,0.03946680937478925,filter_nochange,-0.011051359046310605,-0.015469966905309995,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_drift,64,0.031214806391550918,0.040764204603363254,filter_nochange,-0.015918515441702308,-0.08333055588809235,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_nochange,64,0.03072569887948081,0.03916503115241594,filter_nochange,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,persistence,64,0.040891410203563995,0.04884097569074058,filter_nochange,-0.33085370536102054,-0.5551479412830995,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,selected_pipeline,64,0.03045515581191896,0.03926690471280455,filter_nochange,0.008805107041601756,-0.005209037289852558,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,smooth_slope,64,0.0363936173507094,0.0480993084159385,filter_nochange,-0.18446833360766068,-0.5082756210365305,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,AR5_changes,64,0.03873182004641201,0.04970320235186404,filter_nochange,0.014316847379315822,-0.018744775264504687,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,GRU,64,0.04016896457916498,0.051022324759220944,filter_nochange,-0.02225693490403846,-0.07353729828702771,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,HistBoost,64,0.0398401461976663,0.04992240981392914,filter_nochange,-0.01388886083659524,-0.0277505896016772,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,NBEATS_demo,64,0.03898727355767495,0.05012696634052445,filter_nochange,0.007815830333694151,-0.03619023846847402,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,Ridge_10,64,0.0391311164835038,0.04947907654158863,filter_nochange,0.0041551826170811434,-0.009577872855669467,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_drift,64,0.03976564342129006,0.051100806124708575,filter_nochange,-0.011992845327653878,-0.07684241898588029,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_nochange,64,0.039294391857498855,0.049243813039995546,filter_nochange,0.0,0.0,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,persistence,64,0.05034373380416571,0.06001936693405869,filter_nochange,-0.28119386569812055,-0.48552331730333553,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,selected_pipeline,64,0.03808281732377206,0.04918694029141176,filter_nochange,0.030833268475577102,0.002308509568570538,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,smooth_slope,64,0.04673023552958446,0.06188113320926478,filter_nochange,-0.18923422199920292,-0.5791128543428039,TXG,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,AR5_changes,64,0.015556920510009915,0.023705961837465837,zero,-0.005569667981081272,-0.01158546109596581,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,GRU,64,0.015940059453255113,0.023918027699095522,zero,-0.030335038460527874,-0.02976504557400239,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,HistBoost,64,0.016191816083891888,0.024355164219710304,zero,-0.046608106855944964,-0.06774990507544776,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,NBEATS_demo,64,0.016307592704788616,0.023936395059103263,zero,-0.054091686794544236,-0.03134722683812896,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,Ridge_10,64,0.016922172218428986,0.025208816192870347,zero,-0.09381693428691751,-0.14391122151957836,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,raw_drift,64,0.016170091228817254,0.023981916581039237,zero,-0.04520385366262958,-0.03527372770995796,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,selected_pipeline,64,0.015582311205117168,0.023750291830514733,zero,-0.0072108740817604655,-0.015372314830340628,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,smooth_slope,64,0.016482582642566634,0.024604070871765214,zero,-0.06540270259090653,-0.08968596098651571,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,zero,64,0.01547075354932305,0.02356982139004876,zero,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,AR5_changes,64,0.02145161202861462,0.028990056849996563,zero,-0.035612988699244896,-0.07775561060927871,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,GRU,64,0.021517891678340527,0.02898381076937809,zero,-0.038812751311538385,-0.07729124289395939,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,HistBoost,64,0.022645330624995345,0.030253421596522133,zero,-0.09324178049422449,-0.17373797905225108,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,NBEATS_demo,64,0.021576569783976984,0.02902451356043327,zero,-0.04164553647790825,-0.08031910901866124,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,Ridge_10,64,0.022930899437086018,0.03172597792213947,zero,-0.10702809970296401,-0.29077989926837344,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,raw_drift,64,0.021900856803276043,0.028862246092707967,zero,-0.057301042870840035,-0.06827338644220315,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,selected_pipeline,64,0.02071184154182796,0.027934015012580596,zero,0.00010068744549862618,-0.000665398487624369,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,smooth_slope,64,0.024096093858701692,0.030911692787188867,zero,-0.16327983853617956,-0.22537138801273127,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,zero,64,0.02071392717424138,0.027924726022312368,zero,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,AR5_changes,64,0.030113085136800152,0.03973203488218746,zero,-0.039972245889928315,-0.07473742753266066,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,GRU,64,0.029835622578616612,0.03983975754489569,zero,-0.03038992118046613,-0.08057304718393277,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,HistBoost,64,0.031129230646801266,0.04181969705508549,zero,-0.07506539969287074,-0.19064562928487172,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,NBEATS_demo,64,0.030106034962865978,0.039881947150298046,zero,-0.03972876418797289,-0.08286287484504329,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,Ridge_10,64,0.03110760947041574,0.04203599750240441,zero,-0.07431870026761112,-0.202994030597218,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,raw_drift,64,0.030483171276314606,0.03974583692687495,zero,-0.05275337781098921,-0.07548423803338578,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,selected_pipeline,64,0.028805111711814477,0.03827785348803217,zero,0.005199348258170811,0.002493099280864497,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,smooth_slope,64,0.033853693558204265,0.045047226269021905,zero,-0.16915625089406605,-0.3815190158346531,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,zero,64,0.028955662284075367,0.038325658137430905,zero,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,AR5_changes,64,0.03537585542287024,0.044324734550163794,zero,-0.052530747657654864,-0.10019267594086068,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,GRU,64,0.034634011327971885,0.04362541049287494,zero,-0.03045880874578355,-0.0657504278030061,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,HistBoost,64,0.03564882032595629,0.04536307725962715,zero,-0.06065221779866303,-0.15234223118557844,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,NBEATS_demo,64,0.03501215263027064,0.04405993549590828,zero,-0.04170957124667973,-0.08708668578749168,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,Ridge_10,64,0.03670103119029784,0.04709751482081855,zero,-0.09195843709712093,-0.24214542923884586,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,raw_drift,64,0.03554389202084361,0.044038201085382055,zero,-0.05753030693288941,-0.08601444814165782,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,selected_pipeline,64,0.03327553576631741,0.042196556822660054,zero,0.009959642807997326,0.00291888213056557,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,smooth_slope,64,0.0384634638192356,0.05147551414001079,zero,-0.14439574244162579,-0.48380848025787326,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,zero,64,0.03361028217142076,0.0422582753552547,zero,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,AR5_changes,64,0.03507987925665144,0.04528229275538557,zero,-0.04193273928786345,-0.10000339624079624,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,GRU,64,0.034823659654471525,0.04510044086774424,zero,-0.034322576493248214,-0.09118599720214493,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,HistBoost,64,0.035795719852630206,0.046826090450599836,zero,-0.06319443598883456,-0.1762862193234096,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,NBEATS_demo,64,0.03537670059589867,0.04534211915959623,zero,-0.05074884349444564,-0.10291193805663612,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,Ridge_10,64,0.03579135361180696,0.04753058140521501,zero,-0.06306475112794696,-0.21194654007017544,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,raw_drift,64,0.03576276804200583,0.0460911876989036,zero,-0.06221571054747366,-0.13965397200149576,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,selected_pipeline,64,0.03374566775516716,0.04352147438562424,zero,-0.0023043633074271153,-0.016118618253383676,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,smooth_slope,64,0.04273661351288369,0.05692556557897694,zero,-0.2693509136557992,-0.7384088255562629,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,zero,64,0.03366808425717356,0.04317490544649864,zero,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,AR5_changes,64,0.0031298606878154833,0.004770103220858907,filter_nochange,-0.011541124301722938,-0.0239599712224281,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,GRU,64,0.0031993016641401056,0.004785041296178155,filter_nochange,-0.0339837855797378,-0.03038328785096045,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,HistBoost,64,0.003238363216779047,0.00487103284394309,filter_nochange,-0.04660810685614081,-0.06774990507588541,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,NBEATS_demo,64,0.003265553191554235,0.004791118993828598,filter_nochange,-0.05539564738818448,-0.03300242309016421,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,Ridge_10,64,0.0033844344436857465,0.005041763238574003,filter_nochange,-0.09381693428687954,-0.14391122151953395,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_drift,64,0.0032340182457635397,0.004796383316207854,filter_nochange,-0.04520385366263757,-0.03527372770994752,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_nochange,64,0.003094150709864671,0.004713964278009781,filter_nochange,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,persistence,64,0.006033557641113602,0.007574032188561154,filter_nochange,-0.9499882865684626,-1.5815570003750805,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,selected_pipeline,64,0.003215874600015378,0.004821232626412571,filter_nochange,-0.03934000039578911,-0.04602869747510385,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,smooth_slope,64,0.0032965165285133297,0.0049208141743529955,filter_nochange,-0.06540270259088632,-0.08968596098648107,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,AR5_changes,64,0.006524124411071475,0.009354531245582455,filter_nochange,-0.04400640314465942,-0.08407952621697579,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,GRU,64,0.0064494434451411314,0.009215706925374632,filter_nochange,-0.03205577165578166,-0.05214208545962995,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,HistBoost,64,0.0068332316870059195,0.009563674348505446,filter_nochange,-0.09347050821085379,-0.13309583131232272,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,NBEATS_demo,64,0.006565912144575886,0.00929750629938736,filter_nochange,-0.050693378837132874,-0.07090277799111755,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,Ridge_10,64,0.006963032862044721,0.010000667347302204,filter_nochange,-0.11424161086583129,-0.2390106680044768,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_drift,64,0.006652707209058598,0.009244322325177006,filter_nochange,-0.06458253811305514,-0.058686175791256456,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_nochange,64,0.006249122985663796,0.008984449226233674,filter_nochange,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,persistence,64,0.011257803659136659,0.014112148927821021,filter_nochange,-0.8015013762672536,-1.4671944793231262,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,selected_pipeline,64,0.006666754239600184,0.00939058699802718,filter_nochange,-0.06683037842181716,-0.09245250190392129,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,smooth_slope,64,0.007203670070995302,0.009748134097949092,filter_nochange,-0.1527489677385685,-0.17722661521850358,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,AR5_changes,64,0.010686812463137144,0.014788036826597245,filter_nochange,-0.04296985632861117,-0.09757478360425154,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,GRU,64,0.01064746470500072,0.014651662409523588,filter_nochange,-0.03912974724164475,-0.07742458412200093,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,HistBoost,64,0.011227633407902879,0.015262520668098361,filter_nochange,-0.0957507903075201,-0.169137535782673,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,NBEATS_demo,64,0.010799035919537875,0.014712297215130975,filter_nochange,-0.05392220368220291,-0.08636071831043712,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,Ridge_10,64,0.011150751880602189,0.015682842930996442,filter_nochange,-0.08824760675679211,-0.23441917595318573,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_drift,64,0.010936372636609903,0.014631592005655811,filter_nochange,-0.06732545713755633,-0.07447481159644909,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_nochange,64,0.010246520930869571,0.014115408887358655,filter_nochange,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,persistence,64,0.016328082984836817,0.02005086570676764,filter_nochange,-0.5935245821482096,-1.0178056342998296,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,selected_pipeline,64,0.011005077885850117,0.015040740068378527,filter_nochange,-0.07403068418034953,-0.13540678638769377,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,smooth_slope,64,0.012028565454146614,0.016118797013847653,filter_nochange,-0.17391703343017628,-0.3040022064663388,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,AR5_changes,64,0.015350887130226226,0.02025287206218361,filter_nochange,-0.04373526659335636,-0.10643600426244682,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,GRU,64,0.015335399721554399,0.019878005992479353,filter_nochange,-0.04268224897412698,-0.06585639545910826,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,HistBoost,64,0.01587430427830397,0.020737192496245616,filter_nochange,-0.07932336856778655,-0.15998661844712747,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,NBEATS_demo,64,0.015292548007764292,0.02000905712576839,filter_nochange,-0.03976868153419488,-0.0799566159002727,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,Ridge_10,64,0.015967289534795995,0.02144072491856377,filter_nochange,-0.08564560849116254,-0.24002942535579264,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_drift,64,0.015619533524348833,0.020046505873444417,filter_nochange,-0.06200103282629277,-0.08400287044694132,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_nochange,64,0.014707644382209992,0.01925411092347786,filter_nochange,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,persistence,64,0.020868192488125492,0.02585782424583986,filter_nochange,-0.418867083390128,-0.8035866812902934,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,selected_pipeline,64,0.015732421140638914,0.020575973512113196,filter_nochange,-0.06967647107843233,-0.14202035682767233,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,smooth_slope,64,0.01686085652867944,0.022743177353000077,filter_nochange,-0.14640088450016653,-0.39526062097278647,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,AR5_changes,64,0.018927783935105455,0.024697935917795247,filter_nochange,-0.0488334619650137,-0.1108838852360352,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,GRU,64,0.01883349038475679,0.024473682178590347,filter_nochange,-0.04360843238985379,-0.09080213593749509,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,HistBoost,64,0.019186906626528707,0.024997954095804503,filter_nochange,-0.06319206572184743,-0.13803673333676603,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,NBEATS_demo,64,0.018874648638403088,0.024451908821691067,filter_nochange,-0.045889108976626236,-0.08886210426682895,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,Ridge_10,64,0.01971423779229417,0.026116082517647108,filter_nochange,-0.09241273804609307,-0.2421195926958275,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_drift,64,0.01921660642134032,0.024663729675922355,filter_nochange,-0.06483780189036636,-0.1078089036760852,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_nochange,64,0.018046510357939777,0.0234329154781733,filter_nochange,0.0,0.0,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,persistence,64,0.02443732210319939,0.030550294632136328,filter_nochange,-0.3541300571967865,-0.6997230108564201,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,selected_pipeline,64,0.019236731742911434,0.025336543291934403,filter_nochange,-0.06595299375693453,-0.16907419388832534,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,smooth_slope,64,0.0212952707285628,0.029011264611315857,filter_nochange,-0.1800215280509172,-0.5327829767818224,GOOGL,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,AR5_changes,64,0.02513451501372233,0.03745334360659433,zero,0.0027413976196196677,0.020279551723942135,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,GRU,64,0.024919913769035667,0.03760261570692765,zero,0.011256100896307908,0.01245454343158281,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,HistBoost,64,0.024566453186844587,0.03677629747245979,zero,0.025280306495659488,0.05538031867922044,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,NBEATS_demo,64,0.025340712771604254,0.037604527818275134,zero,-0.005439881697965276,0.012354106541830667,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,Ridge_10,64,0.02491361644635126,0.03634922846368248,zero,0.011505958879068245,0.07719194468047896,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,raw_drift,64,0.025564518483989614,0.03860908797295849,zero,-0.014319789339561684,-0.041118271309002585,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,selected_pipeline,64,0.024888941946047148,0.03661810773416589,zero,0.012484965542784665,0.06348922429622295,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,smooth_slope,64,0.028074049996930278,0.04174246151766071,zero,-0.11389011675023153,-0.21696221332229793,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,zero,64,0.025203608125042146,0.0378389876465441,zero,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,AR5_changes,64,0.0328268597142464,0.04228252200889972,zero,-0.015239897763457355,-0.01763654640002832,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,GRU,64,0.03257758845903718,0.04206229146312272,zero,-0.007530658260900269,-0.007063336220791694,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,HistBoost,64,0.03432129958540127,0.0432364492671654,zero,-0.06145860388436164,-0.06407188910133166,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,NBEATS_demo,64,0.033007148332920316,0.04192901856999998,zero,-0.020815703685307163,-0.0006917566821993404,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,Ridge_10,64,0.03352028470939812,0.041792009763644736,zero,-0.03668552878977649,0.005837353009386259,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,raw_drift,64,0.032646357867181765,0.04291168231681205,zero,-0.009657497303736218,-0.04814655258489342,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,selected_pipeline,64,0.0330186372325955,0.04134447410973728,zero,-0.021171022148089857,0.027015610341816543,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,smooth_slope,64,0.03857781382053867,0.048795368811098375,zero,-0.19310028738764773,-0.35527721806233115,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,2,zero,64,0.03233409146602982,0.04191452375034596,zero,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,AR5_changes,64,0.03814446798987473,0.04867463722082903,zero,-0.0012684155214055526,-0.0010211359053651226,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,GRU,64,0.037966499113588216,0.04843316681388384,zero,0.003403156115635797,0.008886176277657531,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,HistBoost,64,0.041065879951257815,0.051451936326344004,zero,-0.0779536514102841,-0.11851354515454093,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,NBEATS_demo,64,0.038656355537984306,0.04839581813430164,zero,-0.014705143341462223,0.010414158960967312,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,Ridge_10,64,0.039640062426805935,0.0481822385077105,zero,-0.04052683361039899,0.019129333433154705,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,raw_drift,64,0.03914068377264501,0.050799366658279735,zero,-0.027418456428951687,-0.09032104865208357,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,selected_pipeline,64,0.03842624174727495,0.04789710675534702,zero,-0.00866480033092798,0.030704131385648314,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,smooth_slope,64,0.04484706602939462,0.05813914075389281,zero,-0.1772074198532625,-0.42815392801220487,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,3,zero,64,0.038096146246669724,0.04864980452750419,zero,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,AR5_changes,64,0.04634315870773657,0.05909476858405258,zero,-0.052473260926598764,-0.05747469720085774,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,GRU,64,0.04563977352144093,0.05918833343677076,zero,-0.03649907786806539,-0.06082595128170709,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,HistBoost,64,0.049275209944490764,0.06175938767536232,zero,-0.11906141789302027,-0.1549890713665638,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,NBEATS_demo,64,0.04623608747285775,0.05857046912911213,zero,-0.05004162668183265,-0.0387937241150198,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,Ridge_10,64,0.04899149133949042,0.060876215228016804,zero,-0.11261804515545148,-0.12219208085078548,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,raw_drift,64,0.047540386212040875,0.06046775558060621,zero,-0.07966281750112292,-0.10718351231936785,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,selected_pipeline,64,0.046579927538134426,0.058611881865872725,zero,-0.057850383892819934,-0.04026321890509976,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,smooth_slope,64,0.05342080904702656,0.06770693653533329,zero,-0.21320977393099239,-0.38815589058823274,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,4,zero,64,0.04403262337224226,0.05746640695059999,zero,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,AR5_changes,64,0.04553758881656604,0.05993061700600687,zero,-0.011882442000187732,-0.04648169062186458,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,GRU,64,0.045370135791686375,0.05994910060589802,zero,-0.008161498925707056,-0.047127294910363604,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,HistBoost,64,0.04980305328486022,0.06472932736115893,zero,-0.10666454870831421,-0.22077696098039268,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,NBEATS_demo,64,0.045790110144097354,0.05951037682760639,zero,-0.0174936722870791,-0.03185705288994445,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,Ridge_10,64,0.050042484443093796,0.06366004551634107,zero,-0.11198490473463485,-0.18077738320933134,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,raw_drift,64,0.0462709471140504,0.06207004063816436,zero,-0.02817826275408808,-0.12253061868310322,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,selected_pipeline,64,0.04616657173556879,0.06013164436691618,zero,-0.025858956536797928,-0.05351396531505892,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,smooth_slope,64,0.05629313917958911,0.07093018398216448,zero,-0.25087956172543247,-0.46587287673682787,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,5,zero,64,0.04500284511958909,0.05858452753014,zero,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,AR5_changes,64,0.005024602003625381,0.0073887575548830416,filter_nochange,0.0031978797049628804,0.04675656234505554,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,GRU,64,0.0049807478337697,0.007515268392220824,filter_nochange,0.011897858223536284,0.0138340992489413,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,HistBoost,64,0.004913290637370574,0.007355259494492713,filter_nochange,0.025280306495317983,0.05538031867901183,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,NBEATS_demo,64,0.005024280965023192,0.007502459728474391,filter_nochange,0.0032615687213520816,0.017192782539543372,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,Ridge_10,64,0.0049827232892701995,0.007269845692736413,filter_nochange,0.011505958879065581,0.07719194468048529,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_drift,64,0.00511290369679783,0.007721817594591666,filter_nochange,-0.014319789339556577,-0.041118271309010135,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,filter_nochange,64,0.0050407216250083625,0.00756779752930876,filter_nochange,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,persistence,64,0.006350334559233797,0.008685015353681885,filter_nochange,-0.25980663715450913,-0.3170497263417307,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,selected_pipeline,64,0.0049971913899432285,0.007327201379779154,filter_nochange,0.008635714943901807,0.06257345564756411,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,1,smooth_slope,64,0.005614809999385989,0.008348492303532098,filter_nochange,-0.11389011675023308,-0.21696221332230436,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,AR5_changes,64,0.010166696450335605,0.013290049969606449,filter_nochange,-0.04610719050038514,0.013249753113334095,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,GRU,64,0.009764605179042526,0.013228478181783658,filter_nochange,-0.004733813003386489,0.022371650784257846,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,HistBoost,64,0.01038877486840721,0.013664370312975568,filter_nochange,-0.06895805765615526,-0.04311757411216566,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,NBEATS_demo,64,0.009938541395244194,0.013206192435355847,filter_nochange,-0.02263106481432131,0.025662857072106138,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,Ridge_10,64,0.009976647508520467,0.01297423284716773,filter_nochange,-0.026552011927778008,0.0595896682839927,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_drift,64,0.009891659746045625,0.013748049255523287,filter_nochange,-0.017807154651495516,-0.05593254340272846,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,filter_nochange,64,0.009718599148020923,0.013378979614240286,filter_nochange,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,persistence,64,0.012728287241068045,0.01618162884303602,filter_nochange,-0.3096833244387911,-0.4628455911848459,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,selected_pipeline,64,0.009816714035139673,0.012970004502901668,filter_nochange,-0.0100955791698365,0.0602025339113309,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,2,smooth_slope,64,0.011319606261302365,0.015549398948239378,filter_nochange,-0.164736407881116,-0.3507694465737665,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,AR5_changes,64,0.015052094223650322,0.01931060036590911,filter_nochange,-0.034688903546541194,0.004728105944582839,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,GRU,64,0.014697715298516115,0.019275077472322037,filter_nochange,-0.01032870914176609,0.008386450921297972,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,HistBoost,64,0.015515171324560345,0.019998549551473344,filter_nochange,-0.0665210679403343,-0.0674491223480187,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,NBEATS_demo,64,0.014754997953218593,0.01918529684026462,filter_nochange,-0.014266349067857842,0.017602533400258524,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,Ridge_10,64,0.014900228450069747,0.018859882846245526,filter_nochange,-0.024249570094493134,0.0506460342014593,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_drift,64,0.014751962965512691,0.020114555870691664,filter_nochange,-0.014057722410660611,-0.07986902293860565,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,filter_nochange,64,0.014547458827534693,0.019356414171658558,filter_nochange,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,persistence,64,0.01930782907954552,0.023758294544329133,filter_nochange,-0.327230364316319,-0.5065401559898539,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,selected_pipeline,64,0.014631214889828992,0.01878533893057927,filter_nochange,-0.0057574359403422815,0.058135869185061306,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,3,smooth_slope,64,0.017481106164319388,0.023226520779277043,filter_nochange,-0.2016604667223416,-0.4398541634513906,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,AR5_changes,64,0.020644863744906428,0.026208742121894092,filter_nochange,-0.048501091501584215,-0.0288469426429101,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,GRU,64,0.020104745969158136,0.026264165512426725,filter_nochange,-0.021069858028260224,-0.03320293025849108,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,HistBoost,64,0.02176881169150316,0.027126716181671527,filter_nochange,-0.10558360187118598,-0.10218085519495723,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,NBEATS_demo,64,0.020287039763120143,0.025919072137416618,filter_nochange,-0.03032810474302905,-0.006230128599070683,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,Ridge_10,64,0.021023326523836983,0.02612115410583075,filter_nochange,-0.06772227124413965,-0.021981746040168115,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_drift,64,0.020409781102926364,0.027093572080700047,filter_nochange,-0.036561830978734555,-0.0994891562668716,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,filter_nochange,64,0.01968988293120459,0.0258387078765331,filter_nochange,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,persistence,64,0.02602939465128304,0.031945074440075334,filter_nochange,-0.32196797422454804,-0.5285027520627843,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,selected_pipeline,64,0.020298723611308675,0.025540965622017537,filter_nochange,-0.03092149822481627,0.022913436512542074,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,4,smooth_slope,64,0.02415418694175059,0.03128515798865197,filter_nochange,-0.22673085594993325,-0.46600388431945117,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,AR5_changes,64,0.024873051832828674,0.03200306705228031,filter_nochange,-0.04500353559844217,-0.04027341784010474,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,GRU,64,0.024563159732964857,0.032341755584825195,filter_nochange,-0.03198388918801265,-0.06240836036659325,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,HistBoost,64,0.026319187386430493,0.033146778439066556,filter_nochange,-0.10576072681990434,-0.1159556849640333,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,NBEATS_demo,64,0.02489168217752062,0.03169890117782316,filter_nochange,-0.04578626126489249,-0.020593302626004117,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,Ridge_10,64,0.026144182289217027,0.03252923526978496,filter_nochange,-0.09840815317655083,-0.07476126375252368,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_drift,64,0.024668001278396315,0.03314150290711028,filter_nochange,-0.03638864765471905,-0.11560048957814084,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,filter_nochange,64,0.023801882946342973,0.03137746478985689,filter_nochange,0.0,0.0,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,persistence,64,0.03176264311351519,0.039301526898912004,filter_nochange,-0.3344592604340719,-0.5688562241466051,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,selected_pipeline,64,0.02460846437346266,0.03137044087409717,filter_nochange,-0.03388729492275799,0.00044765436896321287,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,smoothed,5,smooth_slope,64,0.029874276996758126,0.038514506689633334,filter_nochange,-0.2551224230496496,-0.5066520866130868,NVDA,stocks,log units,observed trading sessions
+ema_alpha_0.2,returns,1,AR5_changes,28,1.0316653734804349,1.1648058609492247,zero,0.0008083549826296554,-0.0045942427298206745,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,GRU,28,0.6002738367906966,0.7488750002930361,zero,0.4186209813165166,0.5847570611888369,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,HistBoost,28,0.4448915776124675,0.6081640417387356,zero,0.5691122734988208,0.7261422299458203,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,NBEATS_demo,28,0.4555175504217272,0.5758635564709282,zero,0.5588207744099494,0.7544597008454726,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,Ridge_10,28,0.5072355012369638,0.6315956681004181,zero,0.508730749407299,0.7046330653780557,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,Seasonal_EMA_changes,28,1.0832228398219672,1.3447021889497224,zero,-0.04912623711570685,-0.33886199601365896,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,raw_drift,28,1.0291190476190477,1.161205861839936,zero,0.0032745301510433977,0.001605845689247043,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,selected_pipeline,28,0.667158726970511,0.9913525880482162,zero,0.35384142666294327,0.27232093624012355,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,smooth_slope,28,1.0255093688736132,1.1953355370994598,zero,0.006770587047347898,-0.05794539585412317,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,zero,28,1.0325,1.1621393449766928,zero,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,AR5_changes,28,1.7767249995834005,2.1237940166753226,zero,0.01605419326868629,-0.016387129881948903,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,GRU,28,0.9498623866529358,1.1491178675364961,zero,0.473968614986507,0.7024475529281423,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,HistBoost,28,0.6351824941810417,0.821419826831504,zero,0.6482375427794864,0.8479575938610442,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,NBEATS_demo,28,0.7166061545228785,0.9194769828776875,zero,0.6031453258180262,0.8094907376665936,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,Ridge_10,28,0.7243335383701694,0.9003169650997004,zero,0.5988659202063935,0.8173476606370192,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,Seasonal_EMA_changes,28,1.0497635065894884,1.3882228003010324,zero,0.41864362767987184,0.56573711097639,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,raw_drift,28,1.797428571428571,2.106792535043326,zero,0.004588607594936844,-0.0001794173082090289,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,selected_pipeline,28,0.8275448200853982,1.2417495517361348,zero,0.5417077736868838,0.6525419363723406,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,smooth_slope,28,1.9519139171893336,2.3843576962635717,zero,-0.08096498578523237,-0.2810827607158439,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,2,zero,28,1.8057142857142854,2.106603562948798,zero,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,AR5_changes,28,2.4968300547880404,3.031296301979396,zero,0.01685780433040185,-0.01292789046927223,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,GRU,28,1.3075014059509755,1.6296285352693571,zero,0.4851632770830079,0.7072485927721048,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,HistBoost,28,0.878382625769456,1.108551240045508,zero,0.6541314369069784,0.8645330683063678,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,NBEATS_demo,28,0.8698880780241061,1.1278731988007689,zero,0.6574762173439043,0.8597695577701463,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,Ridge_10,28,0.9148552079434683,1.1747716355794298,zero,0.6397701332805918,0.8478651697673631,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,Seasonal_EMA_changes,28,1.1766448243668244,1.6262545807779103,zero,0.5366888611690187,0.7084595527111777,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,raw_drift,28,2.5458214285714282,3.0142318465904374,zero,-0.00243285051328912,-0.001555587270153591,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,selected_pipeline,28,0.9970156119248086,1.4687124421295874,zero,0.607418968725993,0.7622090631171266,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,smooth_slope,28,3.0155066904435515,3.624826863853288,zero,-0.1873743120857747,-0.4484259116641003,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,3,zero,28,2.5396428571428573,3.0118901279524035,zero,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,AR5_changes,28,3.097262561434572,3.659144713321375,zero,-0.029968547745463425,-0.007622640871141284,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,GRU,28,1.636344287208386,2.064524715647323,zero,0.45584750544139174,0.6792409494607063,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,HistBoost,28,0.9639556960603708,1.1663882801633625,zero,0.679444661642632,0.8976176624785092,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,NBEATS_demo,28,1.011019051769995,1.2000169039813173,zero,0.6637941395539209,0.891628901920078,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,Ridge_10,28,0.8628037006019509,1.1078902882728112,zero,0.7130819047879497,0.9076297206249816,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,Seasonal_EMA_changes,28,1.174912475737743,1.6783753527033292,zero,0.6092927634126271,0.7880092395376278,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,raw_drift,28,3.007714285714286,3.648620887534409,zero,-0.00019002375296928165,-0.0018350608969999183,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,selected_pipeline,28,1.1314378861619618,1.6453951468734986,zero,0.6237498715850958,0.7962586542528918,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,smooth_slope,28,4.148742420268792,4.694236336919493,zero,-0.37962930840292386,-0.6583211823296382,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,4,zero,28,3.0071428571428567,3.645277767194154,zero,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,AR5_changes,28,3.504626485124721,3.9316519660934586,zero,-0.025708598134130067,-0.01627115736774898,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,GRU,28,1.9107677925883484,2.3013114893932363,zero,0.4407703753269179,0.6518148230992081,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,HistBoost,28,1.0200273592813145,1.2544895248509833,zero,0.7014658089278059,0.8965349801794316,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,NBEATS_demo,28,1.0955502013987952,1.4113172798343987,zero,0.6793623326103662,0.8690490104112139,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,Ridge_10,28,0.7166278614153828,0.9702854554057648,zero,0.7902625679980064,0.938104580679861,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,Seasonal_EMA_changes,28,1.2046894787326825,1.7536851997373695,zero,0.6474202424530666,0.7978085716424195,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,raw_drift,28,3.4098214285714277,3.910488890547476,zero,0.0020382565067418312,-0.005359948039925344,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,selected_pipeline,28,1.1878861702202843,1.7308174529944862,zero,0.6523381126145293,0.8030472729847395,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,smooth_slope,28,4.979207408719543,5.495752315933728,zero,-0.45727822142936403,-0.9857006133881319,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,5,zero,28,3.416785714285713,3.9000508238446616,zero,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,AR5_changes,28,0.10543877494441212,0.14217860502077875,filter_nochange,0.4894006055960679,0.6258100690990245,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,GRU,28,0.11969516923453075,0.14952550388484612,filter_nochange,0.4203623765882296,0.5861393377279938,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,HistBoost,28,0.08897831552249384,0.12163280834774773,filter_nochange,0.5691122734988197,0.7261422299458182,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,NBEATS_demo,28,0.0922304356963857,0.11487734024468724,filter_nochange,0.5533635075235566,0.7557175074192197,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,Ridge_10,28,0.1014471002473929,0.1263191336200839,filter_nochange,0.508730749407299,0.704633065378055,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,Seasonal_EMA_changes,28,0.21664456796439374,0.26894043778994486,filter_nochange,-0.04912623711570685,-0.3388619960136594,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,filter_drift,28,0.2058238095238098,0.2322411723679874,filter_nochange,0.0032745301510433977,0.001605845689247376,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,filter_nochange,28,0.20650000000000027,0.23242786899533882,filter_nochange,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,persistence,28,0.34410450027629885,0.41406056651452655,filter_nochange,-0.6663656187714209,-2.1735938300987483,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,selected_pipeline,28,0.0922304356963857,0.11487734024468724,filter_nochange,0.5533635075235566,0.7557175074192197,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,1,smooth_slope,28,0.20510187377472316,0.23906710741989226,filter_nochange,0.006770587047346788,-0.05794539585412317,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,AR5_changes,28,0.26267344997716663,0.3427801522505696,filter_nochange,0.4970144026041782,0.6706972160902613,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,GRU,28,0.27885385676047164,0.3388388791533674,filter_nochange,0.46603102163166066,0.6782263028946011,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,HistBoost,28,0.18438584466512062,0.243822642912776,filter_nochange,0.6469250156866604,0.8333857523004629,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,NBEATS_demo,28,0.20959358239524203,0.2702995103526403,filter_nochange,0.5986554664715248,0.7952355375976872,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,Ridge_10,28,0.2217913531233759,0.27022577374932827,filter_nochange,0.5752983171398318,0.7953472401789736,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,Seasonal_EMA_changes,28,0.370703528234461,0.483481928946336,filter_nochange,0.2901508103618484,0.34487441603280966,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,filter_drift,28,0.5199085714285714,0.5972096547875198,filter_nochange,0.004442499179341475,0.00041965520611220164,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,filter_nochange,28,0.5222285714285715,0.597335005312286,filter_nochange,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,persistence,28,0.6753014919319286,0.7918059757542032,filter_nochange,-0.29311479470497304,-0.7571207914232851,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,selected_pipeline,28,0.20959358239524203,0.2702995103526403,filter_nochange,0.5986554664715248,0.7952355375976872,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,2,smooth_slope,28,0.5480787539558707,0.6585397352055828,filter_nochange,-0.04949974769971943,-0.21542464143070728,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,AR5_changes,28,0.4589453329026792,0.5984699084145136,filter_nochange,0.494942959279543,0.6839456378455853,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,GRU,28,0.4691620527641686,0.5910924212704145,filter_nochange,0.4836997328445376,0.6916897710720618,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,HistBoost,28,0.32079157689442667,0.42903001656847095,filter_nochange,0.6469774657263929,0.8375751374585803,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,NBEATS_demo,28,0.33518259001175704,0.4214296814754199,filter_nochange,0.6311405414198779,0.8432789288046836,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,Ridge_10,28,0.34752846336902454,0.4365831169444735,filter_nochange,0.6175542386166781,0.8318057959792821,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,Seasonal_EMA_changes,28,0.5255391230062596,0.6944957315132453,filter_nochange,0.42165827775254805,0.5743855999212968,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,filter_drift,28,0.9084183809523811,1.0648963477573994,filter_nochange,0.0003099142154933121,-0.0006721816799704072,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,filter_nochange,28,0.9087,1.0645386261797043,filter_nochange,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,persistence,28,1.0017237220327395,1.1578974796965262,filter_nochange,-0.10237011338476898,-0.1830888704819622,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,selected_pipeline,28,0.33518259001175704,0.4214296814754199,filter_nochange,0.6311405414198779,0.8432789288046836,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,3,smooth_slope,28,1.0267186291086354,1.2379542935348917,filter_nochange,-0.12987633884520244,-0.3523414899848969,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,AR5_changes,28,0.6265890993403497,0.82982572705,filter_nochange,0.5243360743734287,0.7141460755643037,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,GRU,28,0.7549643304654571,0.915158699837084,filter_nochange,0.4268823100891914,0.6523332210441957,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,HistBoost,28,0.4327403321371997,0.5427948599588737,filter_nochange,0.671492904396156,0.8776956731816739,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,NBEATS_demo,28,0.4312576339253207,0.5451965349929101,filter_nochange,0.6726184682668399,0.8766109721013331,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,Ridge_10,28,0.43262894292988047,0.5527192449321584,filter_nochange,0.6715774635237912,0.8731823966410062,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,Seasonal_EMA_changes,28,0.6075456930797039,0.8699068412013881,filter_nochange,0.5387925361739558,0.6858653368138581,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,filter_drift,28,1.3206680380952385,1.5530326812033215,filter_nochange,-0.002561557663967262,-0.0012247079996414723,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,filter_nochange,28,1.317293714285714,1.552082548066859,filter_nochange,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,persistence,28,1.2836489193206353,1.4800650744722486,filter_nochange,0.025540845295327408,0.0906480763262909,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,selected_pipeline,28,0.4312576339253207,0.5451965349929101,filter_nochange,0.6726184682668399,0.8766109721013331,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,4,smooth_slope,28,1.5941866096278114,1.9039341262782472,filter_nochange,-0.21019829696237435,-0.5047841400675894,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,AR5_changes,28,0.7237097082468417,1.0003937522213804,filter_nochange,0.556715165648182,0.7392101989129019,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,GRU,28,0.8841970210360987,1.1208254145929486,filter_nochange,0.4584138839952222,0.6726407617015999,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,HistBoost,28,0.5337637815196566,0.6645389440157234,filter_nochange,0.6730603627701528,0.8849227339463486,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,NBEATS_demo,28,0.5845460092817879,0.764738539576058,filter_nochange,0.6419553614622602,0.8476036321794695,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,Ridge_10,28,0.4657033938492989,0.6071794785741428,filter_nochange,0.714748538748144,0.9039310970565098,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,Seasonal_EMA_changes,28,0.6912713426310407,1.0276683020301416,filter_nochange,0.5765842310549149,0.7247961002047693,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,filter_drift,28,1.6337723542857145,1.961731439452964,filter_nochange,-0.0007140973589159216,-0.0028310359595917767,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,filter_nochange,28,1.632606514285714,1.9589604555091908,filter_nochange,0.0,0.0,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,persistence,28,1.5080448536027393,1.6769226870608496,filter_nochange,0.07629619237276652,0.2672180853410572,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,selected_pipeline,28,0.5845460092817879,0.764738539576058,filter_nochange,0.6419553614622602,0.8476036321794695,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,smoothed,5,smooth_slope,28,2.257820607055161,2.56813105297346,filter_nochange,-0.3829545498555027,-0.7186325229820645,ELNINO,nonfinancial,degrees Celsius,monthly
+ema_alpha_0.2,returns,1,AR5_changes,24,1.0992909205820125,1.2408753614715435,zero,0.026278571914804094,0.012738130296711558,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,1,GRU,24,0.6128085230077358,0.815093115497642,zero,0.45719119571191336,0.5740187426878489,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,1,HistBoost,24,0.26667231161626354,0.3626667970204283,zero,0.7637890578043792,0.9156681486464778,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,1,NBEATS_demo,24,0.15596963831421265,0.20264516619515446,zero,0.8618464174371243,0.9736701406863292,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,1,Ridge_10,24,0.21902740793174622,0.2636766817306329,zero,0.8059915929004641,0.9554221118348477,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,1,Seasonal_EMA_changes,24,0.441153525285948,0.5576195509383319,zero,0.6092384348823479,0.8006335729197923,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,1,raw_drift,24,1.0865486111111078,1.2400129948635807,zero,0.03756535646183168,0.014109881006527214,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,1,selected_pipeline,24,0.21196280961973427,0.32764207515251076,zero,0.812249218273717,0.9311703791985493,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,1,smooth_slope,24,1.1155863649143853,1.2656108012286513,zero,0.011844518990760888,-0.027014053188855414,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,1,zero,24,1.1289583333333297,1.2488548921578746,zero,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,AR5_changes,24,2.056500141980137,2.364353381551772,zero,0.02976207180020729,-0.003768552880155651,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,GRU,24,1.0888442693383602,1.305900740629188,zero,0.48629324819892406,0.6937831063897,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,HistBoost,24,0.4044013000980649,0.48699232394146535,zero,0.809207171174492,0.9574153539542419,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,NBEATS_demo,24,0.3277695872497009,0.42970314091346806,zero,0.8453613113034628,0.9668452416801279,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,Ridge_10,24,0.31360351210440024,0.3982380061728617,zero,0.8520447357871903,0.9715230009999014,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,Seasonal_EMA_changes,24,0.426481817791957,0.5504813961921027,zero,0.7987897851974248,0.9455880734871418,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,raw_drift,24,2.036708333333326,2.3504158364354724,zero,0.03909966581482249,0.008030727897512024,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,selected_pipeline,24,0.34779259037987126,0.43196188574305705,zero,0.8359146418494803,0.9664957680206258,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,smooth_slope,24,2.2520559589700446,2.6630748049051323,zero,-0.06249937124594562,-0.27343136291398884,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,2,zero,24,2.1195833333333263,2.3599108387112113,zero,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,AR5_changes,24,2.792576927720153,3.1938049450031456,zero,0.02859850329322733,0.007228198744920311,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,GRU,24,0.9889791244124598,1.3126659375498029,zero,0.6559823322574234,0.8322969015228342,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,HistBoost,24,0.5003788005451985,0.6471807394938105,zero,0.8259425869543476,0.9592353401498402,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,NBEATS_demo,24,0.4179054083974855,0.5598202212151231,zero,0.8546310630982004,0.9694978945589228,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,Ridge_10,24,0.3771957291124243,0.4802473261990872,zero,0.8687919776984101,0.9775527798373934,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,Seasonal_EMA_changes,24,0.5050386471625288,0.6628931068355957,zero,0.8243216532806622,0.9572319291421477,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,raw_drift,24,2.7899583333333298,3.1687812202603998,zero,0.029509384738024114,0.022724151586159147,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,selected_pipeline,24,0.39976373697444484,0.4788362290952259,zero,0.8609416669702632,0.9776844981019368,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,smooth_slope,24,3.48807855657882,3.9537399929015735,zero,-0.213332637986692,-0.5214191079782138,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,3,zero,24,2.874791666666662,3.2054106276211565,zero,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,AR5_changes,24,3.331420026382219,3.7035544160564933,zero,0.01818529338523589,0.010541244333071353,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,GRU,24,1.143115258014169,1.471828553139896,zero,0.6631084153946083,0.8437303341541936,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,HistBoost,24,0.5301598877484366,0.6571957480390405,zero,0.8437546840306688,0.9688434238952016,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,NBEATS_demo,24,0.453048835899532,0.5488452180725064,zero,0.8664803578118896,0.9782699860523157,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,Ridge_10,24,0.3708075431171937,0.4452299907969683,zero,0.8907179832404659,0.9857002298313626,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,Seasonal_EMA_changes,24,0.5663589241269497,0.6998180821087603,zero,0.8330863365991674,0.9646710642308388,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,raw_drift,24,3.30709722222222,3.6859665568658238,zero,0.025353553959190367,0.01991663776788999,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,selected_pipeline,24,0.4406118090979434,0.5325962154543143,zero,0.870145718445992,0.9795376085813693,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,smooth_slope,24,4.3969519643273145,5.001785597382475,zero,-0.29584143358329484,-0.8047222764818693,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,4,zero,24,3.3931249999999977,3.723230144422085,zero,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,AR5_changes,24,3.5623627988760505,3.955341261404906,zero,0.017561537799193006,0.02754795059947779,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,GRU,24,1.406077264174238,1.6756604761941116,zero,0.6122280455020773,0.825469099880046,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,HistBoost,24,0.4197116387941575,0.5514421296975283,zero,0.8842507402348775,0.9810983306432014,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,NBEATS_demo,24,0.4327272258392412,0.5560813611103835,zero,0.8806612649222432,0.9807789568626473,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,Ridge_10,24,0.38743350895200085,0.49235489856017445,zero,0.8931524939402697,0.9849319586714359,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,Seasonal_EMA_changes,24,0.5931308209320628,0.751230247407058,zero,0.8364247089644411,0.9649210643034818,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,raw_drift,24,3.556944444444444,3.956716879376342,zero,0.01905582686967333,0.026871419777670602,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,selected_pipeline,24,0.4869348120186217,0.6077821828444047,zero,0.8657117438845513,0.9770387141361502,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,smooth_slope,24,5.126984758305835,5.831658967855127,zero,-0.41393432001539887,-1.11390036559346,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,returns,5,zero,24,3.6260416666666657,4.010974138743188,zero,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,AR5_changes,24,0.10275351036438707,0.12895643287320813,filter_nochange,0.5449189428408656,0.7334356465439205,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,GRU,24,0.12280384946484446,0.16132959107030242,filter_nochange,0.45611876967035647,0.5828001767784958,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,HistBoost,24,0.053334462323244715,0.07253335940408513,filter_nochange,0.7637890578044096,0.9156681486464793,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,NBEATS_demo,24,0.03546876261332462,0.0459092528657864,filter_nochange,0.8429137658756576,0.9662155774817793,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,Ridge_10,24,0.04380548158635378,0.05273533634613053,filter_nochange,0.8059915929004399,0.9554221118348412,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,Seasonal_EMA_changes,24,0.08823070505719481,0.11152391018767062,filter_nochange,0.6092384348823165,0.8006335729197777,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,filter_drift,24,0.21730972222222533,0.24800259897272212,filter_nochange,0.03756535646179471,0.014109881006481917,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,filter_nochange,24,0.2257916666666612,0.2497709784315752,filter_nochange,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,persistence,24,0.42529822618566726,0.4780787790260699,filter_nochange,-0.8835869032028532,-2.663658483183142,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,selected_pipeline,24,0.0448831805033123,0.06646459419964784,filter_nochange,0.801218613751703,0.9291896461246208,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,1,smooth_slope,24,0.2231172729828709,0.2531221602457281,filter_nochange,0.011844518990767439,-0.02701405318883543,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,AR5_changes,24,0.27862766065905475,0.34074822733238297,filter_nochange,0.5391156055594117,0.7329682435584151,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,GRU,24,0.31264601097354944,0.3825363941795786,filter_nochange,0.48284507323868553,0.6634564885951808,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,HistBoost,24,0.11570256149354681,0.1357857094774989,filter_nochange,0.8086137432907982,0.9575962921538506,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,NBEATS_demo,24,0.08636074741560407,0.1224311416837361,filter_nochange,0.8571487099237367,0.9655269665534758,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,Ridge_10,24,0.07885286009791533,0.09864412304323514,filter_nochange,0.8695676782765427,0.977621130976806,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,Seasonal_EMA_changes,24,0.14144255457032293,0.18474981856527484,filter_nochange,0.7660366312623863,0.9215010688921339,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,filter_drift,24,0.5808005555555577,0.6560018587964924,filter_nochange,0.03928449994944405,0.010294823132614761,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,filter_nochange,24,0.6045499999999938,0.6594048680439052,filter_nochange,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,persistence,24,0.8251588477304234,0.9101207305867478,filter_nochange,-0.3649141472672761,-0.9049944536010384,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,selected_pipeline,24,0.10068453138930995,0.13117004320670556,filter_nochange,0.8334554108191035,0.9604300933955165,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,2,smooth_slope,24,0.6227423351782756,0.7237858546526008,filter_nochange,-0.030092358247096218,-0.20480256764776006,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,AR5_changes,24,0.45176243952195705,0.5221576940960602,filter_nochange,0.5620186438493238,0.7893970199425804,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,GRU,24,0.3996712384336523,0.5287238884224171,filter_nochange,0.6125207947592478,0.7840670021240671,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,HistBoost,24,0.16295368538922853,0.19938811686303654,filter_nochange,0.8420172420884581,0.9692914230200936,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,NBEATS_demo,24,0.15593558410989297,0.20973886367930447,filter_nochange,0.8488212550984348,0.9660203446070545,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,Ridge_10,24,0.1208435739037957,0.16083577601582233,filter_nochange,0.8828427780837975,0.9800185745848202,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,Seasonal_EMA_changes,24,0.20765776001819583,0.2715205531980704,filter_nochange,0.7986768721980911,0.9430535614643241,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,filter_drift,24,1.0076521111111159,1.1276503412082155,filter_nochange,0.023086473015452524,0.01777708946091794,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,filter_nochange,24,1.0314649999999996,1.1378091598330535,filter_nochange,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,persistence,24,1.1722297438998008,1.270765386995947,filter_nochange,-0.1364706935279445,-0.2473602573001361,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,selected_pipeline,24,0.13656759668126264,0.17160289228640935,filter_nochange,0.8675984190629225,0.9772537213335786,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,3,smooth_slope,24,1.1317978110767204,1.3424737955634156,filter_nochange,-0.0972721430942598,-0.3921075315361404,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,AR5_changes,24,0.5314933346522276,0.6068244065286135,filter_nochange,0.6313904386042504,0.8571550878879015,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,GRU,24,0.5494812617475233,0.7188444102812397,filter_nochange,0.6189151703652719,0.7995488756600153,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,HistBoost,24,0.23850782781409188,0.3063731251088969,filter_nochange,0.8345863248547949,0.9635883776583283,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,NBEATS_demo,24,0.19528152506631594,0.26187394555053306,filter_nochange,0.8645653056957181,0.9733974492892024,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,Ridge_10,24,0.14914697457575934,0.2014596966153012,filter_nochange,0.8965612599491077,0.9842560012096377,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,Seasonal_EMA_changes,24,0.26511210895713805,0.3443834954450452,filter_nochange,0.8161353081363929,0.9539930592095629,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,filter_drift,24,1.4007355777777757,1.589487454144865,filter_nochange,0.028539977281305196,0.019939456304701397,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,filter_nochange,24,1.4418869999999846,1.6055752014635205,filter_nochange,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,persistence,24,1.3910986096850568,1.5450881471299593,filter_nochange,0.035223557959069174,0.07392700851485468,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,selected_pipeline,24,0.18845238871435774,0.2303033167422783,filter_nochange,0.8693015550356167,0.9794250361119373,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,4,smooth_slope,24,1.7801405245884585,2.0314046750344166,filter_nochange,-0.23459086917940009,-0.600779786535846,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,AR5_changes,24,0.4729569425767555,0.5806227598180959,filter_nochange,0.7401887555449709,0.9164810533472573,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,GRU,24,0.6395274048681804,0.8157714095338288,filter_nochange,0.6486859670213386,0.8351329535237475,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,HistBoost,24,0.2664342605011096,0.33991142988249573,filter_nochange,0.8536386496218635,0.9713761245325125,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,NBEATS_demo,24,0.21010459866858375,0.2587886605544649,filter_nochange,0.8845824379944476,0.983408433869172,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,Ridge_10,24,0.1818804436939511,0.24598142395052552,filter_nochange,0.9000869208924036,0.9850100039165497,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,Seasonal_EMA_changes,24,0.3174355592399228,0.4092309628134285,filter_nochange,0.8256219113074591,0.9585109139751717,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,filter_drift,24,1.7736199066666671,1.9845730371948365,filter_nochange,0.025690599590901142,0.024266827490777798,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,filter_nochange,24,1.8203867333333221,2.009099990302857,filter_nochange,0.0,0.0,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,persistence,24,1.472632356980668,1.7266860664960595,filter_nochange,0.19103324034661506,0.26137557340119577,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,selected_pipeline,24,0.20722288769479982,0.2513124085209158,filter_nochange,0.886165459294821,0.984353227733364,CO2,nonfinancial,ppm,monthly
+ema_alpha_0.2,smoothed,5,smooth_slope,24,2.400277494085929,2.7276811187276984,filter_nochange,-0.31855360739240557,-0.8432493602731115,CO2,nonfinancial,ppm,monthly

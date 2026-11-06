@@ -1,0 +1,3 @@
+## Observed results
+
+Seven tabular specifications were tested with separate chronological selection for each track. At five sessions, selected **returns** MSE skill is **-0.0606** against **zero** over **30** scored origins. At five sessions, selected **smoothed** MSE skill is **-0.0679** against **filter_nochange** over **30** scored origins. These are exploratory results on previously examined data. Direct/recursive comparisons and negative results are retained.

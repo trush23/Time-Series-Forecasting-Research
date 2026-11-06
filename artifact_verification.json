@@ -1,0 +1,93 @@
+{
+  "checks": "notebook structure, sequential outputs, images, hashes, actual labels and paired origins",
+  "notebooks": [
+    {
+      "notebook": "TS00_Foundations_and_Targets.ipynb",
+      "code_cells": 6,
+      "figures": 3,
+      "csv_tables": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS01_EMA_and_Adaptive_Filters.ipynb",
+      "code_cells": 7,
+      "figures": 5,
+      "csv_tables": 8,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS02_Endpoint_and_State_Space_Filters.ipynb",
+      "code_cells": 7,
+      "figures": 4,
+      "csv_tables": 9,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS03_FFT_and_Bandpass_Decomposition.ipynb",
+      "code_cells": 7,
+      "figures": 5,
+      "csv_tables": 9,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS04_Classical_Forecasting_and_Selection.ipynb",
+      "code_cells": 9,
+      "figures": 5,
+      "csv_tables": 14,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS05_Tabular_Machine_Learning.ipynb",
+      "code_cells": 9,
+      "figures": 6,
+      "csv_tables": 15,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS06_Compact_Neural_Forecasting.ipynb",
+      "code_cells": 9,
+      "figures": 5,
+      "csv_tables": 17,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS07_Advanced_Architecture_Demonstrations.ipynb",
+      "code_cells": 7,
+      "figures": 6,
+      "csv_tables": 18,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS08_Probabilistic_Forecasts_and_Calibration.ipynb",
+      "code_cells": 8,
+      "figures": 7,
+      "csv_tables": 21,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS09_Cross_Dataset_and_Cross_Asset_Benchmark.ipynb",
+      "code_cells": 8,
+      "figures": 6,
+      "csv_tables": 20,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS10_NB9_NB10_Forecast_and_Trading_Integration.ipynb",
+      "code_cells": 8,
+      "figures": 5,
+      "csv_tables": 34,
+      "status": "passed"
+    },
+    {
+      "notebook": "TS11_Foundation_Model_Laboratory.ipynb",
+      "code_cells": 10,
+      "figures": 6,
+      "csv_tables": 17,
+      "status": "passed"
+    }
+  ],
+  "total_code_cells": 95,
+  "total_figures": 63,
+  "total_csv_tables": 188,
+  "visual_check": "Separate direct inspection of exported figures; see VALIDATION.md"
+}

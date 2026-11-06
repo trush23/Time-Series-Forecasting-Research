@@ -1,0 +1,3 @@
+## Observed results
+
+Both tracks were evaluated on **239 scored origins per horizon** using only matured prequential calibration errors. For **smoothed**, the volatility-scaled 80% five-session interval covers **80.8%**, with mean width **345.0 log bps**. For **returns**, the volatility-scaled 80% five-session interval covers **77.8%**, with mean width **691.8 log bps**. For the same scaled method, Ridge five-session WIS skill versus its track null is smoothed: -0.1464, returns: -0.1188; the null distributions score better in this sample. Coverage, width and proper-score comparisons are shown separately. Nominal levels are not guarantees under stock-data dependence or shifts; the latest snapshot forecast remains unscored.

@@ -1,0 +1,9 @@
+dataset_id,group,rows,first,last,units,frequency,missing_values,duplicate_dates,input_sha256,pristine_holdout
+SPY,stocks,1443,2021-01-04,2026-10-01,log units,observed trading sessions,0,0,b0d679557f147a24669d93131cfe41ba689450eee7ff52af381fe68478d7c6db,False
+MCHP,stocks,1443,2021-01-04,2026-10-01,log units,observed trading sessions,0,0,085677c747a94eb7d780706208f7aca4b22384d8db0ef8d873317ed4c12131aa,False
+MRVL,stocks,1443,2021-01-04,2026-10-01,log units,observed trading sessions,0,0,5f42ebe4d5d05d67275c7c75128bc7d244539f43f0e0db227616c91c402d3292,False
+TXG,stocks,1443,2021-01-04,2026-10-01,log units,observed trading sessions,0,0,90f18f255913e99aef1d24829955264ce33ae2c214efad07d6da74ca5972f00a,False
+GOOGL,stocks,1443,2021-01-04,2026-10-01,log units,observed trading sessions,0,0,d8d86b58ae3c8c7f409d1408993924eb1cb657a6fec43300feb7ce8fb39c1bb7,False
+NVDA,stocks,1443,2021-01-04,2026-10-01,log units,observed trading sessions,0,0,e88c07844cb6d5ccc65d1c8bc71a42e07c9c522b7f716d52e243dbb07b08a7a8,False
+ELNINO,nonfinancial,732,1950-01-31,2010-12-31,degrees Celsius,monthly,0,0,76de0545139f1b9a0b0e8911571e0bdd661f5553d1d4b8badb4c76e743d68d72,False
+CO2,nonfinancial,444,1965-01-31,2001-12-31,ppm,monthly,0,0,6dcd4e2a01a3af3a27bbfa3ad6d086643b92fbcfaa81c345696b3b6127ed6afb,False

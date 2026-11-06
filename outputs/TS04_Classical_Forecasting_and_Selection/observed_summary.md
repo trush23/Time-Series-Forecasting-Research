@@ -1,0 +1,3 @@
+## Observed results
+
+Ten classical candidates were compared using three chronological outer blocks, with separate model choices for each research track. At horizon five, the selected **returns** procedure has MSE skill **-0.0273** against **zero** across **60** scored origins. At horizon five, the selected **smoothed** procedure has MSE skill **-0.1894** against **filter_nochange** across **60** scored origins. These are results on previously examined data, not an untouched holdout or an established trading advantage. Fitting failures and baseline fallbacks are retained.

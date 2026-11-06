@@ -1,0 +1,9 @@
+dataset_id,group,rows,first,last,frequency,units
+SPY,stocks,1443,2021-01-04,2026-10-01,observed trading sessions,log units
+MCHP,stocks,1443,2021-01-04,2026-10-01,observed trading sessions,log units
+MRVL,stocks,1443,2021-01-04,2026-10-01,observed trading sessions,log units
+TXG,stocks,1443,2021-01-04,2026-10-01,observed trading sessions,log units
+GOOGL,stocks,1443,2021-01-04,2026-10-01,observed trading sessions,log units
+NVDA,stocks,1443,2021-01-04,2026-10-01,observed trading sessions,log units
+ELNINO,nonfinancial,732,1950-01-31,2010-12-31,monthly,degrees Celsius
+CO2,nonfinancial,444,1965-01-31,2001-12-31,monthly,ppm

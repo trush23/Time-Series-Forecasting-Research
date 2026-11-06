@@ -1,0 +1,26 @@
+{
+  "group": "stocks",
+  "transform": "log adjusted Close",
+  "units": "log units",
+  "frequency": "observed trading sessions",
+  "source": "Yahoo via yfinance; frozen existing local cache",
+  "source_cache_name": "7588b324a5eb162a702e.csv",
+  "source_csv_sha256": "81d154369e0f76e06d9163bc12a525ef54620fa2b3b35745dffcb9e6a3bd8f74",
+  "source_metadata": {
+    "ticker": "SPY",
+    "source": "Yahoo via yfinance",
+    "mode": "download",
+    "sha256": "81d154369e0f76e06d9163bc12a525ef54620fa2b3b35745dffcb9e6a3bd8f74",
+    "start": "2018-01-01",
+    "cutoff": "2026-10-30",
+    "retrieved_utc": "2026-10-31T15:27:20.754877+00:00"
+  },
+  "adjustment": "OHLC multiplied by provider Adj Close / Close before caching",
+  "producer_evidence_sha256": "c4c1838703bae5f4ce154af46ffadb121de4090b265c02151ba0d8e1f7405cc2",
+  "exposure": "Previously used in other project notebooks; not a pristine asset holdout.",
+  "dataset_id": "SPY",
+  "sha256": "b0d679557f147a24669d93131cfe41ba689450eee7ff52af381fe68478d7c6db",
+  "rows": 1443,
+  "first": "2021-01-04",
+  "last": "2026-10-01"
+}

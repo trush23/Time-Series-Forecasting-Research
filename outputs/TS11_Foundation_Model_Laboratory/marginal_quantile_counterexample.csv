@@ -1,0 +1,3 @@
+coupling,endpoint1_q10,endpoint2_q10,difference_q10
+same endpoints,-1.7,-1.7,0.0
+opposite endpoints,-1.7,-1.7,-3.4

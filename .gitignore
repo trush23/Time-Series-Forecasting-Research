@@ -1,0 +1,20 @@
+# Local environments, secrets, and temporary artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.db
+*.db-shm
+*.db-wal
+build/
+dist/
+*.egg-info/

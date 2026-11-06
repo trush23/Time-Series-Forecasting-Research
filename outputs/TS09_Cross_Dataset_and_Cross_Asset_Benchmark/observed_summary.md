@@ -1,0 +1,3 @@
+## Observed results
+
+Six stocks were evaluated on **64 common scored origins** per horizon, plus two monthly physical datasets. Equal-asset five-session **returns** MSE skill is **-0.0984**, with **1/6** positive asset scores. Equal-asset five-session **smoothed** MSE skill is **-0.0871**, with **2/6** positive asset scores. Per-asset, monthly-dataset, block and synchronized-uncertainty results are reported separately. Historical inputs were previously examined; independence and prospective validation remain unestablished.

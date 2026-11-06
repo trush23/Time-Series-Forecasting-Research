@@ -1,0 +1,126 @@
+{
+  "notebook": "3 \u2014 Phase-space reconstruction",
+  "config": {
+    "observable": "returns",
+    "calibration_fraction": 0.7,
+    "calibration_end": "2024-02-13",
+    "diagnostic_first": "2018-01-03",
+    "tau": 1,
+    "delay_reason": "first local AMI minimum; heuristic",
+    "m_used": 3,
+    "dimension_identified_by_heuristic": false,
+    "m_reason": "unresolved; provisional 3-coordinate working representation",
+    "max_m": 8,
+    "theiler": 20,
+    "fnn_ratio_threshold": 10.0,
+    "fnn_distance_threshold": 2.0,
+    "fnn_fraction_threshold": 0.05,
+    "mi_bins": [
+      8,
+      16,
+      32
+    ],
+    "main_mi_bins": 16,
+    "max_lag": 30,
+    "query_cap": 500,
+    "surrogates": 19,
+    "k_neighbors": 10,
+    "seed": 1731
+  },
+  "provenance": {
+    "source": "Yahoo via yfinance",
+    "synthetic": false,
+    "ticker": "SPY",
+    "start": "2018-01-01",
+    "end_exclusive": "2026-10-02",
+    "adjustment": "auto_adjust=True",
+    "retrieved_utc": "2026-10-03T00:56:31.274940+00:00",
+    "sha256": "de42a970400fc97b8161ef3dd74f8e62407b03d061f3469cc32acccc00027f44",
+    "cache_path": "/Users/trush/Documents/Trading/Codex/data/ohlcv_a5e2593b00e90617.csv",
+    "rows": 2199,
+    "first": "2018-01-02",
+    "last": "2026-10-01",
+    "data_sha256": "5e5db18cbf3223e1b2db903236ce1357dd427519b571a8290f19f24f5ccbaad0"
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "matplotlib": "3.10.0"
+  },
+  "scalers": {
+    "observable_mean": 0.00046120837891754454,
+    "observable_sd": 0.0128077139928116,
+    "delay_center": {
+      "lag_0": 0.0037016775944670446,
+      "lag_1": 0.004214674656125483,
+      "lag_2": 0.003977061222994387
+    },
+    "delay_scale": {
+      "lag_0": 1.0361269557690094,
+      "lag_1": 1.035740091439075,
+      "lag_2": 1.035793557474114
+    },
+    "interpretable_center": {
+      "r": 0.0005086184068410772,
+      "v5": 0.0004968509092392261,
+      "a5": 2.353499520369678e-06,
+      "v20": 0.00046236731763357356,
+      "return_sd20": 0.011095427775451859,
+      "volume_log_change": -0.00019321900312733607
+    },
+    "interpretable_scale": {
+      "r": 0.013270417709732026,
+      "v5": 0.0036885734753623494,
+      "a5": 0.0023277326339056713,
+      "v20": 0.0017886385500173782,
+      "return_sd20": 0.007406392005946047,
+      "volume_log_change": 0.29670782348435554
+    },
+    "delay_PCA_basis": [
+      [
+        0.5581991463606193,
+        -0.7070488773679667
+      ],
+      [
+        -0.6138801224099999,
+        8.323469372496687e-05
+      ],
+      [
+        0.5581799963382421,
+        0.7071646753654227
+      ]
+    ],
+    "interpretable_PCA_basis": [
+      [
+        0.532338696587328,
+        0.34733846658125606
+      ],
+      [
+        0.5090434253535504,
+        -0.22280781321539816
+      ],
+      [
+        0.44564506375448887,
+        0.466648913969817
+      ],
+      [
+        0.44001092011071785,
+        -0.5011383430817393
+      ],
+      [
+        -0.18836400487145338,
+        0.5447800808607597
+      ],
+      [
+        -0.17262726384726668,
+        -0.25303455037717226
+      ]
+    ]
+  },
+  "export_first": "2018-10-24",
+  "export_rows": 1994,
+  "executed_utc": "2026-10-03T22:10:01.313782+00:00",
+  "checks": "passed",
+  "claims": "representation diagnostics only; no attractor or predictive-skill claim"
+}

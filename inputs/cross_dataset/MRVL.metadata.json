@@ -1,0 +1,26 @@
+{
+  "group": "stocks",
+  "transform": "log adjusted Close",
+  "units": "log units",
+  "frequency": "observed trading sessions",
+  "source": "Yahoo via yfinance; frozen existing local cache",
+  "source_cache_name": "966ef2f114ac9795eeb3.csv",
+  "source_csv_sha256": "f1ec0a1831c4c04eda3ce744f4622c2cddba9100d59658d7e8f2d733042bb960",
+  "source_metadata": {
+    "ticker": "MRVL",
+    "source": "Yahoo via yfinance",
+    "mode": "download",
+    "sha256": "f1ec0a1831c4c04eda3ce744f4622c2cddba9100d59658d7e8f2d733042bb960",
+    "start": "2018-01-01",
+    "cutoff": "2026-10-30",
+    "retrieved_utc": "2026-10-31T15:27:21.208794+00:00"
+  },
+  "adjustment": "OHLC multiplied by provider Adj Close / Close before caching",
+  "producer_evidence_sha256": "c4c1838703bae5f4ce154af46ffadb121de4090b265c02151ba0d8e1f7405cc2",
+  "exposure": "Previously used in other project notebooks; not a pristine asset holdout.",
+  "dataset_id": "MRVL",
+  "sha256": "5f42ebe4d5d05d67275c7c75128bc7d244539f43f0e0db227616c91c402d3292",
+  "rows": 1443,
+  "first": "2021-01-04",
+  "last": "2026-10-01"
+}

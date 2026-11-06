@@ -1,0 +1,8 @@
+{
+  "execution": "fresh-process in-process IPython; every code cell in order",
+  "code_cells": 8,
+  "embedded_figures": 5,
+  "elapsed_seconds": 18.759,
+  "unexpected_errors": 0,
+  "visual_inspection": "recorded separately in VALIDATION.md"
+}

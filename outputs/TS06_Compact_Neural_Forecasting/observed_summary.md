@@ -1,0 +1,3 @@
+## Observed results
+
+Four compact architectures were evaluated with three fixed seeds each and separate track selection. At five sessions, selected **returns** MSE skill is **0.0262** against **zero** over **30** scored origins. At five sessions, selected **smoothed** MSE skill is **0.1655** against **filter_nochange** over **30** scored origins. Seed variability is reported separately from historical sampling uncertainty. Results remain exploratory; no trading advantage is established.

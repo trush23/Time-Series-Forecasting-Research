@@ -1,0 +1,49 @@
+block,track,chosen_model,selection_cutoff,outer_first_origin,inner_last_label,objective,minimum_success_fraction,dataset_id,dataset_group,signal_units,frequency
+0,smoothed,GRU,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,SPY,stocks,log units,observed trading sessions
+0,returns,AR5_changes,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,SPY,stocks,log units,observed trading sessions
+1,smoothed,NBEATS_demo,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,SPY,stocks,log units,observed trading sessions
+1,returns,Ridge_10,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,SPY,stocks,log units,observed trading sessions
+2,smoothed,filter_nochange,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,SPY,stocks,log units,observed trading sessions
+2,returns,NBEATS_demo,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,SPY,stocks,log units,observed trading sessions
+0,smoothed,Ridge_10,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,MCHP,stocks,log units,observed trading sessions
+0,returns,Ridge_10,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,MCHP,stocks,log units,observed trading sessions
+1,smoothed,NBEATS_demo,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,MCHP,stocks,log units,observed trading sessions
+1,returns,AR5_changes,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,MCHP,stocks,log units,observed trading sessions
+2,smoothed,GRU,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,MCHP,stocks,log units,observed trading sessions
+2,returns,GRU,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,MCHP,stocks,log units,observed trading sessions
+0,smoothed,NBEATS_demo,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,MRVL,stocks,log units,observed trading sessions
+0,returns,AR5_changes,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,MRVL,stocks,log units,observed trading sessions
+1,smoothed,HistBoost,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,MRVL,stocks,log units,observed trading sessions
+1,returns,AR5_changes,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,MRVL,stocks,log units,observed trading sessions
+2,smoothed,filter_nochange,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,MRVL,stocks,log units,observed trading sessions
+2,returns,AR5_changes,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,MRVL,stocks,log units,observed trading sessions
+0,smoothed,Ridge_10,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,TXG,stocks,log units,observed trading sessions
+0,returns,HistBoost,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,TXG,stocks,log units,observed trading sessions
+1,smoothed,Ridge_10,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,TXG,stocks,log units,observed trading sessions
+1,returns,zero,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,TXG,stocks,log units,observed trading sessions
+2,smoothed,AR5_changes,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,TXG,stocks,log units,observed trading sessions
+2,returns,AR5_changes,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,TXG,stocks,log units,observed trading sessions
+0,smoothed,AR5_changes,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,GOOGL,stocks,log units,observed trading sessions
+0,returns,AR5_changes,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,GOOGL,stocks,log units,observed trading sessions
+1,smoothed,GRU,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,GOOGL,stocks,log units,observed trading sessions
+1,returns,GRU,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,GOOGL,stocks,log units,observed trading sessions
+2,smoothed,HistBoost,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,GOOGL,stocks,log units,observed trading sessions
+2,returns,zero,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,GOOGL,stocks,log units,observed trading sessions
+0,smoothed,AR5_changes,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,NVDA,stocks,log units,observed trading sessions
+0,returns,AR5_changes,2024-03-08,2024-03-11,2024-03-08,equal-horizon relative MAE,0.8,NVDA,stocks,log units,observed trading sessions
+1,smoothed,Ridge_10,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,NVDA,stocks,log units,observed trading sessions
+1,returns,Ridge_10,2024-12-23,2024-12-24,2024-12-23,equal-horizon relative MAE,0.8,NVDA,stocks,log units,observed trading sessions
+2,smoothed,filter_nochange,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,NVDA,stocks,log units,observed trading sessions
+2,returns,zero,2025-10-13,2025-10-14,2025-10-13,equal-horizon relative MAE,0.8,NVDA,stocks,log units,observed trading sessions
+0,smoothed,NBEATS_demo,1987-06-30,1987-07-31,1987-06-30,equal-horizon relative MAE,0.8,ELNINO,nonfinancial,degrees Celsius,monthly
+0,returns,HistBoost,1987-06-30,1987-07-31,1987-06-30,equal-horizon relative MAE,0.8,ELNINO,nonfinancial,degrees Celsius,monthly
+1,smoothed,NBEATS_demo,1994-12-31,1995-01-31,1994-12-31,equal-horizon relative MAE,0.8,ELNINO,nonfinancial,degrees Celsius,monthly
+1,returns,Seasonal_EMA_changes,1994-12-31,1995-01-31,1994-12-31,equal-horizon relative MAE,0.8,ELNINO,nonfinancial,degrees Celsius,monthly
+2,smoothed,NBEATS_demo,2002-06-30,2002-07-31,2002-06-30,equal-horizon relative MAE,0.8,ELNINO,nonfinancial,degrees Celsius,monthly
+2,returns,NBEATS_demo,2002-06-30,2002-07-31,2002-06-30,equal-horizon relative MAE,0.8,ELNINO,nonfinancial,degrees Celsius,monthly
+0,smoothed,NBEATS_demo,1991-08-31,1991-09-30,1991-08-31,equal-horizon relative MAE,0.8,CO2,nonfinancial,ppm,monthly
+0,returns,NBEATS_demo,1991-08-31,1991-09-30,1991-08-31,equal-horizon relative MAE,0.8,CO2,nonfinancial,ppm,monthly
+1,smoothed,NBEATS_demo,1994-12-31,1995-01-31,1994-12-31,equal-horizon relative MAE,0.8,CO2,nonfinancial,ppm,monthly
+1,returns,NBEATS_demo,1994-12-31,1995-01-31,1994-12-31,equal-horizon relative MAE,0.8,CO2,nonfinancial,ppm,monthly
+2,smoothed,HistBoost,1998-04-30,1998-05-31,1998-04-30,equal-horizon relative MAE,0.8,CO2,nonfinancial,ppm,monthly
+2,returns,HistBoost,1998-04-30,1998-05-31,1998-04-30,equal-horizon relative MAE,0.8,CO2,nonfinancial,ppm,monthly

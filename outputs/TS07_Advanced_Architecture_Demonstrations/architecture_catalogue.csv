@@ -1,0 +1,6 @@
+name,family,hidden,max_epochs,patience,learning_rate,weight_decay,validation_fraction,parameter_count,input_shape,output_count,seed_count
+DecompositionLinear_demo,decomposition_linear,12,30,5,0.005,0.001,0.2,213,20 x 2,5,3
+LastCenteredLinear_demo,centered_linear,12,30,5,0.005,0.001,0.2,108,20 x 2,5,3
+NBEATS_demo,nbeats_demo,12,30,5,0.005,0.001,0.2,3699,20 x 2,5,3
+NHITS_demo,nhits_demo,12,30,5,0.005,0.001,0.2,3021,20 x 2,5,3
+PatchTransformer_demo,patch_demo,12,30,5,0.005,0.001,0.2,1709,20 x 2,5,3

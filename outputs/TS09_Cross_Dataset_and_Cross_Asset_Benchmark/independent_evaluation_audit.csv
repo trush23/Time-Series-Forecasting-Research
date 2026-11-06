@@ -1,0 +1,9 @@
+criterion,status
+Nested selection and label maturity,passed
+Equal within-dataset comparison cohorts,passed
+Input/source and dataset identity hashes,passed
+Cross-asset synchronized resampling,passed
+Pristine independent asset/period holdout,not established
+Point-in-time data vintages / release timing,not established
+Prospective evaluation completed,not completed
+Trading advantage / deployment readiness,not established

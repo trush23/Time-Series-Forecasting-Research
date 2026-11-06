@@ -1,0 +1,3 @@
+## Observed results
+
+Appending 32 observations changes the old whole-prefix FFT curve by up to **411.21 log bps** over that historical prefix in this synthetic example; archived causal endpoints have **zero revision**. Both stock tracks retain matched-origin baseline comparisons. The unanchored Fourier extrapolator fits poorly on the stock example; its endpoint gaps are retained in the audit rather than repaired using future outcomes.

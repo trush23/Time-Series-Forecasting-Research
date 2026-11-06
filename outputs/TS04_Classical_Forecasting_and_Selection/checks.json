@@ -1,0 +1,7 @@
+{
+  "selection_before_outer": true,
+  "bridge_labels_mature": true,
+  "common_outer_origins": true,
+  "future_poison_invariant": true,
+  "latest_forecasts_unscored": true
+}

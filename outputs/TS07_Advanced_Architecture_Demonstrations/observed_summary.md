@@ -1,0 +1,3 @@
+## Observed results
+
+Five compact architecture demonstrations were compared with three seeds each. At five sessions, selected **returns** MSE skill is **0.0767** against **zero** across **30** origins. At five sessions, selected **smoothed** MSE skill is **0.1333** against **filter_nochange** across **30** origins. Compare the family, seed and frozen-procedure results separately. These previously examined single-asset results do not establish a trading advantage.

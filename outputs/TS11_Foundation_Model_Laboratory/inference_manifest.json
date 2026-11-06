@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "protocol_sha256": "073a1cf2d069fc9eaab21c257c7f21d9b2763439f94c7bf652c9f9c5179517d6",
+    "module_sha256": "c34c003e107c4f7e2d4f671522843db35941fa51d700c2a349a29a85dcb9bb28",
+    "checkpoint_manifest_sha256": "1270ada51d5b9841bd651757d22f557e2348e4ac3518cfbbcf357730f61754c5",
+    "signal_sha256": {
+      "SPY": "010acd88c0fb48237c8218e4b9f4abcef013637e791ebd205e66aae79dc9895b",
+      "MCHP": "08ce5e980f4fe286832cf5587f9cb36a05018380c4ac92655dfe8daecf9cee8b",
+      "MRVL": "c295ba0cc8e60bd03caac4df1ac211e23de4492ebf71ac5391f951896d8481fa",
+      "TXG": "002fbfec7b765a409e3e4e01284d89b0cecbe0fbe33e0063ab03fa7d4271cfee",
+      "GOOGL": "70f381ad358a939c71562db7d7910606a4296b2d13c044421e0c0cf510a6ca53",
+      "NVDA": "85ff141f4b8320ff58bd285d98302d19a6ae274849aa5e289b3071b9cacc7a5f",
+      "ELNINO": "3af36038cc2572d35d3dc564266ad61578c6feec351058f22d53f0dcfbb0574b",
+      "CO2": "ade6e4503646739caf52437c7f0bda7df26950ea968ca06a5c34d224e79a87f3"
+    },
+    "inputs_sha256": {
+      "SPY": "b0d679557f147a24669d93131cfe41ba689450eee7ff52af381fe68478d7c6db",
+      "MCHP": "085677c747a94eb7d780706208f7aca4b22384d8db0ef8d873317ed4c12131aa",
+      "MRVL": "5f42ebe4d5d05d67275c7c75128bc7d244539f43f0e0db227616c91c402d3292",
+      "TXG": "90f18f255913e99aef1d24829955264ce33ae2c214efad07d6da74ca5972f00a",
+      "GOOGL": "d8d86b58ae3c8c7f409d1408993924eb1cb657a6fec43300feb7ce8fb39c1bb7",
+      "NVDA": "e88c07844cb6d5ccc65d1c8bc71a42e07c9c522b7f716d52e243dbb07b08a7a8",
+      "ELNINO": "76de0545139f1b9a0b0e8911571e0bdd661f5553d1d4b8badb4c76e743d68d72",
+      "CO2": "6dcd4e2a01a3af3a27bbfa3ad6d086643b92fbcfaa81c345696b3b6127ed6afb"
+    }
+  },
+  "cache_sha256": "3b63ecd4d958c201f62e7c397b4fcf001e11d94af2ee2fc24f3bc98f002f4f6c",
+  "timings": [
+    {
+      "model": "chronos-bolt-tiny_L64",
+      "dataset_id": "SPY",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.019044083077460527,
+      "milliseconds_per_origin_both_tracks": 0.23511213675877193,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L64",
+      "dataset_id": "MCHP",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.018405624898150563,
+      "milliseconds_per_origin_both_tracks": 0.2272299370142045,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L64",
+      "dataset_id": "MRVL",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.01915241708047688,
+      "milliseconds_per_origin_both_tracks": 0.23644959358613432,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L64",
+      "dataset_id": "TXG",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.018734333105385303,
+      "milliseconds_per_origin_both_tracks": 0.23128806302944818,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L64",
+      "dataset_id": "GOOGL",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.017929875059053302,
+      "milliseconds_per_origin_both_tracks": 0.22135648221053458,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L64",
+      "dataset_id": "NVDA",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.01916137500666082,
+      "milliseconds_per_origin_both_tracks": 0.2365601852674175,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L64",
+      "dataset_id": "ELNINO",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.01912141707725823,
+      "milliseconds_per_origin_both_tracks": 0.2360668774970152,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L64",
+      "dataset_id": "CO2",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.01916687493212521,
+      "milliseconds_per_origin_both_tracks": 0.2366280855817927,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L256",
+      "dataset_id": "SPY",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.03870870894752443,
+      "milliseconds_per_origin_both_tracks": 0.4778852956484497,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L256",
+      "dataset_id": "MCHP",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.038533416111022234,
+      "milliseconds_per_origin_both_tracks": 0.47572118655583007,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L256",
+      "dataset_id": "MRVL",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.03787808399647474,
+      "milliseconds_per_origin_both_tracks": 0.46763066662314495,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L256",
+      "dataset_id": "TXG",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.0381327080540359,
+      "milliseconds_per_origin_both_tracks": 0.4707741735066161,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L256",
+      "dataset_id": "GOOGL",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.03746862499974668,
+      "milliseconds_per_origin_both_tracks": 0.4625756172808232,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L256",
+      "dataset_id": "NVDA",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.03812516713514924,
+      "milliseconds_per_origin_both_tracks": 0.4706810757425832,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L256",
+      "dataset_id": "ELNINO",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.037534749833866954,
+      "milliseconds_per_origin_both_tracks": 0.4633919732576167,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-tiny_L256",
+      "dataset_id": "CO2",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.03810245916247368,
+      "milliseconds_per_origin_both_tracks": 0.47040073040090963,
+      "load_seconds": 0.031060874927788973,
+      "parameters": 8652672,
+      "weights_bytes": 34622352
+    },
+    {
+      "model": "chronos-bolt-mini_L64",
+      "dataset_id": "SPY",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.03944858303293586,
+      "milliseconds_per_origin_both_tracks": 0.4870195436164921,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L64",
+      "dataset_id": "MCHP",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.03959404188208282,
+      "milliseconds_per_origin_both_tracks": 0.48881533187756565,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L64",
+      "dataset_id": "MRVL",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.0394727501552552,
+      "milliseconds_per_origin_both_tracks": 0.48731790315129875,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L64",
+      "dataset_id": "TXG",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.039187666960060596,
+      "milliseconds_per_origin_both_tracks": 0.4837983575316123,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L64",
+      "dataset_id": "GOOGL",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.03948316699825227,
+      "milliseconds_per_origin_both_tracks": 0.4874465061512626,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L64",
+      "dataset_id": "NVDA",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.04081304091960192,
+      "milliseconds_per_origin_both_tracks": 0.5038647027111348,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L64",
+      "dataset_id": "ELNINO",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.04196483385749161,
+      "milliseconds_per_origin_both_tracks": 0.5180843686110076,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L64",
+      "dataset_id": "CO2",
+      "context": 64,
+      "origins": 81,
+      "seconds": 0.0439542920794338,
+      "milliseconds_per_origin_both_tracks": 0.5426455812275778,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L256",
+      "dataset_id": "SPY",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.07863004179671407,
+      "milliseconds_per_origin_both_tracks": 0.9707412567495564,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L256",
+      "dataset_id": "MCHP",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.07763962517492473,
+      "milliseconds_per_origin_both_tracks": 0.9585138910484535,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L256",
+      "dataset_id": "MRVL",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.07804112508893013,
+      "milliseconds_per_origin_both_tracks": 0.9634706801102485,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L256",
+      "dataset_id": "TXG",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.07575495797209442,
+      "milliseconds_per_origin_both_tracks": 0.935246394717215,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L256",
+      "dataset_id": "GOOGL",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.07664033304899931,
+      "milliseconds_per_origin_both_tracks": 0.9461769512222137,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L256",
+      "dataset_id": "NVDA",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.07640050002373755,
+      "milliseconds_per_origin_both_tracks": 0.9432160496757722,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L256",
+      "dataset_id": "ELNINO",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.07727858307771385,
+      "milliseconds_per_origin_both_tracks": 0.9540565812063438,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    },
+    {
+      "model": "chronos-bolt-mini_L256",
+      "dataset_id": "CO2",
+      "context": 256,
+      "origins": 81,
+      "seconds": 0.07673529186286032,
+      "milliseconds_per_origin_both_tracks": 0.9473492822575348,
+      "load_seconds": 0.035776708042249084,
+      "parameters": 21236096,
+      "weights_bytes": 84956096
+    }
+  ],
+  "versions": {
+    "torch": "2.5.1",
+    "chronos-forecasting": "2.3.2",
+    "transformers": "4.51.2",
+    "accelerate": "1.15.0",
+    "huggingface-hub": "0.30.2"
+  },
+  "device": "CPU float32; one torch thread; batch 32; five forecast steps",
+  "excluded_costs": "pretraining, dependency installation, downloads, quantile decoding and scoring"
+}

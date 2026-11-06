@@ -1,0 +1,27 @@
+{
+  "group": "stocks",
+  "transform": "log adjusted Close",
+  "units": "log units",
+  "frequency": "observed trading sessions",
+  "source": "Yahoo via yfinance; frozen existing local cache",
+  "source_cache_name": "ohlcv_8d7e3dcd9d4343d5.csv",
+  "source_csv_sha256": "f4a94092d2b8ab299bab299c78c7d90f3225d79c980d63e655ab4f170951a953",
+  "source_metadata": {
+    "source": "Yahoo Finance via yfinance",
+    "synthetic": false,
+    "ticker": "NVDA",
+    "start": "2021-01-01",
+    "end_exclusive": "2026-10-02",
+    "retrieved_utc": "2026-10-30T20:35:28.519142+00:00",
+    "adjustment": "yfinance auto_adjust=True, volume in provider units",
+    "sha256": "f4a94092d2b8ab299bab299c78c7d90f3225d79c980d63e655ab4f170951a953"
+  },
+  "adjustment": "yfinance auto_adjust=True, volume in provider units",
+  "producer_evidence_sha256": null,
+  "exposure": "Previously used in other project notebooks; not a pristine asset holdout.",
+  "dataset_id": "NVDA",
+  "sha256": "e88c07844cb6d5ccc65d1c8bc71a42e07c9c522b7f716d52e243dbb07b08a7a8",
+  "rows": 1443,
+  "first": "2021-01-04",
+  "last": "2026-10-01"
+}

@@ -1,0 +1,170 @@
+{
+  "files": {
+    "nb3/run_manifest.json": {
+      "sha256": "556d2038d00d4e02f5b160cd93055d0f6d9af1f6542b67b1c00a19b06a6b313b",
+      "source": "/Users/trush/Documents/Trading/Codex/assets/run_manifest.json"
+    },
+    "nb3/market_ohlcv_snapshot.csv": {
+      "sha256": "4512e193419930f199f6deecb9ae769d1a485128aa87529afee83fb379e69eb3",
+      "source": "/Users/trush/Documents/Trading/Codex/assets/market_ohlcv_snapshot.csv"
+    },
+    "nb3/delay_states.csv": {
+      "sha256": "d506ff480355eca1d71db852ecc40a691080e0a9ae704a29d99499242d3d4f54",
+      "source": "/Users/trush/Documents/Trading/Codex/assets/delay_states.csv"
+    },
+    "nb3/interpretable_states.csv": {
+      "sha256": "87eb7ac87a56d414ebe0ff9cc62a59a4e99ff1a816a20853dadb907315709883",
+      "source": "/Users/trush/Documents/Trading/Codex/assets/interpretable_states.csv"
+    },
+    "nb9/forecast_configuration.json": {
+      "sha256": "c4569a796001fdde344b3dc4e53cac0fdaf1f1104a0ab7a84641c32b2daa7140",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/forecast_configuration.json"
+    },
+    "nb9/forecast_scores.csv": {
+      "sha256": "31e62b5858b05ddd3aaf225bd78d9a3f0410faef1ade4dfc1e897b437f3771cb",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/forecast_scores.csv"
+    },
+    "nb9/forecasts.csv": {
+      "sha256": "210258875d4a9524e0ffb8704ab24aaf3f08da38fc9bf9c24ac1bbca5e8d2b92",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/forecasts.csv"
+    },
+    "nb9/inner_validation.csv": {
+      "sha256": "c0e43d87699531c68616e61b994171260bf0d5f242cce0ace924ea5850100361",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/inner_validation.csv"
+    },
+    "nb9/latest_forecast.csv": {
+      "sha256": "6538c61f5e9cbb6cad1d4dcc549acfd84f340522c8e21eeca5daa40cd0d2aaf5",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/latest_forecast.csv"
+    },
+    "nb9/latest_neighbors.csv": {
+      "sha256": "6a0ce24f2ffb985275abb517834ab321a850acca789ab37df3ce64056c92f501",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/latest_neighbors.csv"
+    },
+    "nb9/neighbor_selection.csv": {
+      "sha256": "5ee6e2cb66e09fa52337f468d7e85868619f2ad761c712886a0e94791544228c",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/neighbor_selection.csv"
+    },
+    "nb9/neighbor_time_audit.csv": {
+      "sha256": "909d40f2faa9549ed9446af2a53e4bbae2e6259746e9b699d4688e599caa1e5f",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/neighbor_time_audit.csv"
+    },
+    "nb9/paired_block_uncertainty.csv": {
+      "sha256": "a95efdcdb1b940d6af01f08b905ca8e2bfbab6ef19df964604320fddb7fd0118",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/paired_block_uncertainty.csv"
+    },
+    "nb9/probability_reliability.csv": {
+      "sha256": "4250c6043791f3e9c7a0281e3413b7f707659cc28c1ed1294c172b40a97641a8",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/probability_reliability.csv"
+    },
+    "nb9/random_label_reference.csv": {
+      "sha256": "24cd02282a7f34646f065d652907ecfb34e4f9a0a88042a8634c70266f744325",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/random_label_reference.csv"
+    },
+    "nb9/run_manifest.json": {
+      "sha256": "259156058a65f146f9fb2715c6c26eb627f21707db9c603d0be2f92aaa2f76ac",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/run_manifest.json"
+    },
+    "nb9/support_diagnostics.csv": {
+      "sha256": "70de62bbe64e95717aa0a0e257d93f61e538f819fc15646ebdd27652f414a768",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/support_diagnostics.csv"
+    },
+    "nb9/supported_scores.csv": {
+      "sha256": "a1e65cd3964225848ea73181e29412b48cc9a363f30b463a05781f9ae8ef300c",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/supported_scores.csv"
+    },
+    "nb9/zero_point_scores.csv": {
+      "sha256": "ae609336e9d4bfd7dba3654f90216a0f7e2fa90782c6de6f13979077e0dc9094",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_9/zero_point_scores.csv"
+    },
+    "nb10/analog_daily_ledger.csv": {
+      "sha256": "72c393c79b3e782fcb82c3ea6a3ff0f9b8f38ce624a1905f9563449111677bf5",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/analog_daily_ledger.csv"
+    },
+    "nb10/analog_decision_schedule.csv": {
+      "sha256": "64a93d534567fb77515aebcc8ec2d52b1201795444a25394b3386a85989d23c6",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/analog_decision_schedule.csv"
+    },
+    "nb10/analog_trades.csv": {
+      "sha256": "0a80685f54917d274e1444b0603b2c3b0d1e4f31d156e9f77042eb50a5008aa9",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/analog_trades.csv"
+    },
+    "nb10/buy_hold_daily_ledger.csv": {
+      "sha256": "2a033af3f6c126c3d06e84aa51f2a78ea842ed77a8a8a2031920f68d50b6f0c4",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/buy_hold_daily_ledger.csv"
+    },
+    "nb10/buy_hold_trades.csv": {
+      "sha256": "14bbd7074f1b9af87334046114892e07beb5997cbb9d6bbe6a2bb943ee1c3fef",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/buy_hold_trades.csv"
+    },
+    "nb10/cash_daily_ledger.csv": {
+      "sha256": "b5c715a8d011b1a31df20e9fa502895c06d8e1c543295802631b4bdd9643c948",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/cash_daily_ledger.csv"
+    },
+    "nb10/cash_trades.csv": {
+      "sha256": "ad21a7147bb972926725caef3992713a49088375cafbf53738de889962178e95",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/cash_trades.csv"
+    },
+    "nb10/cost_sensitivity.csv": {
+      "sha256": "30ba747e8921a4efeb3d4fde7d7cbe4a56220a94b8067e711ae2c3cc9483ce73",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/cost_sensitivity.csv"
+    },
+    "nb10/decision_configuration.json": {
+      "sha256": "b616605cc68b4622af9c2650f3d51cd07a357f797b12b7310fd44d2f879d53eb",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/decision_configuration.json"
+    },
+    "nb10/horizon_offset_sensitivity.csv": {
+      "sha256": "2d7da96b086f055d9ec446e5f3091f2a07fdce43d2a02e7af192414ca8a22514",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/horizon_offset_sensitivity.csv"
+    },
+    "nb10/paired_uncertainty.csv": {
+      "sha256": "510b2836f770086aa47ca45ec26405289bf882d37cab9afe09eeed6fb714c1fa",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/paired_uncertainty.csv"
+    },
+    "nb10/recent_daily_ledger.csv": {
+      "sha256": "f6ef896d072d5988a5b0157d72e433cc8c6e0ff71b74a7fc9905e1b8becf1af7",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/recent_daily_ledger.csv"
+    },
+    "nb10/recent_decision_schedule.csv": {
+      "sha256": "965e45a2dd34d3de6d1bcc5f4627ae94e846e9fbd3257ca6eeb68ee6999cad3a",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/recent_decision_schedule.csv"
+    },
+    "nb10/recent_trades.csv": {
+      "sha256": "d6e8dcf07b1ed97ddcdb6e8a3f5b7ba10335d2dbc56fa7f954453e8bdad9c9c0",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/recent_trades.csv"
+    },
+    "nb10/run_manifest.json": {
+      "sha256": "6f4e56d345c84869b3aaf4d00286f8996389fcfc41cedfa3f6ded0f92a23ad86",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/run_manifest.json"
+    },
+    "nb10/strategy_metrics.csv": {
+      "sha256": "7e7fa0015d82166b0b928b18aa13a3dce5c038cfb18e9b5561d093588fcd6a06",
+      "source": "/Users/trush/Documents/Trading/Codex/outputs/notebook_10/strategy_metrics.csv"
+    },
+    "original_notebooks/Notebook_9_Short_Horizon_Analog_Forecasting.ipynb": {
+      "sha256": "184363e5c12830abd3a32ff7336c320a288a6c1f181976f09c8dbec7b2bee294",
+      "source": "/Users/trush/Documents/Trading/Codex/Notebook_9_Short_Horizon_Analog_Forecasting.ipynb"
+    },
+    "original_notebooks/Notebook_10_Trading_Decision_Layer.ipynb": {
+      "sha256": "5f8273f9c85e241be108ef360b41a9831ca3c3ee902f3112fbd89735db8f0107",
+      "source": "/Users/trush/Documents/Trading/Codex/Notebook_10_Trading_Decision_Layer.ipynb"
+    }
+  },
+  "scope": "Immutable NB9/NB10 reference exports and exact NB3 provenance inputs; previously examined SPY history.",
+  "source_notebooks": "Read-only originals; no canonical NB9/NB10 changes.",
+  "market_sha256": "4512e193419930f199f6deecb9ae769d1a485128aa87529afee83fb379e69eb3",
+  "entry_delay_sessions": 1,
+  "legacy_horizons": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "library_max_steps": 5,
+  "compatible_holding_horizons": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

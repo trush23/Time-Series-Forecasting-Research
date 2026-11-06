@@ -1,0 +1,8 @@
+filter,kind,prefix_invariant,future_poison_invariant,checkpoint_equivalent,projection_nonmutating
+EMA,ema,True,True,True,True
+Butterworth,butter,True,True,True,True
+Bessel,bessel,True,True,True,True
+Endpoint SG,sg,True,True,True,True
+Weighted local linear,local_linear,True,True,True,True
+Trailing spline,spline,True,True,True,True
+Kalman (unmatched),kalman,True,True,True,True

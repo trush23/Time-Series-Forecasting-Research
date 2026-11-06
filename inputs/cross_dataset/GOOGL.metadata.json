@@ -1,0 +1,26 @@
+{
+  "group": "stocks",
+  "transform": "log adjusted Close",
+  "units": "log units",
+  "frequency": "observed trading sessions",
+  "source": "Yahoo via yfinance; frozen existing local cache",
+  "source_cache_name": "c9b2d35712a5306f1c00.csv",
+  "source_csv_sha256": "47d1ce81919f18576dff580fc8a9364eb0c7ca21a4eb670523edea9096e6528c",
+  "source_metadata": {
+    "ticker": "GOOGL",
+    "source": "Yahoo via yfinance",
+    "mode": "download",
+    "sha256": "47d1ce81919f18576dff580fc8a9364eb0c7ca21a4eb670523edea9096e6528c",
+    "start": "2018-01-01",
+    "cutoff": "2026-10-30",
+    "retrieved_utc": "2026-10-31T15:27:21.561397+00:00"
+  },
+  "adjustment": "OHLC multiplied by provider Adj Close / Close before caching",
+  "producer_evidence_sha256": "c4c1838703bae5f4ce154af46ffadb121de4090b265c02151ba0d8e1f7405cc2",
+  "exposure": "Previously used in other project notebooks; not a pristine asset holdout.",
+  "dataset_id": "GOOGL",
+  "sha256": "d8d86b58ae3c8c7f409d1408993924eb1cb657a6fec43300feb7ce8fb39c1bb7",
+  "rows": 1443,
+  "first": "2021-01-04",
+  "last": "2026-10-01"
+}

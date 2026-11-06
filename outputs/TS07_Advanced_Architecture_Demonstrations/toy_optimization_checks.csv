@@ -1,0 +1,11 @@
+case,model,training_MSE,training_MSE_skill_vs_mean,chosen_epochs
+Planted linear map,DecompositionLinear_demo,0.15041478897284716,0.27284444224392423,30
+Planted linear map,LastCenteredLinear_demo,0.13320848261842042,0.35602550030021485,30
+Planted linear map,NBEATS_demo,0.07299776487535181,0.6471043120469661,16
+Planted linear map,NHITS_demo,0.024301686985907813,0.8825174912964087,30
+Planted linear map,PatchTransformer_demo,0.020213881364016417,0.9022793152319624,25
+Independent targets,DecompositionLinear_demo,0.8068869549786284,0.13194070378238643,28
+Independent targets,LastCenteredLinear_demo,0.9077228656359175,0.023460142659735728,18
+Independent targets,NBEATS_demo,0.7543633761242541,0.18844624103743612,11
+Independent targets,NHITS_demo,0.9082664433848188,0.022875354771866974,4
+Independent targets,PatchTransformer_demo,0.8936549441899494,0.03859459230510798,5

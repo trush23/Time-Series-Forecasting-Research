@@ -1,0 +1,11 @@
+name,family,lags,order
+AR1_changes,ar_diff,1,"(1, 1, 1)"
+AR5_changes,ar_diff,5,"(1, 1, 1)"
+MA1_changes,arma_diff,1,"(0, 0, 1)"
+ARMA11_changes,arma_diff,1,"(1, 0, 1)"
+ARIMA111,arima,1,"(1, 1, 1)"
+SES_ETS_ANN,ses,1,"(1, 1, 1)"
+Holt_damped,holt,1,"(1, 1, 1)"
+Theta2,theta,1,"(1, 1, 1)"
+Local_level,local_level,1,"(1, 1, 1)"
+Local_linear_trend,local_trend,1,"(1, 1, 1)"

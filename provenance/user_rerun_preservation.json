@@ -1,0 +1,7 @@
+{
+  "note": "Preserved user-executed TS09: identical cell sources, increasing Jupyter counts; only manifest created_utc changed.",
+  "files_sha256": {
+    "notebooks/TS09_Cross_Dataset_and_Cross_Asset_Benchmark.ipynb": "4afb0af3d898ba6979a6051ca6be3492dc30772e212b4d9b2881e6b9aeeee367",
+    "outputs/TS09_Cross_Dataset_and_Cross_Asset_Benchmark/run_manifest.json": "70ff1d1c7fddc3d937cc392c351b92d86e0f3479390362fbf260a26155db4aa2"
+  }
+}

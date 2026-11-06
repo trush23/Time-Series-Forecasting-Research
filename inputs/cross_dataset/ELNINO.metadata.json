@@ -1,0 +1,15 @@
+{
+  "group": "nonfinancial",
+  "transform": "identity, Celsius level",
+  "units": "degrees Celsius",
+  "frequency": "monthly",
+  "source": "statsmodels bundled NOAA ERSST.V3B Nino 1+2 monthly series",
+  "source_url": "https://www.statsmodels.org/stable/datasets/generated/elnino.html",
+  "statsmodels_version": "0.14.4",
+  "exposure": "Public teaching dataset; no pristine data-independence claim.",
+  "dataset_id": "ELNINO",
+  "sha256": "76de0545139f1b9a0b0e8911571e0bdd661f5553d1d4b8badb4c76e743d68d72",
+  "rows": 732,
+  "first": "1950-01-31",
+  "last": "2010-12-31"
+}

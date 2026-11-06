@@ -1,0 +1,5 @@
+check,value,expected
+"pinball: y=3, q=.8 quantile=1",1.6,1.6
+"80% interval [0,1], y=2",11.000000000000002,11.0
+"N(0,1) CRPS at y=0",0.23369497725510913,0.23369497725510915
+95% rank with scores 0..125,120.0,120.0

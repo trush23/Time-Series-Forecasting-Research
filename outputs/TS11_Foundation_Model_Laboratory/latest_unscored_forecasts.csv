@@ -1,0 +1,481 @@
+dataset_id,group,track,model,origin_pos,origin,horizon,target_end,data_available_through,actual,prediction,status,role,units
+SPY,stocks,smoothed,filter_null,1442,2026-10-01,1,,2026-10-01,,6.63974091576582,immature,latest,log units
+SPY,stocks,smoothed,filter_null,1442,2026-10-01,2,,2026-10-01,,6.639503670071301,immature,latest,log units
+SPY,stocks,smoothed,filter_null,1442,2026-10-01,3,,2026-10-01,,6.639313873515686,immature,latest,log units
+SPY,stocks,smoothed,filter_null,1442,2026-10-01,4,,2026-10-01,,6.639162036271194,immature,latest,log units
+SPY,stocks,smoothed,filter_null,1442,2026-10-01,5,,2026-10-01,,6.639040566475599,immature,latest,log units
+SPY,stocks,smoothed,Ridge_10,1442,2026-10-01,1,,2026-10-01,,6.6403754500443695,immature,latest,log units
+SPY,stocks,smoothed,Ridge_10,1442,2026-10-01,2,,2026-10-01,,6.641342659671807,immature,latest,log units
+SPY,stocks,smoothed,Ridge_10,1442,2026-10-01,3,,2026-10-01,,6.642193422186626,immature,latest,log units
+SPY,stocks,smoothed,Ridge_10,1442,2026-10-01,4,,2026-10-01,,6.6429126502849325,immature,latest,log units
+SPY,stocks,smoothed,Ridge_10,1442,2026-10-01,5,,2026-10-01,,6.643527233469635,immature,latest,log units
+SPY,stocks,returns,filter_null,1442,2026-10-01,1,,2026-10-01,,0.0,immature,latest,log_return
+SPY,stocks,returns,filter_null,1442,2026-10-01,2,,2026-10-01,,0.0,immature,latest,log_return
+SPY,stocks,returns,filter_null,1442,2026-10-01,3,,2026-10-01,,0.0,immature,latest,log_return
+SPY,stocks,returns,filter_null,1442,2026-10-01,4,,2026-10-01,,0.0,immature,latest,log_return
+SPY,stocks,returns,filter_null,1442,2026-10-01,5,,2026-10-01,,0.0,immature,latest,log_return
+SPY,stocks,returns,Ridge_10,1442,2026-10-01,1,,2026-10-01,,0.003172671392746627,immature,latest,log_return
+SPY,stocks,returns,Ridge_10,1442,2026-10-01,2,,2026-10-01,,0.006656810888331635,immature,latest,log_return
+SPY,stocks,returns,Ridge_10,1442,2026-10-01,3,,2026-10-01,,0.007041784952675753,immature,latest,log_return
+SPY,stocks,returns,Ridge_10,1442,2026-10-01,4,,2026-10-01,,0.00723487538493396,immature,latest,log_return
+SPY,stocks,returns,Ridge_10,1442,2026-10-01,5,,2026-10-01,,0.007430878915225418,immature,latest,log_return
+SPY,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,6.640829462150842,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,6.6404906898390355,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,6.640144742618114,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,6.639798470365614,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,6.639531742374212,immature,latest,log units
+SPY,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,0.0054427319251049155,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,0.0005809132985845622,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,0.00020626644120280702,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,-0.00014130593761318977,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,-8.985688462193053e-05,immature,latest,log_return
+SPY,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,6.639932993392259,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,6.639033820072919,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,6.637985709647447,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,6.636929217318803,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,6.6364403027694525,immature,latest,log units
+SPY,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,0.0009603881321895713,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,-0.0031175604976629856,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,-0.004761419347665274,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,-0.0058514392889952305,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,-0.004070042721173728,immature,latest,log_return
+SPY,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,6.639469740505129,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,6.639327502402276,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,6.6389459451313915,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,6.638515987957627,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,6.638161317038149,immature,latest,log units
+SPY,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,-0.0013558763034593468,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,0.00020386269763861264,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,-0.0011349712453734284,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,-0.0017585280306553486,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,-0.0018120539329880003,immature,latest,log_return
+SPY,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,6.641320410708696,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,6.640744987468034,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,6.639385874907285,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,6.638348940352708,immature,latest,log units
+SPY,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,6.638310413400442,immature,latest,log units
+SPY,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,0.00789747471437341,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,-0.00011139278783822704,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,-0.004605262628936124,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,-0.004353485158823389,immature,latest,log_return
+SPY,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,-0.0003983817018493596,immature,latest,log_return
+MCHP,stocks,smoothed,filter_null,1442,2026-10-01,1,,2026-10-01,,4.346033607215648,immature,latest,log units
+MCHP,stocks,smoothed,filter_null,1442,2026-10-01,2,,2026-10-01,,4.349446610730191,immature,latest,log units
+MCHP,stocks,smoothed,filter_null,1442,2026-10-01,3,,2026-10-01,,4.352177013541825,immature,latest,log units
+MCHP,stocks,smoothed,filter_null,1442,2026-10-01,4,,2026-10-01,,4.354361335791133,immature,latest,log units
+MCHP,stocks,smoothed,filter_null,1442,2026-10-01,5,,2026-10-01,,4.356108793590578,immature,latest,log units
+MCHP,stocks,smoothed,Ridge_10,1442,2026-10-01,1,,2026-10-01,,4.348048906361209,immature,latest,log units
+MCHP,stocks,smoothed,Ridge_10,1442,2026-10-01,2,,2026-10-01,,4.353387618580759,immature,latest,log units
+MCHP,stocks,smoothed,Ridge_10,1442,2026-10-01,3,,2026-10-01,,4.358252587080958,immature,latest,log units
+MCHP,stocks,smoothed,Ridge_10,1442,2026-10-01,4,,2026-10-01,,4.363151806173057,immature,latest,log units
+MCHP,stocks,smoothed,Ridge_10,1442,2026-10-01,5,,2026-10-01,,4.367339039807531,immature,latest,log units
+MCHP,stocks,returns,filter_null,1442,2026-10-01,1,,2026-10-01,,0.0,immature,latest,log_return
+MCHP,stocks,returns,filter_null,1442,2026-10-01,2,,2026-10-01,,0.0,immature,latest,log_return
+MCHP,stocks,returns,filter_null,1442,2026-10-01,3,,2026-10-01,,0.0,immature,latest,log_return
+MCHP,stocks,returns,filter_null,1442,2026-10-01,4,,2026-10-01,,0.0,immature,latest,log_return
+MCHP,stocks,returns,filter_null,1442,2026-10-01,5,,2026-10-01,,0.0,immature,latest,log_return
+MCHP,stocks,returns,Ridge_10,1442,2026-10-01,1,,2026-10-01,,0.01007649572780329,immature,latest,log_return
+MCHP,stocks,returns,Ridge_10,1442,2026-10-01,2,,2026-10-01,,0.011643842670594907,immature,latest,log_return
+MCHP,stocks,returns,Ridge_10,1442,2026-10-01,3,,2026-10-01,,0.014613836293397502,immature,latest,log_return
+MCHP,stocks,returns,Ridge_10,1442,2026-10-01,4,,2026-10-01,,0.019650057753089572,immature,latest,log_return
+MCHP,stocks,returns,Ridge_10,1442,2026-10-01,5,,2026-10-01,,0.020989349557063944,immature,latest,log_return
+MCHP,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,4.353030926364707,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,4.3567338863417975,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,4.362485558542656,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,4.366693218055414,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,4.3719035133749715,immature,latest,log units
+MCHP,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,0.03498659574529661,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,0.008447101461799278,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,0.02239362255772992,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,0.020425231318085935,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,0.029646069864838864,immature,latest,log_return
+MCHP,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,4.355005775395083,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,4.3604497358233205,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,4.366312240067171,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,4.370424088838743,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,4.374611203375506,immature,latest,log units
+MCHP,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,0.044860840897174015,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,0.019126952747911652,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,0.026663632254213532,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,0.023772859136670377,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,0.028261036734194,immature,latest,log_return
+MCHP,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,4.346699930544244,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,4.351066924448358,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,4.356426511707949,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,4.361207204687642,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,4.367517537254142,immature,latest,log units
+MCHP,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,0.003331616642983093,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,0.005436275276453628,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,0.014766235957949903,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,0.017231351818054463,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,0.029660242731779363,immature,latest,log_return
+MCHP,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,4.344886177036213,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,4.350292396548437,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,4.353775125744986,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,4.3570535972744695,immature,latest,log units
+MCHP,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,4.363699418309378,immature,latest,log units
+MCHP,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,-0.005737150897173748,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,0.008818649808972623,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,0.004607417742819031,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,0.007068858604044159,immature,latest,log_return
+MCHP,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,0.02718407766065134,immature,latest,log_return
+MRVL,stocks,smoothed,filter_null,1442,2026-10-01,1,,2026-10-01,,5.560157664659233,immature,latest,log units
+MRVL,stocks,smoothed,filter_null,1442,2026-10-01,2,,2026-10-01,,5.566339514757633,immature,latest,log units
+MRVL,stocks,smoothed,filter_null,1442,2026-10-01,3,,2026-10-01,,5.571284994836353,immature,latest,log units
+MRVL,stocks,smoothed,filter_null,1442,2026-10-01,4,,2026-10-01,,5.57524137889933,immature,latest,log units
+MRVL,stocks,smoothed,filter_null,1442,2026-10-01,5,,2026-10-01,,5.578406486149711,immature,latest,log units
+MRVL,stocks,smoothed,Ridge_10,1442,2026-10-01,1,,2026-10-01,,5.564427761375193,immature,latest,log units
+MRVL,stocks,smoothed,Ridge_10,1442,2026-10-01,2,,2026-10-01,,5.57477284850703,immature,latest,log units
+MRVL,stocks,smoothed,Ridge_10,1442,2026-10-01,3,,2026-10-01,,5.581925794465376,immature,latest,log units
+MRVL,stocks,smoothed,Ridge_10,1442,2026-10-01,4,,2026-10-01,,5.587997539829738,immature,latest,log units
+MRVL,stocks,smoothed,Ridge_10,1442,2026-10-01,5,,2026-10-01,,5.591549933973755,immature,latest,log units
+MRVL,stocks,returns,filter_null,1442,2026-10-01,1,,2026-10-01,,0.0,immature,latest,log_return
+MRVL,stocks,returns,filter_null,1442,2026-10-01,2,,2026-10-01,,0.0,immature,latest,log_return
+MRVL,stocks,returns,filter_null,1442,2026-10-01,3,,2026-10-01,,0.0,immature,latest,log_return
+MRVL,stocks,returns,filter_null,1442,2026-10-01,4,,2026-10-01,,0.0,immature,latest,log_return
+MRVL,stocks,returns,filter_null,1442,2026-10-01,5,,2026-10-01,,0.0,immature,latest,log_return
+MRVL,stocks,returns,Ridge_10,1442,2026-10-01,1,,2026-10-01,,0.021350483579802973,immature,latest,log_return
+MRVL,stocks,returns,Ridge_10,1442,2026-10-01,2,,2026-10-01,,0.025086281883143467,immature,latest,log_return
+MRVL,stocks,returns,Ridge_10,1442,2026-10-01,3,,2026-10-01,,0.01947066314752756,immature,latest,log_return
+MRVL,stocks,returns,Ridge_10,1442,2026-10-01,4,,2026-10-01,,0.02121760613594809,immature,latest,log_return
+MRVL,stocks,returns,Ridge_10,1442,2026-10-01,5,,2026-10-01,,0.014692595398585105,immature,latest,log_return
+MRVL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,5.55713564700293,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,5.558761736218209,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,5.5634269172589725,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,5.565191721383805,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,5.567368512813324,immature,latest,log units
+MRVL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,-0.015110088281513612,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,-0.02580082207190859,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,-0.008979273729203818,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,-0.01881597726809847,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,-0.014991236619832371,immature,latest,log_return
+MRVL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,5.543458184067482,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,5.548982223335976,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,5.556194564167733,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,5.556507488552803,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,5.556864341561074,immature,latest,log units
+MRVL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,-0.08349740295875208,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,-0.019988534741282038,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,-0.006022987656475465,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,-0.033307729058145163,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,-0.03277516155707705,immature,latest,log_return
+MRVL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,5.553554301921601,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,5.553352152768845,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,5.549920281235451,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,5.546175381008858,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,5.547211354438538,immature,latest,log units
+MRVL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,-0.03301681368816034,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,-0.03852335899340975,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,-0.054874120049359654,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,-0.05987113504874575,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,-0.03971166699397788,immature,latest,log_return
+MRVL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,5.568132361237282,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,5.573073586289162,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,5.567255159680123,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,5.565228005711312,immature,latest,log units
+MRVL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,5.568613847557778,immature,latest,log units
+MRVL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,0.03987348289024695,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,0.0017715713454480309,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,-0.047085461907268034,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,-0.03394752531516776,immature,latest,log_return
+MRVL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,-0.008909700207593296,immature,latest,log_return
+TXG,stocks,smoothed,filter_null,1442,2026-10-01,1,,2026-10-01,,4.448028944497919,immature,latest,log units
+TXG,stocks,smoothed,filter_null,1442,2026-10-01,2,,2026-10-01,,4.455610380024712,immature,latest,log units
+TXG,stocks,smoothed,filter_null,1442,2026-10-01,3,,2026-10-01,,4.461675528446146,immature,latest,log units
+TXG,stocks,smoothed,filter_null,1442,2026-10-01,4,,2026-10-01,,4.466527647183293,immature,latest,log units
+TXG,stocks,smoothed,filter_null,1442,2026-10-01,5,,2026-10-01,,4.470409342173011,immature,latest,log units
+TXG,stocks,smoothed,Ridge_10,1442,2026-10-01,1,,2026-10-01,,4.450227257823174,immature,latest,log units
+TXG,stocks,smoothed,Ridge_10,1442,2026-10-01,2,,2026-10-01,,4.460345992228468,immature,latest,log units
+TXG,stocks,smoothed,Ridge_10,1442,2026-10-01,3,,2026-10-01,,4.46989554141939,immature,latest,log units
+TXG,stocks,smoothed,Ridge_10,1442,2026-10-01,4,,2026-10-01,,4.47829836680997,immature,latest,log units
+TXG,stocks,smoothed,Ridge_10,1442,2026-10-01,5,,2026-10-01,,4.489403365153287,immature,latest,log units
+TXG,stocks,returns,filter_null,1442,2026-10-01,1,,2026-10-01,,0.0,immature,latest,log_return
+TXG,stocks,returns,filter_null,1442,2026-10-01,2,,2026-10-01,,0.0,immature,latest,log_return
+TXG,stocks,returns,filter_null,1442,2026-10-01,3,,2026-10-01,,0.0,immature,latest,log_return
+TXG,stocks,returns,filter_null,1442,2026-10-01,4,,2026-10-01,,0.0,immature,latest,log_return
+TXG,stocks,returns,filter_null,1442,2026-10-01,5,,2026-10-01,,0.0,immature,latest,log_return
+TXG,stocks,returns,Ridge_10,1442,2026-10-01,1,,2026-10-01,,0.010991566626277809,immature,latest,log_return
+TXG,stocks,returns,Ridge_10,1442,2026-10-01,2,,2026-10-01,,0.01488480771775634,immature,latest,log_return
+TXG,stocks,returns,Ridge_10,1442,2026-10-01,3,,2026-10-01,,0.022157616051199935,immature,latest,log_return
+TXG,stocks,returns,Ridge_10,1442,2026-10-01,4,,2026-10-01,,0.02597354624040378,immature,latest,log_return
+TXG,stocks,returns,Ridge_10,1442,2026-10-01,5,,2026-10-01,,0.047887236394675334,immature,latest,log_return
+TXG,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,4.466643223125622,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,4.47113446291177,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,4.481692799884961,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,4.490048685629056,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,4.4948380976506925,immature,latest,log units
+TXG,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,0.09307139313851565,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,0.0031632999244806115,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,0.037990025645839864,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,0.03753610647355288,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,0.028059623605359185,immature,latest,log_return
+TXG,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,4.486516246158764,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,4.494814762432263,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,4.506350645382092,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,4.5102214902230955,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,4.515835294086621,immature,latest,log units
+TXG,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,0.1924365083042261,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,0.04207270539437413,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,0.06655805504952639,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,0.03976874745522707,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,0.052354387408839465,immature,latest,log_return
+TXG,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,4.470661976892636,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,4.478451052267239,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,4.481922754604504,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,4.487059691507504,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,4.49207351501672,immature,latest,log units
+TXG,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,0.1131651619735834,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,0.02367123163377105,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,0.00987344182168215,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,0.02167131698762148,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,0.026192686921702624,immature,latest,log_return
+TXG,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,4.502563723880932,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,4.515746006328747,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,4.521800765354321,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,4.533244141895459,immature,latest,log units
+TXG,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,4.547221073467419,immature,latest,log units
+TXG,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,0.27267389691506594,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,0.08253901398812591,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,0.06008367932473391,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,0.09308152592812746,immature,latest,log_return
+TXG,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,0.11719267762337893,immature,latest,log_return
+GOOGL,stocks,smoothed,filter_null,1442,2026-10-01,1,,2026-10-01,,5.833827373930186,immature,latest,log units
+GOOGL,stocks,smoothed,filter_null,1442,2026-10-01,2,,2026-10-01,,5.831813033906148,immature,latest,log units
+GOOGL,stocks,smoothed,filter_null,1442,2026-10-01,3,,2026-10-01,,5.830201561886916,immature,latest,log units
+GOOGL,stocks,smoothed,filter_null,1442,2026-10-01,4,,2026-10-01,,5.828912384271532,immature,latest,log units
+GOOGL,stocks,smoothed,filter_null,1442,2026-10-01,5,,2026-10-01,,5.827881042179224,immature,latest,log units
+GOOGL,stocks,smoothed,Ridge_10,1442,2026-10-01,1,,2026-10-01,,5.835332888786358,immature,latest,log units
+GOOGL,stocks,smoothed,Ridge_10,1442,2026-10-01,2,,2026-10-01,,5.834986355086849,immature,latest,log units
+GOOGL,stocks,smoothed,Ridge_10,1442,2026-10-01,3,,2026-10-01,,5.8337315377816035,immature,latest,log units
+GOOGL,stocks,smoothed,Ridge_10,1442,2026-10-01,4,,2026-10-01,,5.832442842170132,immature,latest,log units
+GOOGL,stocks,smoothed,Ridge_10,1442,2026-10-01,5,,2026-10-01,,5.832371951553479,immature,latest,log units
+GOOGL,stocks,returns,filter_null,1442,2026-10-01,1,,2026-10-01,,0.0,immature,latest,log_return
+GOOGL,stocks,returns,filter_null,1442,2026-10-01,2,,2026-10-01,,0.0,immature,latest,log_return
+GOOGL,stocks,returns,filter_null,1442,2026-10-01,3,,2026-10-01,,0.0,immature,latest,log_return
+GOOGL,stocks,returns,filter_null,1442,2026-10-01,4,,2026-10-01,,0.0,immature,latest,log_return
+GOOGL,stocks,returns,filter_null,1442,2026-10-01,5,,2026-10-01,,0.0,immature,latest,log_return
+GOOGL,stocks,returns,Ridge_10,1442,2026-10-01,1,,2026-10-01,,0.007527574280861032,immature,latest,log_return
+GOOGL,stocks,returns,Ridge_10,1442,2026-10-01,2,,2026-10-01,,0.00984454647881565,immature,latest,log_return
+GOOGL,stocks,returns,Ridge_10,1442,2026-10-01,3,,2026-10-01,,0.004956594750633424,immature,latest,log_return
+GOOGL,stocks,returns,Ridge_10,1442,2026-10-01,4,,2026-10-01,,0.0035323859142508654,immature,latest,log_return
+GOOGL,stocks,returns,Ridge_10,1442,2026-10-01,5,,2026-10-01,,0.008332715276872054,immature,latest,log_return
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,5.836511744930769,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,5.834529021568025,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,5.833110565132822,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,5.832110162637557,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,5.832448124698724,immature,latest,log units
+GOOGL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,0.013421855002917482,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,0.0028424543070570962,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,0.0036810655820129767,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,0.004352878846503039,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,0.010044299133395995,immature,latest,log_return
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,5.835867210104491,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,5.835851630940462,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,5.835185876860644,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,5.83445814885142,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,5.834768636896635,immature,latest,log units
+GOOGL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,0.01019918087152405,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,0.012033640474355956,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,0.008767186731373222,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,0.007791563004531099,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,0.01225491526750222,immature,latest,log_return
+GOOGL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,5.834941732510353,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,5.83199798669609,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,5.829415969363774,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,5.827774006686534,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,5.828646505064691,immature,latest,log units
+GOOGL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,0.005571792900838091,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,-0.003532670370960389,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,-0.0046677737754841075,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,-0.0025495178324241863,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,0.008380824767328932,immature,latest,log_return
+GOOGL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,5.832536204531218,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,5.832525963708187,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,5.831549952551152,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,5.830860971286322,immature,latest,log units
+GOOGL,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,5.832654173299099,immature,latest,log units
+GOOGL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,-0.006455846994839476,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,0.00872932660607173,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,0.0038902341130153673,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,0.0043493724170096115,immature,latest,log_return
+GOOGL,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,0.01607130754021302,immature,latest,log_return
+NVDA,stocks,smoothed,filter_null,1442,2026-10-01,1,,2026-10-01,,5.427359522272592,immature,latest,log units
+NVDA,stocks,smoothed,filter_null,1442,2026-10-01,2,,2026-10-01,,5.430249911584189,immature,latest,log units
+NVDA,stocks,smoothed,filter_null,1442,2026-10-01,3,,2026-10-01,,5.432562223033468,immature,latest,log units
+NVDA,stocks,smoothed,filter_null,1442,2026-10-01,4,,2026-10-01,,5.434412072192891,immature,latest,log units
+NVDA,stocks,smoothed,filter_null,1442,2026-10-01,5,,2026-10-01,,5.4358919515204285,immature,latest,log units
+NVDA,stocks,smoothed,Ridge_10,1442,2026-10-01,1,,2026-10-01,,5.426487780103524,immature,latest,log units
+NVDA,stocks,smoothed,Ridge_10,1442,2026-10-01,2,,2026-10-01,,5.428285745937758,immature,latest,log units
+NVDA,stocks,smoothed,Ridge_10,1442,2026-10-01,3,,2026-10-01,,5.42839234031673,immature,latest,log units
+NVDA,stocks,smoothed,Ridge_10,1442,2026-10-01,4,,2026-10-01,,5.4269267672544785,immature,latest,log units
+NVDA,stocks,smoothed,Ridge_10,1442,2026-10-01,5,,2026-10-01,,5.425525258616702,immature,latest,log units
+NVDA,stocks,returns,filter_null,1442,2026-10-01,1,,2026-10-01,,0.0,immature,latest,log_return
+NVDA,stocks,returns,filter_null,1442,2026-10-01,2,,2026-10-01,,0.0,immature,latest,log_return
+NVDA,stocks,returns,filter_null,1442,2026-10-01,3,,2026-10-01,,0.0,immature,latest,log_return
+NVDA,stocks,returns,filter_null,1442,2026-10-01,4,,2026-10-01,,0.0,immature,latest,log_return
+NVDA,stocks,returns,filter_null,1442,2026-10-01,5,,2026-10-01,,0.0,immature,latest,log_return
+NVDA,stocks,returns,Ridge_10,1442,2026-10-01,1,,2026-10-01,,-0.004358710845343135,immature,latest,log_return
+NVDA,stocks,returns,Ridge_10,1442,2026-10-01,2,,2026-10-01,,-0.006333859555883764,immature,latest,log_return
+NVDA,stocks,returns,Ridge_10,1442,2026-10-01,3,,2026-10-01,,-0.01299275099796564,immature,latest,log_return
+NVDA,stocks,returns,Ridge_10,1442,2026-10-01,4,,2026-10-01,,-0.020746993825106225,immature,latest,log_return
+NVDA,stocks,returns,Ridge_10,1442,2026-10-01,5,,2026-10-01,,-0.02189224476498464,immature,latest,log_return
+NVDA,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,5.434762166891582,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,5.434077957723625,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,5.43335633173991,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,5.43313352957774,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,5.432736860666759,immature,latest,log units
+NVDA,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,1,,2026-10-01,,0.037013223094950476,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,2,,2026-10-01,,-0.010470347778785971,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,3,,2026-10-01,,-0.011341641025532923,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,4,,2026-10-01,,-0.009569147901524744,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-tiny_L64,1442,2026-10-01,5,,2026-10-01,,-0.01066128380774245,immature,latest,log_return
+NVDA,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,5.436706984494217,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,5.43591431722451,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,5.434390837405212,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,5.433844322417267,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,5.433887863610275,immature,latest,log units
+NVDA,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,1,,2026-10-01,,0.046737311108122626,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,2,,2026-10-01,,-0.009067820684900418,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,3,,2026-10-01,,-0.013514550702562467,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,4,,2026-10-01,,-0.010153206365099976,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-tiny_L256,1442,2026-10-01,5,,2026-10-01,,-0.007749440448274747,immature,latest,log_return
+NVDA,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,5.4278887604217605,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,5.428022334430702,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,5.427442455742844,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,5.427817592475899,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,5.427542941723354,immature,latest,log units
+NVDA,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,1,,2026-10-01,,0.0026461907458408263,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,2,,2026-10-01,,-0.013254838364114008,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,3,,2026-10-01,,-0.01668852783917263,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,4,,2026-10-01,,-0.012493329422462729,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-mini_L64,1442,2026-10-01,5,,2026-10-01,,-0.015367130117405203,immature,latest,log_return
+NVDA,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,5.431971753094681,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,5.432443315241821,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,5.430929327462204,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,5.430543461893089,immature,latest,log units
+NVDA,stocks,smoothed,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,5.431365350339897,immature,latest,log units
+NVDA,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,1,,2026-10-01,,0.02306115411044196,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,2,,2026-10-01,,-0.007481905000199518,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,3,,2026-10-01,,-0.016938092486848966,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,4,,2026-10-01,,-0.012811469213951376,immature,latest,log_return
+NVDA,stocks,returns,chronos-bolt-mini_L256,1442,2026-10-01,5,,2026-10-01,,-0.0071585647034533295,immature,latest,log_return
+ELNINO,nonfinancial,smoothed,filter_null,731,2010-12-31,1,,2010-12-31,,21.66401390300838,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,filter_null,731,2010-12-31,2,,2010-12-31,,21.745211122406708,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,filter_null,731,2010-12-31,3,,2010-12-31,,21.810168897925365,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,filter_null,731,2010-12-31,4,,2010-12-31,,21.862135118340294,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,filter_null,731,2010-12-31,5,,2010-12-31,,21.903708094672236,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,Ridge_10,731,2010-12-31,1,,2010-12-31,,21.98826544140166,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,Ridge_10,731,2010-12-31,2,,2010-12-31,,22.609216442897996,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,Ridge_10,731,2010-12-31,3,,2010-12-31,,23.240270092390727,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,Ridge_10,731,2010-12-31,4,,2010-12-31,,23.705946003401444,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,Ridge_10,731,2010-12-31,5,,2010-12-31,,23.895431567079427,immature,latest,degrees Celsius
+ELNINO,nonfinancial,returns,filter_null,731,2010-12-31,1,,2010-12-31,,0.0,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,filter_null,731,2010-12-31,2,,2010-12-31,,0.0,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,filter_null,731,2010-12-31,3,,2010-12-31,,0.0,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,filter_null,731,2010-12-31,4,,2010-12-31,,0.0,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,filter_null,731,2010-12-31,5,,2010-12-31,,0.0,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,Ridge_10,731,2010-12-31,1,,2010-12-31,,1.6212576919663912,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,Ridge_10,731,2010-12-31,2,,2010-12-31,,3.023020448883328,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,Ridge_10,731,2010-12-31,3,,2010-12-31,,3.6944846903616617,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,Ridge_10,731,2010-12-31,4,,2010-12-31,,3.4986496474442914,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,Ridge_10,731,2010-12-31,5,,2010-12-31,,2.5833738217913784,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L64,731,2010-12-31,1,,2010-12-31,,21.81649968428721,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L64,731,2010-12-31,2,,2010-12-31,,22.446629856063026,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L64,731,2010-12-31,3,,2010-12-31,,22.996466014815468,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L64,731,2010-12-31,4,,2010-12-31,,23.29952320857157,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L64,731,2010-12-31,5,,2010-12-31,,23.367030117941994,immature,latest,degrees Celsius
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L64,731,2010-12-31,1,,2010-12-31,,0.7624289063941347,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L64,731,2010-12-31,2,,2010-12-31,,2.897150543166287,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L64,731,2010-12-31,3,,2010-12-31,,3.1258106498252225,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L64,731,2010-12-31,4,,2010-12-31,,2.4417519835959745,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L64,731,2010-12-31,5,,2010-12-31,,1.5670577554236687,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L256,731,2010-12-31,1,,2010-12-31,,21.90822443766703,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L256,731,2010-12-31,2,,2010-12-31,,22.65169355673899,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L256,731,2010-12-31,3,,2010-12-31,,23.301324699355263,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L256,731,2010-12-31,4,,2010-12-31,,23.673955176306862,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-tiny_L256,731,2010-12-31,5,,2010-12-31,,23.72559664054026,immature,latest,degrees Celsius
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L256,731,2010-12-31,1,,2010-12-31,,1.2210526732932436,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L256,731,2010-12-31,2,,2010-12-31,,3.555570033026818,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L256,731,2010-12-31,3,,2010-12-31,,3.829849269820347,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L256,731,2010-12-31,4,,2010-12-31,,3.0944770841132474,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-tiny_L256,731,2010-12-31,5,,2010-12-31,,1.862162497473836,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L64,731,2010-12-31,1,,2010-12-31,,21.74632224841227,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L64,731,2010-12-31,2,,2010-12-31,,22.34249803824534,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L64,731,2010-12-31,3,,2010-12-31,,22.89840314192881,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L64,731,2010-12-31,4,,2010-12-31,,23.282469962073463,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L64,731,2010-12-31,5,,2010-12-31,,23.453107569647926,immature,latest,degrees Celsius
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L64,731,2010-12-31,1,,2010-12-31,,0.4115417270194399,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L64,731,2010-12-31,2,,2010-12-31,,2.65720119757761,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L64,731,2010-12-31,3,,2010-12-31,,3.052023556662693,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L64,731,2010-12-31,4,,2010-12-31,,2.748737242652073,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L64,731,2010-12-31,5,,2010-12-31,,2.065657999945767,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L256,731,2010-12-31,1,,2010-12-31,,21.86500904364695,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L256,731,2010-12-31,2,,2010-12-31,,22.587873075438637,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L256,731,2010-12-31,3,,2010-12-31,,23.262650940848488,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L256,731,2010-12-31,4,,2010-12-31,,23.72714636130442,immature,latest,degrees Celsius
+ELNINO,nonfinancial,smoothed,chronos-bolt-mini_L256,731,2010-12-31,5,,2010-12-31,,23.903870556784767,immature,latest,degrees Celsius
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L256,731,2010-12-31,1,,2010-12-31,,1.0049757031928408,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L256,731,2010-12-31,2,,2010-12-31,,3.4093292026053668,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L256,731,2010-12-31,3,,2010-12-31,,3.8917624024878883,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L256,731,2010-12-31,4,,2010-12-31,,3.515128043128133,immature,latest,degrees Celsius change
+ELNINO,nonfinancial,returns,chronos-bolt-mini_L256,731,2010-12-31,5,,2010-12-31,,2.540767338706136,immature,latest,degrees Celsius change
+CO2,nonfinancial,smoothed,filter_null,443,2001-12-31,1,,2001-12-31,,370.2694159317043,immature,latest,ppm
+CO2,nonfinancial,smoothed,filter_null,443,2001-12-31,2,,2001-12-31,,370.4195327453634,immature,latest,ppm
+CO2,nonfinancial,smoothed,filter_null,443,2001-12-31,3,,2001-12-31,,370.5396261962907,immature,latest,ppm
+CO2,nonfinancial,smoothed,filter_null,443,2001-12-31,4,,2001-12-31,,370.63570095703255,immature,latest,ppm
+CO2,nonfinancial,smoothed,filter_null,443,2001-12-31,5,,2001-12-31,,370.712560765626,immature,latest,ppm
+CO2,nonfinancial,smoothed,Ridge_10,443,2001-12-31,1,,2001-12-31,,370.47132522077607,immature,latest,ppm
+CO2,nonfinancial,smoothed,Ridge_10,443,2001-12-31,2,,2001-12-31,,370.9362156782325,immature,latest,ppm
+CO2,nonfinancial,smoothed,Ridge_10,443,2001-12-31,3,,2001-12-31,,371.46098381301556,immature,latest,ppm
+CO2,nonfinancial,smoothed,Ridge_10,443,2001-12-31,4,,2001-12-31,,372.0615616335105,immature,latest,ppm
+CO2,nonfinancial,smoothed,Ridge_10,443,2001-12-31,5,,2001-12-31,,372.65724617120196,immature,latest,ppm
+CO2,nonfinancial,returns,filter_null,443,2001-12-31,1,,2001-12-31,,0.0,immature,latest,ppm change
+CO2,nonfinancial,returns,filter_null,443,2001-12-31,2,,2001-12-31,,0.0,immature,latest,ppm change
+CO2,nonfinancial,returns,filter_null,443,2001-12-31,3,,2001-12-31,,0.0,immature,latest,ppm change
+CO2,nonfinancial,returns,filter_null,443,2001-12-31,4,,2001-12-31,,0.0,immature,latest,ppm change
+CO2,nonfinancial,returns,filter_null,443,2001-12-31,5,,2001-12-31,,0.0,immature,latest,ppm change
+CO2,nonfinancial,returns,Ridge_10,443,2001-12-31,1,,2001-12-31,,1.0095464453587641,immature,latest,ppm change
+CO2,nonfinancial,returns,Ridge_10,443,2001-12-31,2,,2001-12-31,,1.7757775080582783,immature,latest,ppm change
+CO2,nonfinancial,returns,Ridge_10,443,2001-12-31,3,,2001-12-31,,2.540056352148098,immature,latest,ppm change
+CO2,nonfinancial,returns,Ridge_10,443,2001-12-31,4,,2001-12-31,,3.4438729154902887,immature,latest,ppm change
+CO2,nonfinancial,returns,Ridge_10,443,2001-12-31,5,,2001-12-31,,4.019984321968055,immature,latest,ppm change
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L64,443,2001-12-31,1,,2001-12-31,,370.4902720165286,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L64,443,2001-12-31,2,,2001-12-31,,370.78883716583584,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L64,443,2001-12-31,3,,2001-12-31,,371.2536208343539,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L64,443,2001-12-31,4,,2001-12-31,,371.7702805709872,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L64,443,2001-12-31,5,,2001-12-31,,372.2160207939181,immature,latest,ppm
+CO2,nonfinancial,returns,chronos-bolt-tiny_L64,443,2001-12-31,1,,2001-12-31,,1.1042804241216686,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-tiny_L64,443,2001-12-31,2,,2001-12-31,,0.9630977630649795,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-tiny_L64,443,2001-12-31,3,,2001-12-31,,2.092755508426478,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-tiny_L64,443,2001-12-31,4,,2001-12-31,,2.8169195175206596,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-tiny_L64,443,2001-12-31,5,,2001-12-31,,2.978981685641884,immature,latest,ppm change
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L256,443,2001-12-31,1,,2001-12-31,,370.21066758156155,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L256,443,2001-12-31,2,,2001-12-31,,370.817614526752,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L256,443,2001-12-31,3,,2001-12-31,,371.5696572971377,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L256,443,2001-12-31,4,,2001-12-31,,372.27690979957913,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-tiny_L256,443,2001-12-31,5,,2001-12-31,,372.8916787815127,immature,latest,ppm
+CO2,nonfinancial,returns,chronos-bolt-tiny_L256,443,2001-12-31,1,,2001-12-31,,-0.2937417507135365,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-tiny_L256,443,2001-12-31,2,,2001-12-31,,2.225402307513775,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-tiny_L256,443,2001-12-31,3,,2001-12-31,,3.5578283786807674,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-tiny_L256,443,2001-12-31,4,,2001-12-31,,4.085919809344887,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-tiny_L256,443,2001-12-31,5,,2001-12-31,,4.330754709247344,immature,latest,ppm change
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L64,443,2001-12-31,1,,2001-12-31,,370.5615441513095,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L64,443,2001-12-31,2,,2001-12-31,,370.9131996345553,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L64,443,2001-12-31,3,,2001-12-31,,371.3929421615634,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L64,443,2001-12-31,4,,2001-12-31,,371.98733922958706,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L64,443,2001-12-31,5,,2001-12-31,,372.45841094971036,immature,latest,ppm
+CO2,nonfinancial,returns,chronos-bolt-mini_L64,443,2001-12-31,1,,2001-12-31,,1.4606410980260875,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-mini_L64,443,2001-12-31,2,,2001-12-31,,1.2998215675389702,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-mini_L64,443,2001-12-31,3,,2001-12-31,,2.291912269595855,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-mini_L64,443,2001-12-31,4,,2001-12-31,,3.3449275016820934,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-mini_L64,443,2001-12-31,5,,2001-12-31,,3.3226978302036514,immature,latest,ppm change
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L256,443,2001-12-31,1,,2001-12-31,,370.54229065895413,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L256,443,2001-12-31,2,,2001-12-31,,370.958067865375,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L256,443,2001-12-31,3,,2001-12-31,,371.6555585575137,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L256,443,2001-12-31,4,,2001-12-31,,372.54531952858304,immature,latest,ppm
+CO2,nonfinancial,smoothed,chronos-bolt-mini_L256,443,2001-12-31,5,,2001-12-31,,373.454426736835,immature,latest,ppm
+CO2,nonfinancial,returns,chronos-bolt-mini_L256,443,2001-12-31,1,,2001-12-31,,1.3643736362493541,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-mini_L256,443,2001-12-31,2,,2001-12-31,,1.6011766910588676,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-mini_L256,443,2001-12-31,3,,2001-12-31,,3.42552132606869,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-mini_L256,443,2001-12-31,4,,2001-12-31,,5.084363412860569,immature,latest,ppm change
+CO2,nonfinancial,returns,chronos-bolt-mini_L256,443,2001-12-31,5,,2001-12-31,,6.070855569842877,immature,latest,ppm change

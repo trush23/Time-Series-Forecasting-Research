@@ -1,0 +1,17 @@
+{
+  "group": "nonfinancial",
+  "transform": "identity, concentration level",
+  "units": "ppm",
+  "frequency": "monthly",
+  "source": "statsmodels bundled Mauna Loa weekly CO2; mean of finite observations within each month",
+  "source_url": "https://www.statsmodels.org/stable/datasets/generated/co2.html",
+  "statsmodels_version": "0.14.4",
+  "aggregation": "1965 onward contiguous monthly means; no interpolation or future fill; available at month end",
+  "minimum_weekly_observations_per_month": 1,
+  "exposure": "Public teaching dataset; no pristine data-independence claim.",
+  "dataset_id": "CO2",
+  "sha256": "6dcd4e2a01a3af3a27bbfa3ad6d086643b92fbcfaa81c345696b3b6127ed6afb",
+  "rows": 444,
+  "first": "1965-01-31",
+  "last": "2001-12-31"
+}

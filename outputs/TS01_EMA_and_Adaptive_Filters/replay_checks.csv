@@ -1,0 +1,6 @@
+kind,prefix_invariant,future_poison_invariant,checkpoint_equivalent,projection_nonmutating
+identity,True,True,True,True
+ema,True,True,True,True
+dema,True,True,True,True
+tema,True,True,True,True
+kama,True,True,True,True

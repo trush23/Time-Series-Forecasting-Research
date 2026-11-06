@@ -1,0 +1,7 @@
+{
+  "component_reconstruction": true,
+  "prefix_invariance": true,
+  "future_poison_invariance": true,
+  "checkpoint_equivalence": true,
+  "projection_nonmutating": true
+}

@@ -1,0 +1,13 @@
+# Runtime + notebook execution. Exact validated versions are in environment-validated.txt.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+nbformat>=5.9
+nbconvert>=7
+ipython>=8
+ipykernel>=6
+pytest>=8
+statsmodels>=0.14.4
+scikit-learn>=1.6
+torch>=2.5

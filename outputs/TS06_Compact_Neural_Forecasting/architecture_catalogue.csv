@@ -1,0 +1,5 @@
+name,family,hidden,max_epochs,patience,learning_rate,weight_decay,validation_fraction,parameter_count,seed_count,input_shape,output_count
+MLP,mlp,12,30,5,0.005,0.001,0.2,713,3,20 x 2,5
+LSTM,lstm,12,30,5,0.005,0.001,0.2,833,3,20 x 2,5
+GRU,gru,12,30,5,0.005,0.001,0.2,641,3,20 x 2,5
+CausalTCN,tcn,12,30,5,0.005,0.001,0.2,1481,3,20 x 2,5

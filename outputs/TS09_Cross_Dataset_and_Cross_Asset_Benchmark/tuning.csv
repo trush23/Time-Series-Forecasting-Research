@@ -1,0 +1,253 @@
+track,model,relative_MAE,successful_fit_fraction,eligible,block,dataset_id,dataset_group,signal_units,frequency
+smoothed,AR5_changes,1.0600408062777906,1.0,True,0,SPY,stocks,log units,observed trading sessions
+smoothed,Ridge_10,1.1125989931675118,1.0,True,0,SPY,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.0330046208295374,1.0,True,0,SPY,stocks,log units,observed trading sessions
+smoothed,GRU,0.9725578440255029,1.0,True,0,SPY,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.9949598833198708,1.0,True,0,SPY,stocks,log units,observed trading sessions
+returns,AR5_changes,0.9341586793375999,1.0,True,0,SPY,stocks,log units,observed trading sessions
+returns,Ridge_10,1.1079446810149236,1.0,True,0,SPY,stocks,log units,observed trading sessions
+returns,HistBoost,1.0590305805802793,1.0,True,0,SPY,stocks,log units,observed trading sessions
+returns,GRU,0.9381363023134532,1.0,True,0,SPY,stocks,log units,observed trading sessions
+returns,NBEATS_demo,0.9759952517192975,1.0,True,0,SPY,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.9846436532692998,1.0,True,1,SPY,stocks,log units,observed trading sessions
+smoothed,Ridge_10,0.8449933659484893,1.0,True,1,SPY,stocks,log units,observed trading sessions
+smoothed,HistBoost,0.9896901748620792,1.0,True,1,SPY,stocks,log units,observed trading sessions
+smoothed,GRU,0.9395089729624522,1.0,True,1,SPY,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.8390710825049069,1.0,True,1,SPY,stocks,log units,observed trading sessions
+returns,AR5_changes,0.9411795573835257,1.0,True,1,SPY,stocks,log units,observed trading sessions
+returns,Ridge_10,0.9216133934159295,1.0,True,1,SPY,stocks,log units,observed trading sessions
+returns,HistBoost,1.037384053911114,1.0,True,1,SPY,stocks,log units,observed trading sessions
+returns,GRU,0.9364981307452294,1.0,True,1,SPY,stocks,log units,observed trading sessions
+returns,NBEATS_demo,1.016298239246732,1.0,True,1,SPY,stocks,log units,observed trading sessions
+smoothed,AR5_changes,1.0981770452350461,1.0,True,2,SPY,stocks,log units,observed trading sessions
+smoothed,Ridge_10,1.3385308264065658,1.0,True,2,SPY,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.1566023425838259,1.0,True,2,SPY,stocks,log units,observed trading sessions
+smoothed,GRU,1.0362501957647403,1.0,True,2,SPY,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,1.037878660282198,1.0,True,2,SPY,stocks,log units,observed trading sessions
+returns,AR5_changes,1.0480676159004523,1.0,True,2,SPY,stocks,log units,observed trading sessions
+returns,Ridge_10,1.2448527134348228,1.0,True,2,SPY,stocks,log units,observed trading sessions
+returns,HistBoost,1.011780350858165,1.0,True,2,SPY,stocks,log units,observed trading sessions
+returns,GRU,1.0034874490266246,1.0,True,2,SPY,stocks,log units,observed trading sessions
+returns,NBEATS_demo,0.9819768948110713,1.0,True,2,SPY,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.9856493445797728,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+smoothed,Ridge_10,0.8549529446927069,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.1896751325982495,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+smoothed,GRU,1.0721932322967893,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,1.0093610422353292,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+returns,AR5_changes,1.0248792404876732,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+returns,Ridge_10,0.9435563050029792,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+returns,HistBoost,1.0278343504129608,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+returns,GRU,1.0217942589826632,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+returns,NBEATS_demo,0.9675674693506412,1.0,True,0,MCHP,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.9547931154775832,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+smoothed,Ridge_10,0.9652187901675505,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.0748573491500304,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+smoothed,GRU,0.9777079440792871,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.946436610317886,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+returns,AR5_changes,0.9329036401151132,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+returns,Ridge_10,1.01490634118025,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+returns,HistBoost,1.0432181015823707,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+returns,GRU,0.9870422886488177,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+returns,NBEATS_demo,0.9849262622591965,1.0,True,1,MCHP,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.7855132118140273,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+smoothed,Ridge_10,0.8013706658154565,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+smoothed,HistBoost,0.931494499884199,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+smoothed,GRU,0.7090739676526614,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.962722024795079,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+returns,AR5_changes,0.8135682457705096,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+returns,Ridge_10,1.0881771013672548,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+returns,HistBoost,0.9629064847481418,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+returns,GRU,0.7680581823677338,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+returns,NBEATS_demo,1.0217719212132237,1.0,True,2,MCHP,stocks,log units,observed trading sessions
+smoothed,AR5_changes,1.0516958750455003,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+smoothed,Ridge_10,1.2537277310987531,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.004543833927238,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+smoothed,GRU,0.9312911498603785,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.9225215766683827,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+returns,AR5_changes,0.9332171685769663,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+returns,Ridge_10,1.2085164004457203,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+returns,HistBoost,1.0183211074766438,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+returns,GRU,0.9513990258172299,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+returns,NBEATS_demo,0.9393503589399608,1.0,True,0,MRVL,stocks,log units,observed trading sessions
+smoothed,AR5_changes,1.1035942981756246,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+smoothed,Ridge_10,1.1029018689734456,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+smoothed,HistBoost,0.9669588895984204,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+smoothed,GRU,1.030702000128809,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.9955309192677883,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+returns,AR5_changes,0.9168978037062043,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+returns,Ridge_10,1.163732069672833,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+returns,HistBoost,0.9825567759664565,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+returns,GRU,1.0732857747917852,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+returns,NBEATS_demo,1.0386491741214963,1.0,True,1,MRVL,stocks,log units,observed trading sessions
+smoothed,AR5_changes,1.3626404983590237,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+smoothed,Ridge_10,1.4572341679446397,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.9434741973923046,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+smoothed,GRU,1.0740300933108493,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,1.4373431278645084,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+returns,AR5_changes,0.9820764817037266,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+returns,Ridge_10,1.314986276961323,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+returns,HistBoost,1.5324390741613452,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+returns,GRU,1.0291726678959998,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+returns,NBEATS_demo,1.2617406433696892,1.0,True,2,MRVL,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.8632371503106402,1.0,True,0,TXG,stocks,log units,observed trading sessions
+smoothed,Ridge_10,0.7309754383544452,1.0,True,0,TXG,stocks,log units,observed trading sessions
+smoothed,HistBoost,0.8081610883330252,1.0,True,0,TXG,stocks,log units,observed trading sessions
+smoothed,GRU,0.943439653198849,1.0,True,0,TXG,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.8997537939397324,1.0,True,0,TXG,stocks,log units,observed trading sessions
+returns,AR5_changes,0.9610184447211655,1.0,True,0,TXG,stocks,log units,observed trading sessions
+returns,Ridge_10,0.8434655718371831,1.0,True,0,TXG,stocks,log units,observed trading sessions
+returns,HistBoost,0.8349579886227444,1.0,True,0,TXG,stocks,log units,observed trading sessions
+returns,GRU,0.9713317036353265,1.0,True,0,TXG,stocks,log units,observed trading sessions
+returns,NBEATS_demo,0.9791114178504483,1.0,True,0,TXG,stocks,log units,observed trading sessions
+smoothed,AR5_changes,1.0336609829405456,1.0,True,1,TXG,stocks,log units,observed trading sessions
+smoothed,Ridge_10,0.9713895666741976,1.0,True,1,TXG,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.0757717435855991,1.0,True,1,TXG,stocks,log units,observed trading sessions
+smoothed,GRU,1.033036395280436,1.0,True,1,TXG,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,1.0163255883477713,1.0,True,1,TXG,stocks,log units,observed trading sessions
+returns,AR5_changes,1.0720273736557717,1.0,True,1,TXG,stocks,log units,observed trading sessions
+returns,Ridge_10,1.3265996003907772,1.0,True,1,TXG,stocks,log units,observed trading sessions
+returns,HistBoost,1.1931981313250661,1.0,True,1,TXG,stocks,log units,observed trading sessions
+returns,GRU,1.1567350180682996,1.0,True,1,TXG,stocks,log units,observed trading sessions
+returns,NBEATS_demo,1.1187487930074653,1.0,True,1,TXG,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.8021644271346806,1.0,True,2,TXG,stocks,log units,observed trading sessions
+smoothed,Ridge_10,0.8132094198398357,1.0,True,2,TXG,stocks,log units,observed trading sessions
+smoothed,HistBoost,0.9561136607317019,1.0,True,2,TXG,stocks,log units,observed trading sessions
+smoothed,GRU,0.8470799858388565,1.0,True,2,TXG,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.9539586780508964,1.0,True,2,TXG,stocks,log units,observed trading sessions
+returns,AR5_changes,0.7992643478975806,1.0,True,2,TXG,stocks,log units,observed trading sessions
+returns,Ridge_10,0.8880557483013213,1.0,True,2,TXG,stocks,log units,observed trading sessions
+returns,HistBoost,1.0617851238933502,1.0,True,2,TXG,stocks,log units,observed trading sessions
+returns,GRU,0.8615254581526509,1.0,True,2,TXG,stocks,log units,observed trading sessions
+returns,NBEATS_demo,0.9572348608551946,1.0,True,2,TXG,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.9364532871709125,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+smoothed,Ridge_10,1.043291536355915,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.2992196254965236,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+smoothed,GRU,0.9881035166593586,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,1.0452927846289986,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+returns,AR5_changes,0.9106378814176235,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+returns,Ridge_10,1.0216892570574014,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+returns,HistBoost,1.2086551017860723,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+returns,GRU,0.9761220541590848,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+returns,NBEATS_demo,1.093685925316581,1.0,True,0,GOOGL,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.9944747818124788,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+smoothed,Ridge_10,1.1810888556005452,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.1613489777420676,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+smoothed,GRU,0.8856902473808331,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.9545756517877992,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+returns,AR5_changes,0.9444760606125779,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+returns,Ridge_10,1.244467963509937,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+returns,HistBoost,1.1507332946290092,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+returns,GRU,0.9147878932428736,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+returns,NBEATS_demo,1.0139980576091854,1.0,True,1,GOOGL,stocks,log units,observed trading sessions
+smoothed,AR5_changes,1.101941697714405,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+smoothed,Ridge_10,1.2163404855129971,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+smoothed,HistBoost,0.9763133662734045,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+smoothed,GRU,1.056280116354649,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,1.0003807219134395,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+returns,AR5_changes,1.0442951620573389,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+returns,Ridge_10,1.2431967919841347,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+returns,HistBoost,1.050028988193074,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+returns,GRU,1.0676390880882773,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+returns,NBEATS_demo,1.0191361785596422,1.0,True,2,GOOGL,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.8024139557500763,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+smoothed,Ridge_10,0.8161773654219896,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+smoothed,HistBoost,0.9087672921788099,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+smoothed,GRU,0.8340382689900231,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.8404367969138443,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+returns,AR5_changes,0.8099266201931636,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+returns,Ridge_10,0.813384957505255,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+returns,HistBoost,0.8611806120957425,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+returns,GRU,0.8400091707234981,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+returns,NBEATS_demo,0.8400852212648944,1.0,True,0,NVDA,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.8232119618164223,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+smoothed,Ridge_10,0.6516259947796363,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+smoothed,HistBoost,0.9232871753036754,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+smoothed,GRU,0.8793376762832624,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,0.7765170777162165,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+returns,AR5_changes,0.8482246764140833,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+returns,Ridge_10,0.805851074362398,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+returns,HistBoost,0.891621277987284,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+returns,GRU,0.8881753640188255,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+returns,NBEATS_demo,0.8441793402937021,1.0,True,1,NVDA,stocks,log units,observed trading sessions
+smoothed,AR5_changes,1.0146592306555027,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+smoothed,Ridge_10,1.0746628317325055,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+smoothed,HistBoost,1.2771219401902472,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+smoothed,GRU,1.045443210913774,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+smoothed,NBEATS_demo,1.0488589335048213,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+returns,AR5_changes,1.0050210443361207,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+returns,Ridge_10,1.1386367850975119,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+returns,HistBoost,1.3393184973476793,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+returns,GRU,1.0422304126136237,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+returns,NBEATS_demo,1.0690912017469643,1.0,True,2,NVDA,stocks,log units,observed trading sessions
+smoothed,AR5_changes,0.4005639348001351,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,Ridge_10,0.3745520130114439,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,HistBoost,0.3388405420473151,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,GRU,1.0557437304324806,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,NBEATS_demo,0.32923442848044776,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,Seasonal_EMA_changes,0.48538677791391044,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,AR5_changes,0.9564329849954749,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,Ridge_10,0.35804330428237086,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,HistBoost,0.3177811865613418,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,GRU,0.9454769475514903,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,NBEATS_demo,0.3515864387096318,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,Seasonal_EMA_changes,0.5062956816443541,1.0,True,0,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,AR5_changes,0.31302258138747396,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,Ridge_10,0.3563243243002141,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,HistBoost,0.33714848317889096,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,GRU,0.6159696714179101,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,NBEATS_demo,0.2954587617304506,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,Seasonal_EMA_changes,0.3309522202887451,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,AR5_changes,1.009059860889249,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,Ridge_10,0.34386933773623996,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,HistBoost,0.3295333302817204,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,GRU,0.5522711389638026,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,NBEATS_demo,0.3455449691722719,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,Seasonal_EMA_changes,0.32466722284761423,1.0,True,1,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,AR5_changes,0.33808011071002503,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,Ridge_10,0.31861277962313805,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,HistBoost,0.35576293146361837,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,GRU,0.7915889412313908,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,NBEATS_demo,0.20933746422121108,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,Seasonal_EMA_changes,0.4163063717284673,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,AR5_changes,0.9888347611864136,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,Ridge_10,0.31637818371718296,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,HistBoost,0.39448992908997865,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,GRU,0.7321987370915435,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,NBEATS_demo,0.24666502805991936,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+returns,Seasonal_EMA_changes,0.4020667133674782,1.0,True,2,ELNINO,nonfinancial,degrees Celsius,monthly
+smoothed,AR5_changes,0.5830121118709267,1.0,True,0,CO2,nonfinancial,ppm,monthly
+smoothed,Ridge_10,0.21361672779752547,1.0,True,0,CO2,nonfinancial,ppm,monthly
+smoothed,HistBoost,0.20789645337130075,1.0,True,0,CO2,nonfinancial,ppm,monthly
+smoothed,GRU,0.5172195808425594,1.0,True,0,CO2,nonfinancial,ppm,monthly
+smoothed,NBEATS_demo,0.15696397298658443,1.0,True,0,CO2,nonfinancial,ppm,monthly
+smoothed,Seasonal_EMA_changes,0.24258263132843375,1.0,True,0,CO2,nonfinancial,ppm,monthly
+returns,AR5_changes,1.061085174216884,1.0,True,0,CO2,nonfinancial,ppm,monthly
+returns,Ridge_10,0.18651634333604258,1.0,True,0,CO2,nonfinancial,ppm,monthly
+returns,HistBoost,0.21572555086495693,1.0,True,0,CO2,nonfinancial,ppm,monthly
+returns,GRU,0.48646848446705293,1.0,True,0,CO2,nonfinancial,ppm,monthly
+returns,NBEATS_demo,0.13791085464596445,1.0,True,0,CO2,nonfinancial,ppm,monthly
+returns,Seasonal_EMA_changes,0.20348698349543554,1.0,True,0,CO2,nonfinancial,ppm,monthly
+smoothed,AR5_changes,0.2929595256885227,1.0,True,1,CO2,nonfinancial,ppm,monthly
+smoothed,Ridge_10,0.1499970448274471,1.0,True,1,CO2,nonfinancial,ppm,monthly
+smoothed,HistBoost,0.18677314879023293,1.0,True,1,CO2,nonfinancial,ppm,monthly
+smoothed,GRU,0.30829719643344167,1.0,True,1,CO2,nonfinancial,ppm,monthly
+smoothed,NBEATS_demo,0.11690156584533067,1.0,True,1,CO2,nonfinancial,ppm,monthly
+smoothed,Seasonal_EMA_changes,0.23142448110292463,1.0,True,1,CO2,nonfinancial,ppm,monthly
+returns,AR5_changes,0.9476588911840075,1.0,True,1,CO2,nonfinancial,ppm,monthly
+returns,Ridge_10,0.1548428770751327,1.0,True,1,CO2,nonfinancial,ppm,monthly
+returns,HistBoost,0.18283275312972128,1.0,True,1,CO2,nonfinancial,ppm,monthly
+returns,GRU,0.2880385176957455,1.0,True,1,CO2,nonfinancial,ppm,monthly
+returns,NBEATS_demo,0.14906219417515693,1.0,True,1,CO2,nonfinancial,ppm,monthly
+returns,Seasonal_EMA_changes,0.2223607117645205,1.0,True,1,CO2,nonfinancial,ppm,monthly
+smoothed,AR5_changes,0.2768405714846876,1.0,True,2,CO2,nonfinancial,ppm,monthly
+smoothed,Ridge_10,0.21544968800683129,1.0,True,2,CO2,nonfinancial,ppm,monthly
+smoothed,HistBoost,0.20401414396493606,1.0,True,2,CO2,nonfinancial,ppm,monthly
+smoothed,GRU,0.40854621115983464,1.0,True,2,CO2,nonfinancial,ppm,monthly
+smoothed,NBEATS_demo,0.23824208639177752,1.0,True,2,CO2,nonfinancial,ppm,monthly
+smoothed,Seasonal_EMA_changes,0.38461935863142765,1.0,True,2,CO2,nonfinancial,ppm,monthly
+returns,AR5_changes,0.951659643120764,1.0,True,2,CO2,nonfinancial,ppm,monthly
+returns,Ridge_10,0.198815680595831,1.0,True,2,CO2,nonfinancial,ppm,monthly
+returns,HistBoost,0.19504363931853846,1.0,True,2,CO2,nonfinancial,ppm,monthly
+returns,GRU,0.412518283344807,1.0,True,2,CO2,nonfinancial,ppm,monthly
+returns,NBEATS_demo,0.21156660268045252,1.0,True,2,CO2,nonfinancial,ppm,monthly
+returns,Seasonal_EMA_changes,0.31255225677040854,1.0,True,2,CO2,nonfinancial,ppm,monthly

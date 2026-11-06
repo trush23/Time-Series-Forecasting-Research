@@ -1,0 +1,159 @@
+{
+  "id": "TS09_v1",
+  "created_for_user_date": "2026-11-01",
+  "freeze_stage": "Before notebook benchmark execution",
+  "dataset_ids": [
+    "SPY",
+    "MCHP",
+    "MRVL",
+    "TXG",
+    "GOOGL",
+    "NVDA",
+    "ELNINO",
+    "CO2"
+  ],
+  "input_sha256": {
+    "SPY": "b0d679557f147a24669d93131cfe41ba689450eee7ff52af381fe68478d7c6db",
+    "MCHP": "085677c747a94eb7d780706208f7aca4b22384d8db0ef8d873317ed4c12131aa",
+    "MRVL": "5f42ebe4d5d05d67275c7c75128bc7d244539f43f0e0db227616c91c402d3292",
+    "TXG": "90f18f255913e99aef1d24829955264ce33ae2c214efad07d6da74ca5972f00a",
+    "GOOGL": "d8d86b58ae3c8c7f409d1408993924eb1cb657a6fec43300feb7ce8fb39c1bb7",
+    "NVDA": "e88c07844cb6d5ccc65d1c8bc71a42e07c9c522b7f716d52e243dbb07b08a7a8",
+    "ELNINO": "76de0545139f1b9a0b0e8911571e0bdd661f5553d1d4b8badb4c76e743d68d72",
+    "CO2": "6dcd4e2a01a3af3a27bbfa3ad6d086643b92fbcfaa81c345696b3b6127ed6afb"
+  },
+  "features": {
+    "lookback": 20,
+    "fast_alpha": 0.2,
+    "slow_alpha": 0.05,
+    "warmup": 120
+  },
+  "schedules": {
+    "stocks": {
+      "outer_starts": [
+        800,
+        1000,
+        1200
+      ],
+      "outer_step": 10,
+      "inner_count": 6,
+      "inner_step": 20,
+      "max_samples": 252,
+      "seeds": [
+        1731,
+        1732,
+        1733
+      ],
+      "min_success": 0.8,
+      "seasonal_period": 0,
+      "neural_epochs": 30
+    },
+    "ELNINO": {
+      "outer_starts": [
+        450,
+        540,
+        630
+      ],
+      "outer_step": 10,
+      "inner_count": 4,
+      "inner_step": 10,
+      "max_samples": 252,
+      "seeds": [
+        1731,
+        1732,
+        1733
+      ],
+      "min_success": 0.8,
+      "seasonal_period": 12,
+      "neural_epochs": 30
+    },
+    "CO2": {
+      "outer_starts": [
+        320,
+        360,
+        400
+      ],
+      "outer_step": 5,
+      "inner_count": 4,
+      "inner_step": 10,
+      "max_samples": 252,
+      "seeds": [
+        1731,
+        1732,
+        1733
+      ],
+      "min_success": 0.8,
+      "seasonal_period": 12,
+      "neural_epochs": 30
+    }
+  },
+  "candidates": {
+    "classical": {
+      "name": "AR5_changes",
+      "family": "ar_diff",
+      "lags": 5,
+      "order": [
+        1,
+        1,
+        1
+      ]
+    },
+    "tabular": [
+      {
+        "name": "Ridge_10",
+        "family": "ridge",
+        "alpha": 10.0,
+        "strategy": "direct",
+        "seed": 1731
+      },
+      {
+        "name": "HistBoost",
+        "family": "boost",
+        "alpha": 1.0,
+        "strategy": "direct",
+        "seed": 1731
+      }
+    ],
+    "neural": [
+      {
+        "name": "GRU",
+        "family": "gru",
+        "hidden": 12,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.005,
+        "weight_decay": 0.001,
+        "validation_fraction": 0.2
+      },
+      {
+        "name": "NBEATS_demo",
+        "family": "nbeats_demo",
+        "hidden": 12,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.005,
+        "weight_decay": 0.001,
+        "validation_fraction": 0.2
+      }
+    ],
+    "additional_monthly_candidate": "Repeat past 12 fast-EMA differences; invert EMA for actual-change forecast"
+  },
+  "selection": "Per dataset and track, equal-horizon relative MAE on past inner origins; null always eligible; min success .8",
+  "evaluation": "Only outer origins with all five labels present, plus latest wholly unscored origin",
+  "aggregation": "Equal-dataset average of within-dataset skill; stocks and nonfinancial separate; no pooled physical-unit errors",
+  "uncertainty": "Paired moving-block MAE ranges at lengths 1/2/4; stock panel resamples same time blocks across all assets; fixed baseline normalizers",
+  "independence": {
+    "chronological_information_audit": "required",
+    "pristine_asset_or_period_holdout": false,
+    "reason": "Existing project stock caches and public teaching datasets; historical exposure, selection and vintage effects remain.",
+    "prospective_evaluation_completed": false
+  },
+  "prospective_plan": {
+    "status": "specification only, not started or scheduled",
+    "first_eligible_origin_on_or_after": "2026-11-02",
+    "cohort": "Same six stocks; first 60 common completed-session forecast origins after collection begins",
+    "procedure": "Keep TS09 model menu, seeds, features and training budget; select by six earlier origins 20 sessions apart at first origin and every 200 common sessions; refit at every origin",
+    "requirements": "Store newly issued forecast and input-vintage hashes before outcomes; score only after all five outcomes mature; no retrospective replacement or outer-score model promotion",
+    "success_rule": "No paper_validated promotion from this historical audit; require a separately reviewed prospective acceptance rule before deployment"
+  }
+}

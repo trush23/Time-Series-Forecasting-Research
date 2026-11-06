@@ -1,0 +1,7 @@
+{
+  "kind": "ema",
+  "prefix_invariant": true,
+  "future_poison_invariant": true,
+  "checkpoint_equivalent": true,
+  "projection_nonmutating": true
+}

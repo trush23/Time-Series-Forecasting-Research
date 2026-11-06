@@ -1,0 +1,14 @@
+{
+  "ticker": "SPY",
+  "source": "Yahoo via yfinance",
+  "synthetic": false,
+  "adjustment": "auto_adjust=True",
+  "calendar": "observed Yahoo SPY session index",
+  "first": "2018-01-02",
+  "last": "2026-10-01",
+  "rows": 2199,
+  "retrieved_utc": "2026-10-03T14:13:49.139624+00:00",
+  "sha256": "2e057517815120e4b487437d59a2709039f441e2f7bb94cbb03ddd5335b32f9b",
+  "upstream_manifest_sha256": "040b730f918729c3f65b549abae03f3a21745c01ca05bbbeeb0f3d916c867c38",
+  "note": "Frozen local project snapshot; previously examined data, not an untouched holdout. Byte digest is computed from the exported CSV, not the upstream internal dataframe hash. Adjusted history is not executable historical quotes or point-in-time revision history."
+}

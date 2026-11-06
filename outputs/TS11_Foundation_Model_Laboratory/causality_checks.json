@@ -1,0 +1,10 @@
+{
+  "prefix_context_exact": true,
+  "future_perturbation_context_exact": true,
+  "all_ridge_labels_mature": true,
+  "all_calibration_labels_mature": true,
+  "latest_all_unscored": true,
+  "all_evaluation_cells_n40": true,
+  "no_model_selection": true,
+  "pretraining_independence_established": false
+}
